@@ -66,18 +66,21 @@ IMG_DIR = Path(__file__).parent / "static" / "images"
 
 
 def show_pdf_images(idx: int) -> None:
-    pages = sorted(IMG_DIR.glob(f"{idx}_page_*.png"),
+    pages = sorted(IMG_DIR.glob(f"{idx}_page_*.jpg"),
                    key=lambda p: int(p.stem.split("_page_")[1]))
     if not pages:
         st.info("No PDF images available.")
         return
 
-    zoom = st.slider("Zoom", min_value=25, max_value=150, value=75, step=25,
-                     format="%d%%", key=f"zoom_{idx}")
-    width = int(700 * zoom / 100)
+    zoom = st.select_slider("Zoom", options=[50, 75, 100, 125, 150], value=100,
+                            format_func=lambda v: f"{v}%", key=f"zoom_{idx}")
 
-    for page_path in pages:
-        st.image(str(page_path), width=width)
+    imgs_html = "".join(
+        f'<img src="/app/static/images/{p.name}" '
+        f'style="width:{zoom}%;display:block;margin:0 auto 12px auto;border:1px solid #ddd;border-radius:4px">'
+        for p in pages
+    )
+    st.markdown(imgs_html, unsafe_allow_html=True)
 
 
 @st.cache_data
