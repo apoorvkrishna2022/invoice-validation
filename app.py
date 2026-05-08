@@ -1,4 +1,3 @@
-import base64
 import io
 import json
 from difflib import SequenceMatcher
@@ -10,7 +9,7 @@ import streamlit as st
 
 GOLDEN_DIR = Path(__file__).parent / "golden_data"
 TRIAL_DIR = Path(__file__).parent / "Trials" / "Trial_1"
-PDF_DIR = Path(__file__).parent / "pdfs"
+PDF_DIR = Path(__file__).parent / "static"
 TOTAL_INVOICES = 56
 FUZZY_THRESHOLD = 0.90
 
@@ -63,11 +62,9 @@ def compare_values(golden_val, trial_val) -> tuple[bool, float, bool]:
     return sim >= FUZZY_THRESHOLD, sim, False
 
 
-def pdf_iframe(pdf_path: Path) -> str:
-    with open(pdf_path, "rb") as f:
-        b64 = base64.b64encode(f.read()).decode()
+def pdf_iframe(idx: int) -> str:
     return (
-        f'<iframe src="data:application/pdf;base64,{b64}" '
+        f'<iframe src="/app/static/{idx}.pdf" '
         f'width="100%" height="700px" style="border:none;border-radius:6px"></iframe>'
     )
 
@@ -206,20 +203,17 @@ def build_excel(records: list) -> bytes:
 
 
 # ── UI ─────────────────────────────────────────────────────────────────────────
-records = load_all()
+records = [r for r in load_all() if r["status"] != "not_tested"]
 
-tested     = [r for r in records if r["status"] != "not_tested"]
-passed     = [r for r in tested  if r["status"] == "passed"]
-failed     = [r for r in tested  if r["status"] == "failed"]
-not_tested = [r for r in records if r["status"] == "not_tested"]
-accuracy   = len(passed) / len(tested) * 100 if tested else 0
+passed   = [r for r in records if r["status"] == "passed"]
+failed   = [r for r in records if r["status"] == "failed"]
+accuracy = len(passed) / len(records) * 100 if records else 0
 
-c1, c2, c3, c4, c5 = st.columns(5)
-c1.metric("Total Invoices", TOTAL_INVOICES)
-c2.metric("Tested",  len(tested))
-c3.metric("Passed",  len(passed))
-c4.metric("Failed",  len(failed))
-c5.metric("Accuracy", f"{accuracy:.1f}%")
+c1, c2, c3, c4 = st.columns(4)
+c1.metric("Tested",   len(records))
+c2.metric("Passed",   len(passed))
+c3.metric("Failed",   len(failed))
+c4.metric("Accuracy", f"{accuracy:.1f}%")
 
 st.download_button(
     label="⬇️ Download Excel Report",
@@ -230,20 +224,13 @@ st.download_button(
 
 st.divider()
 
-STATUS_EMOJI = {"passed": "✅", "failed": "❌", "not_tested": "⬜"}
+STATUS_EMOJI = {"passed": "✅", "failed": "❌"}
 
 with st.sidebar:
     st.header("Invoices")
-    filter_opt = st.radio("Filter", ["All", "Failed", "Not Tested"], horizontal=True)
+    filter_opt = st.radio("Filter", ["All", "Failed"], horizontal=True)
 
-    def filter_fn(r):
-        if filter_opt == "All":
-            return True
-        if filter_opt == "Failed":
-            return r["status"] == "failed"
-        return r["status"] == "not_tested"
-
-    visible = [r for r in records if filter_fn(r)]
+    visible = records if filter_opt == "All" else [r for r in records if r["status"] == "failed"]
     options = [f"{STATUS_EMOJI[r['status']]} Invoice {r['idx']}" for r in visible]
 
     if not options:
@@ -258,93 +245,65 @@ with st.sidebar:
 if selected_record is None:
     st.info("No invoice selected.")
 else:
-    rec      = selected_record
-    pdf_path = PDF_DIR / f"{rec['idx']}.pdf"
+    rec   = selected_record
+    label = "✅ All fields match" if rec["status"] == "passed" else "❌ Some fields differ"
+    st.subheader(f"Invoice {rec['idx']} — {label}")
 
-    if rec["status"] == "not_tested":
-        st.subheader(f"Invoice {rec['idx']} — Not Tested")
-        st.warning("No trial output exists for this invoice.")
-        rows_html = "".join(
-            f"<tr><td style='padding:4px 12px'>{k}</td><td style='padding:4px 12px'>{v}</td></tr>"
-            for k, v in rec["golden"].items()
-        )
-        st.markdown(
-            f"<table><thead><tr><th>Field</th><th>Golden Value</th></tr></thead>"
-            f"<tbody>{rows_html}</tbody></table>",
-            unsafe_allow_html=True,
-        )
-        st.subheader("Invoice PDF")
-        if pdf_path.exists():
-            st.markdown(pdf_iframe(pdf_path), unsafe_allow_html=True)
+    rows           = rec["rows"]
+    total_fields   = len(rows)
+    matched_fields = sum(1 for r in rows if r["Match"])
+    field_accuracy = matched_fields / total_fields * 100 if total_fields else 0
+
+    fc1, fc2, fc3 = st.columns(3)
+    fc1.metric("Fields Compared", total_fields)
+    fc2.metric("Fields Matched",  matched_fields)
+    fc3.metric("Field Accuracy",  f"{field_accuracy:.1f}%")
+
+    show_mismatches_only = st.checkbox("Show mismatches only", value=False)
+    display_rows = [r for r in rows if not r["Match"]] if show_mismatches_only else rows
+
+    def row_html(r):
+        if r["Match"] and r["Exact"]:
+            bg, icon = "#d4edda", "✅"
+        elif r["Match"]:
+            bg, icon = "#fff9c4", f"🟡 {r['Sim']*100:.0f}%"
         else:
-            st.info("PDF not available.")
-    else:
-        label = "✅ All fields match" if rec["status"] == "passed" else "❌ Some fields differ"
-        st.subheader(f"Invoice {rec['idx']} — {label}")
-
-        rows          = rec["rows"]
-        total_fields  = len(rows)
-        matched_fields = sum(1 for r in rows if r["Match"])
-        field_accuracy = matched_fields / total_fields * 100 if total_fields else 0
-
-        fc1, fc2, fc3 = st.columns(3)
-        fc1.metric("Fields Compared", total_fields)
-        fc2.metric("Fields Matched",  matched_fields)
-        fc3.metric("Field Accuracy",  f"{field_accuracy:.1f}%")
-
-        show_mismatches_only = st.checkbox("Show mismatches only", value=False)
-        display_rows = [r for r in rows if not r["Match"]] if show_mismatches_only else rows
-
-        def row_html(r):
-            if r["Match"] and r["Exact"]:
-                bg, icon = "#d4edda", "✅"
-            elif r["Match"]:
-                bg, icon = "#fff9c4", f"🟡 {r['Sim']*100:.0f}%"
-            else:
-                bg, icon = "#f8d7da", f"❌ {r['Sim']*100:.0f}%"
-            return (
-                f"<tr style='background:{bg}'>"
-                f"<td style='padding:5px 12px'>{r['Field']}</td>"
-                f"<td style='padding:5px 12px'>{r['Golden']}</td>"
-                f"<td style='padding:5px 12px'>{r['Trial']}</td>"
-                f"<td style='padding:5px 12px;text-align:center;white-space:nowrap'>{icon}</td>"
-                f"</tr>"
-            )
-
-        header = (
-            "<thead><tr>"
-            "<th style='padding:5px 12px'>Field</th>"
-            "<th style='padding:5px 12px'>Golden</th>"
-            "<th style='padding:5px 12px'>Trial</th>"
-            "<th style='padding:5px 12px'>Match</th>"
-            "</tr></thead>"
+            bg, icon = "#f8d7da", f"❌ {r['Sim']*100:.0f}%"
+        return (
+            f"<tr style='background:{bg}'>"
+            f"<td style='padding:5px 12px'>{r['Field']}</td>"
+            f"<td style='padding:5px 12px'>{r['Golden']}</td>"
+            f"<td style='padding:5px 12px'>{r['Trial']}</td>"
+            f"<td style='padding:5px 12px;text-align:center;white-space:nowrap'>{icon}</td>"
+            f"</tr>"
         )
-        body = "".join(row_html(r) for r in display_rows)
-        st.markdown(f"<table style='width:100%'>{header}<tbody>{body}</tbody></table>", unsafe_allow_html=True)
 
-        st.subheader("Invoice PDF")
-        if pdf_path.exists():
-            st.markdown(pdf_iframe(pdf_path), unsafe_allow_html=True)
-        else:
-            st.info("PDF not available.")
+    header = (
+        "<thead><tr>"
+        "<th style='padding:5px 12px'>Field</th>"
+        "<th style='padding:5px 12px'>Golden</th>"
+        "<th style='padding:5px 12px'>Trial</th>"
+        "<th style='padding:5px 12px'>Match</th>"
+        "</tr></thead>"
+    )
+    body = "".join(row_html(r) for r in display_rows)
+    st.markdown(f"<table style='width:100%'>{header}<tbody>{body}</tbody></table>", unsafe_allow_html=True)
+
+    st.subheader("Invoice PDF")
+    st.markdown(pdf_iframe(rec["idx"]), unsafe_allow_html=True)
 
 # ── Overview expander ──────────────────────────────────────────────────────────
 st.divider()
 with st.expander("All invoices overview"):
     def status_badge(status):
-        colors = {"passed": "#28a745", "failed": "#dc3545", "not_tested": "#6c757d"}
-        labels = {"passed": "Passed", "failed": "Failed", "not_tested": "Not Tested"}
+        colors = {"passed": "#28a745", "failed": "#dc3545"}
+        labels = {"passed": "Passed", "failed": "Failed"}
         return f"<span style='color:{colors[status]};font-weight:bold'>{labels[status]}</span>"
 
     rows_html = ""
     for r in records:
-        if r["status"] == "not_tested":
-            rows_html += (
-                f"<tr><td style='padding:4px 12px'>{r['idx']}</td>"
-                f"<td style='padding:4px 12px'>{status_badge('not_tested')}</td>"
-                f"<td style='padding:4px 12px'>—</td><td style='padding:4px 12px'>—</td>"
-                f"<td style='padding:4px 12px'>—</td></tr>"
-            )
+        if False:
+            pass
         else:
             total   = len(r["rows"])
             matched = sum(1 for row in r["rows"] if row["Match"])
