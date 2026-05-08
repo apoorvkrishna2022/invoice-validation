@@ -1,0 +1,165 @@
+{
+  "_id": "69fdc5ed2fb73018fa565ed1",
+  "id": null,
+  "created_at": "2026-05-08T11:15:57.849Z",
+  "updated_at": "2026-05-08T11:15:57.849Z",
+  "metadata": [
+    {
+      "row_id": "w1391kdl",
+      "field": "customer_legal_entity",
+      "value": "Zalora South East Asia Pte. Ltd",
+      "is_required": true
+    },
+    {
+      "row_id": "5yvob3kl",
+      "field": "po_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "tjoz1wl7",
+      "field": "vendor_name",
+      "value": "Deel Inc.",
+      "is_required": true
+    },
+    {
+      "row_id": "k9e6ggqu",
+      "field": "vendor_address",
+      "value": "425 1st St San Francisco, CA 94105 United States",
+      "is_required": false
+    },
+    {
+      "row_id": "7zqtwg9r",
+      "field": "invoice_date",
+      "value": "2025-12-20",
+      "is_required": true
+    },
+    {
+      "row_id": "lihobzru",
+      "field": "invoice_number",
+      "value": "INV-2025-4203271",
+      "is_required": true
+    },
+    {
+      "row_id": "k5bcun98",
+      "field": "currency",
+      "value": "USD",
+      "is_required": true
+    },
+    {
+      "row_id": "ad0b3zib",
+      "field": "total_amount_before_vat",
+      "value": 515,
+      "is_required": true
+    },
+    {
+      "row_id": "9yh9wesi",
+      "field": "vat_gst",
+      "value": 0,
+      "is_required": false
+    },
+    {
+      "row_id": "eya3wdl0",
+      "field": "total_amount",
+      "value": 515,
+      "is_required": true
+    },
+    {
+      "row_id": "p4qiehmc",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "rezmbwt6",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "jqlpwm7f",
+      "field": "description",
+      "value": "EOR platform fee",
+      "is_required": false
+    },
+    {
+      "row_id": "pjl0s0e5",
+      "field": "vendor_vat_id",
+      "value": "611852855",
+      "is_required": false
+    },
+    {
+      "row_id": "q8f0l0w2",
+      "field": "customer_address",
+      "value": "176 ORCHARD ROAD #05-05 THE CENTREPOINT SINGAPORE Singapore, 238843 Singapore",
+      "is_required": false
+    },
+    {
+      "row_id": "qzjp2qn2",
+      "field": "customer_vat_id",
+      "value": "201215493R",
+      "is_required": false
+    },
+    {
+      "row_id": "a41gdoqx",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "pq19o929",
+      "field": "due_date",
+      "value": "2026-01-03",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "7o9kdq95",
+      "item_description": "EOR platform fee",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 500,
+      "total_price_before_vat": 500,
+      "row_bbox": {
+        "x_min": 142,
+        "y_min": 1549,
+        "x_max": 1514,
+        "y_max": 1622
+      }
+    },
+    {
+      "id": 2,
+      "row_id": "l5y0z3fq",
+      "item_description": "Health insurance fee",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 15,
+      "total_price_before_vat": 15,
+      "row_bbox": {
+        "x_min": 142,
+        "y_min": 1603,
+        "x_max": 343,
+        "y_max": 1620
+      }
+    }
+  ],
+  "run_id": "69fdc41f2fb73018fa565e92",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:15:59.479Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "run_id": "69e5c1015d267025000609b4",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "2253933525"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-08-01"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": "2025-08-31"
+    },
+    {
+      "field": "vendor_name",
+      "value": "Amazon Web Services, Inc."
+    },
+    {
+      "field": "vendor_address",
+      "value": "410 Terry Avenue North, Seattle, Washington 98109-5210"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "M90373009E"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "Global Fashion Group SGP Services Pte. Ltd."
+    },
+    {
+      "field": "customer_address",
+      "value": "51 Bras Basah Road, #07-01 5ONE CENTRAL, Singapore, Singapore, 189554, SG"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": ""
+    },
+    {
+      "field": "description",
+      "value": "AWS Marketplace Charges"
+    },
+    {
+      "field": "currency",
+      "value": "USD"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 16007.95
+    },
+    {
+      "field": "vat_gst",
+      "value": ""
+    },
+    {
+      "field": "total_amount",
+      "value": 16007.95
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "Wells Fargo NA"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "Amazon Web Services, Inc."
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "4121350227"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": "WFBIUS6SXXX"
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "Claude 3.7 Sonnet (Amazon Bedrock Edition) sold by Anthropic, PBC",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "1",
+      "unit_price": "32.85",
+      "total_price_before_vat": 32.85,
+      "Page": 7,
+      "total_price": "32.85"
+    },
+    {
+      "item_description": "Datadog sold by Datadog Inc.",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "1",
+      "unit_price": "15663.42",
+      "total_price_before_vat": 15663.42,
+      "Page": 1,
+      "total_price": "15663.42"
+    },
+    {
+      "item_description": "Claude 3.5 Sonnet (Amazon Bedrock Edition) sold by Anthropic, PBC",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "1",
+      "unit_price": "8.9",
+      "total_price_before_vat": 8.9,
+      "Page": 2,
+      "total_price": "8.90"
+    },
+    {
+      "item_description": "Claude Opus 4 (Amazon Bedrock Edition) sold by Anthropic, PBC",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "1",
+      "unit_price": "112.89",
+      "total_price_before_vat": 112.89,
+      "Page": 2,
+      "total_price": "112.89"
+    },
+    {
+      "item_description": "Claude Sonnet 4 (Amazon Bedrock Edition) sold by Anthropic, PBC",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "1",
+      "unit_price": "147.37",
+      "total_price_before_vat": 147.37,
+      "Page": 2,
+      "total_price": "147.37"
+    },
+    {
+      "item_description": "New Relic APM, Logs + Infrastructure Monitoring (PAYG with Free Tier) sold by New Relic - Commerce",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "1",
+      "unit_price": "42.48",
+      "total_price_before_vat": 42.48,
+      "Page": 2,
+      "total_price": "42.48"
+    },
+    {
+      "item_description": "Claude 3.5 Haiku (Amazon Bedrock Edition) sold by Anthropic, PBC",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "1",
+      "unit_price": "0.04",
+      "total_price_before_vat": 0.04,
+      "Page": 2,
+      "total_price": "0.04"
+    }
+  ]
+}

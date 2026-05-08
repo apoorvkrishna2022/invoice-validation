@@ -1,0 +1,119 @@
+{
+  "run_id": "69e9dd74b96af9dc7089c0df",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "702/JMAX.ZLR/FIN-OS/XII/2025"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-12-29"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "PT JMAX INDONESIA"
+    },
+    {
+      "field": "vendor_address",
+      "value": "Sahid Sudirman Center 56th Floor, Jl. Jend. Sudirman kav. 86, Jakarta 10220, dung Citywalk Sudirman Lt.5 Jl. K H Mas Mansyur No. 121 Tanah Abang, Jakarta Pusat "
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "03.301.794.8-063.000"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "PT FASHION ESERVICES INDONESIA"
+    },
+    {
+      "field": "customer_address",
+      "value": "CAPITAL PLACE LANTAI 26, JL. JEND. GATOT SUBROTO KAV.18, KUNINGAN BARAT, MAMPANG PRAPATAN, KOTA ADM. JAKARTA SELATAN, DKI JAKARTA, 12710"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "0032235764015000"
+    },
+    {
+      "field": "description",
+      "value": "Total Salary Reimbursement for Zalora DW- Quality Division Period 26 November - 25 December 2025"
+    },
+    {
+      "field": "currency",
+      "value": "IDR"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 3665574.0
+    },
+    {
+      "field": "vat_gst",
+      "value": 18780.0
+    },
+    {
+      "field": "total_amount",
+      "value": "36,84,355"
+    },
+    {
+      "field": "wht",
+      "value": 3414.0
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": "36,80,939"
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "Bank BRI, KC Jkt Gading Boulevard"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "PT JMAX INDONESIA"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "043901001799304"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": "BRINIDJA"
+    },
+    {
+      "field": "discount",
+      "value": 0.0
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "Total Salary Reimbursement for Zalora DW- Quality Division Period 26 November - 25 December 2025",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "1",
+      "unit_price": "3494851",
+      "total_price_before_vat": 3494851,
+      "Page": 5,
+      "total_price": "3494851.00"
+    },
+    {
+      "item_description": "Management Fee",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "1",
+      "unit_price": "170723",
+      "total_price_before_vat": 170723,
+      "Page": 10,
+      "total_price": "170723.00"
+    }
+  ]
+}

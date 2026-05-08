@@ -1,0 +1,165 @@
+{
+  "_id": "69fdc7606628369e8469509e",
+  "id": null,
+  "created_at": "2026-05-08T11:22:08.705Z",
+  "updated_at": "2026-05-08T11:22:08.705Z",
+  "metadata": [
+    {
+      "row_id": "tx07u0qt",
+      "field": "customer_legal_entity",
+      "value": "Millionaires Taste Pte Ltd",
+      "is_required": true
+    },
+    {
+      "row_id": "w58pkzku",
+      "field": "po_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "nsa4dbkx",
+      "field": "vendor_name",
+      "value": "Vismark Food Industries Pte Ltd",
+      "is_required": true
+    },
+    {
+      "row_id": "kjg9nhp7",
+      "field": "vendor_address",
+      "value": "Blk 3017 Bedok North St 5, #05-32/33, Gourmet East Kitchen, Singapore 486121",
+      "is_required": false
+    },
+    {
+      "row_id": "nur8s7nk",
+      "field": "invoice_date",
+      "value": "2025-12-01",
+      "is_required": true
+    },
+    {
+      "row_id": "tw3cxy7z",
+      "field": "invoice_number",
+      "value": "C 68249",
+      "is_required": true
+    },
+    {
+      "row_id": "byza08yt",
+      "field": "currency",
+      "value": "SGD",
+      "is_required": true
+    },
+    {
+      "row_id": "zhix3dik",
+      "field": "total_amount_before_vat",
+      "value": 31,
+      "is_required": true
+    },
+    {
+      "row_id": "yg7yc7mp",
+      "field": "vat_gst",
+      "value": 2.79,
+      "is_required": false
+    },
+    {
+      "row_id": "ye5ng2bo",
+      "field": "total_amount",
+      "value": 33.79,
+      "is_required": true
+    },
+    {
+      "row_id": "o3pjw111",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "x7ymwua6",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "rcycn1j7",
+      "field": "description",
+      "value": "Your Chur Kueh Dried Lot's Le",
+      "is_required": false
+    },
+    {
+      "row_id": "bimk65p1",
+      "field": "vendor_vat_id",
+      "value": "201224989D",
+      "is_required": false
+    },
+    {
+      "row_id": "f5v2apoo",
+      "field": "customer_address",
+      "value": "9 Bras Basah Rd, #01-06",
+      "is_required": false
+    },
+    {
+      "row_id": "u8vifb4i",
+      "field": "customer_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "1te1iq4f",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "r0cgxevy",
+      "field": "due_date",
+      "value": "",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "fvmopqmt",
+      "item_description": "Your Chur Kueh Dried Lot's Le",
+      "item_code": "",
+      "unit_of_measurement": "pkt",
+      "quantity": 20,
+      "unit_price": 0.18,
+      "total_price_before_vat": 3.6,
+      "row_bbox": {
+        "x_min": 148,
+        "y_min": 610,
+        "x_max": 752,
+        "y_max": 738
+      }
+    },
+    {
+      "id": 2,
+      "row_id": "daf5b2jy",
+      "item_description": "Dried Lotus Leaf",
+      "item_code": "",
+      "unit_of_measurement": "kg",
+      "quantity": 1,
+      "unit_price": 18,
+      "total_price_before_vat": 18,
+      "row_bbox": {
+        "x_min": 327,
+        "y_min": 675,
+        "x_max": 1551,
+        "y_max": 731
+      }
+    }
+  ],
+  "run_id": "69fdc6496628369e84695076",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:22:10.280Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "run_id": "69e9dd74b450169114a150e6",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "NEXUS/VIII/2025/0813"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-08-25"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "PT Nusantara Executive Sukses"
+    },
+    {
+      "field": "vendor_address",
+      "value": "ICE BUSINESS PARK BSD Blok A No.10 JL. BSD Grand Boulevard, Pagedangan, Kab. Tangerang"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "0432704484453000"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "PT. Fashion Marketplace Indonesia"
+    },
+    {
+      "field": "customer_address",
+      "value": "Capital Place Lantai 26, Jl. Jend. Gatot Subroto Kav. 18, Kuningan Barat, Mampang Prapatan, Jakarta Indonesia"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "0033443763015000"
+    },
+    {
+      "field": "description",
+      "value": "Perhitungan Jasa Tenaga Kerja Daily Worker Customer Service Periode: AGUSTUS 2025"
+    },
+    {
+      "field": "currency",
+      "value": "IDR"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 57463491.0
+    },
+    {
+      "field": "vat_gst",
+      "value": 300999.0
+    },
+    {
+      "field": "total_amount",
+      "value": 57764490.0
+    },
+    {
+      "field": "wht",
+      "value": 0.0
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": 0.0
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "Bank Mandiri"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "PT Nusantara Executive Sukses"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "1640003858042"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": 0.0
+    }
+  ],
+  "line_items": []
+}

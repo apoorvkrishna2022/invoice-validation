@@ -1,0 +1,127 @@
+{
+  "run_id": "69e5cc785d267025000609de",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "125016211"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-10-26"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": "2025-11-25"
+    },
+    {
+      "field": "vendor_name",
+      "value": "FUJIFILM Business Innovation Singapore Pte. Ltd."
+    },
+    {
+      "field": "vendor_address",
+      "value": "20E Pasir Panjang Road, #02-21A Mapletree Business City, Singapore 117439"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "MR-8500294-0"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "JADE E-SERVICES SINGAPORE PTE. LTD."
+    },
+    {
+      "field": "customer_address",
+      "value": "7 TEMASEK BOULEVARD SUNTEC CITY TOWER 1 #35-01 SINGAPORE,038987"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": ""
+    },
+    {
+      "field": "description",
+      "value": "SERVICE MAINTENANCE CHARGE"
+    },
+    {
+      "field": "currency",
+      "value": "SGD"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 98.03
+    },
+    {
+      "field": "vat_gst",
+      "value": 8.82
+    },
+    {
+      "field": "total_amount",
+      "value": 106.85
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "Deutsche Bank AG"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "2547818-00-0"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": "DEUTSGSG"
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "M1-TOTAL COL",
+      "item_code": "F1C4570H-4T S/N: 205065",
+      "unit_of_measurement": "",
+      "quantity": 55,
+      "unit_price": 0.14,
+      "total_price_before_vat": 7.7,
+      "Page": 1
+    },
+    {
+      "item_description": "M2-TOTAL B/W",
+      "item_code": "F1C4570H-4T S/N: 205065",
+      "unit_of_measurement": "",
+      "quantity": 11291,
+      "unit_price": 0.008,
+      "total_price_before_vat": 90.33,
+      "Page": 1
+    },
+    {
+      "item_description": "M3-COL LARGE M4-TOTAL",
+      "item_code": "F1C4570H-4T S/N: 205065",
+      "unit_of_measurement": "",
+      "quantity": 11346,
+      "unit_price": "0",
+      "total_price_before_vat": "0",
+      "Page": 1,
+      "total_price": "0.00"
+    }
+  ]
+}

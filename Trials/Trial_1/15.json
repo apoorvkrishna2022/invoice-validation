@@ -1,0 +1,565 @@
+{
+  "_id": "69fdc5967cd80c867f48afca",
+  "id": null,
+  "created_at": "2026-05-08T11:14:30.659Z",
+  "updated_at": "2026-05-08T11:14:30.659Z",
+  "metadata": [
+    {
+      "row_id": "q2ckp8n9",
+      "field": "customer_legal_entity",
+      "value": "Global Fashion Group SGP Services PTE Limited",
+      "is_required": true
+    },
+    {
+      "row_id": "8usrlg7g",
+      "field": "po_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "xv4liyw8",
+      "field": "vendor_name",
+      "value": "Amazon Web Services Singapore Private Limited",
+      "is_required": true
+    },
+    {
+      "row_id": "libyqbyj",
+      "field": "vendor_address",
+      "value": "1, 17-00, Robinson Road, AIA Tower, 048542, Singapore",
+      "is_required": false
+    },
+    {
+      "row_id": "5kdkrbx2",
+      "field": "invoice_date",
+      "value": "2025-08-01",
+      "is_required": true
+    },
+    {
+      "row_id": "9f3m9r73",
+      "field": "invoice_number",
+      "value": "SGIN25-500997",
+      "is_required": true
+    },
+    {
+      "row_id": "88tbc4f3",
+      "field": "currency",
+      "value": "USD",
+      "is_required": true
+    },
+    {
+      "row_id": "s5fdw5wf",
+      "field": "total_amount_before_vat",
+      "value": 1423.72,
+      "is_required": true
+    },
+    {
+      "row_id": "48v6u0z9",
+      "field": "vat_gst",
+      "value": 128.13,
+      "is_required": false
+    },
+    {
+      "row_id": "mklloyhe",
+      "field": "total_amount",
+      "value": 1551.85,
+      "is_required": true
+    },
+    {
+      "row_id": "q3b30o6i",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "sch7mhqh",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "omyno843",
+      "field": "description",
+      "value": "AWS Service Charges",
+      "is_required": false
+    },
+    {
+      "row_id": "tgmkw41n",
+      "field": "vendor_vat_id",
+      "value": "201434292D",
+      "is_required": false
+    },
+    {
+      "row_id": "253ckssw",
+      "field": "customer_address",
+      "value": "51 Bras Basah Road, #07-01, Lazada One, 189554, Republic of Singapore, 189554, SG",
+      "is_required": false
+    },
+    {
+      "row_id": "lwljkk1b",
+      "field": "customer_vat_id",
+      "value": "201541261G",
+      "is_required": false
+    },
+    {
+      "row_id": "cpkbzvza",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "zeqvz99r",
+      "field": "due_date",
+      "value": "2025-08-31",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "bd7kxyo6",
+      "item_description": "AWS Lambda",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 0,
+      "total_price_before_vat": 0,
+      "row_bbox": {
+        "x_min": 109,
+        "y_min": 204,
+        "x_max": 263,
+        "y_max": 224
+      }
+    },
+    {
+      "id": 2,
+      "row_id": "fd2m7347",
+      "item_description": "Amazon EC2 Container Registry (ECR)",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 35.22,
+      "total_price_before_vat": 35.22,
+      "row_bbox": {
+        "x_min": 108,
+        "y_min": 250,
+        "x_max": 1541,
+        "y_max": 276
+      }
+    },
+    {
+      "id": 3,
+      "row_id": "de6qi4xu",
+      "item_description": "Amazon CloudFront",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 4.12,
+      "total_price_before_vat": 4.12,
+      "row_bbox": {
+        "x_min": 108,
+        "y_min": 432,
+        "x_max": 1540,
+        "y_max": 453
+      }
+    },
+    {
+      "id": 4,
+      "row_id": "8th59v5q",
+      "item_description": "Amazon Virtual Private Cloud",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 74.99,
+      "total_price_before_vat": 74.99,
+      "row_bbox": {
+        "x_min": 109,
+        "y_min": 659,
+        "x_max": 1541,
+        "y_max": 681
+      }
+    },
+    {
+      "id": 5,
+      "row_id": "c56eh8m6",
+      "item_description": "Amazon API Gateway",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 0,
+      "total_price_before_vat": 0,
+      "row_bbox": {
+        "x_min": 109,
+        "y_min": 844,
+        "x_max": 360,
+        "y_max": 866
+      }
+    },
+    {
+      "id": 6,
+      "row_id": "dkpf5u7y",
+      "item_description": "AmazonCloudWatch",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 5.78,
+      "total_price_before_vat": 5.78,
+      "row_bbox": {
+        "x_min": 108,
+        "y_min": 981,
+        "x_max": 1539,
+        "y_max": 1002
+      }
+    },
+    {
+      "id": 7,
+      "row_id": "uio2jj34",
+      "item_description": "AWS Config",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 3.06,
+      "total_price_before_vat": 3.06,
+      "row_bbox": {
+        "x_min": 107,
+        "y_min": 1162,
+        "x_max": 1540,
+        "y_max": 1188
+      }
+    },
+    {
+      "id": 8,
+      "row_id": "er99pub9",
+      "item_description": "AWS Data Transfer",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 240.39,
+      "total_price_before_vat": 240.39,
+      "row_bbox": {
+        "x_min": 109,
+        "y_min": 1345,
+        "x_max": 1539,
+        "y_max": 1366
+      }
+    },
+    {
+      "id": 9,
+      "row_id": "c8n4ohfs",
+      "item_description": "AWS Amplify",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 0,
+      "total_price_before_vat": 0,
+      "row_bbox": {
+        "x_min": 109,
+        "y_min": 1528,
+        "x_max": 266,
+        "y_max": 1552
+      }
+    },
+    {
+      "id": 10,
+      "row_id": "79nhvhq8",
+      "item_description": "Amazon GuardDuty",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 0.39,
+      "total_price_before_vat": 0.39,
+      "row_bbox": {
+        "x_min": 109,
+        "y_min": 1574,
+        "x_max": 1541,
+        "y_max": 1600
+      }
+    },
+    {
+      "id": 11,
+      "row_id": "0sijcuiw",
+      "item_description": "AWS Key Management Service",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 46.96,
+      "total_price_before_vat": 46.96,
+      "row_bbox": {
+        "x_min": 108,
+        "y_min": 1758,
+        "x_max": 1541,
+        "y_max": 1780
+      }
+    },
+    {
+      "id": 12,
+      "row_id": "62oxw4h3",
+      "item_description": "Amazon QuickSight",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 46.04,
+      "total_price_before_vat": 46.04,
+      "row_bbox": {
+        "x_min": 108,
+        "y_min": 200,
+        "x_max": 1541,
+        "y_max": 225
+      }
+    },
+    {
+      "id": 13,
+      "row_id": "n1molr9u",
+      "item_description": "AWS Support (Enterprise)",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 100.06,
+      "total_price_before_vat": 100.06,
+      "row_bbox": {
+        "x_min": 108,
+        "y_min": 383,
+        "x_max": 1541,
+        "y_max": 408
+      }
+    },
+    {
+      "id": 14,
+      "row_id": "ru95vtxq",
+      "item_description": "AWS Secrets Manager",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 0.02,
+      "total_price_before_vat": 0.02,
+      "row_bbox": {
+        "x_min": 108,
+        "y_min": 565,
+        "x_max": 1541,
+        "y_max": 590
+      }
+    },
+    {
+      "id": 15,
+      "row_id": "p357x2n1",
+      "item_description": "Elastic Load Balancing",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 136.37,
+      "total_price_before_vat": 136.37,
+      "row_bbox": {
+        "x_min": 110,
+        "y_min": 655,
+        "x_max": 1540,
+        "y_max": 683
+      }
+    },
+    {
+      "id": 16,
+      "row_id": "1o0hmcdo",
+      "item_description": "AWS Glue",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 0,
+      "total_price_before_vat": 0,
+      "row_bbox": {
+        "x_min": 108,
+        "y_min": 841,
+        "x_max": 223,
+        "y_max": 861
+      }
+    },
+    {
+      "id": 17,
+      "row_id": "c2attbm6",
+      "item_description": "Amazon Elastic Compute Cloud",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 238.32,
+      "total_price_before_vat": 238.32,
+      "row_bbox": {
+        "x_min": 108,
+        "y_min": 888,
+        "x_max": 1542,
+        "y_max": 913
+      }
+    },
+    {
+      "id": 18,
+      "row_id": "7hfpxdca",
+      "item_description": "Amazon Elastic Container Service",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 197.29,
+      "total_price_before_vat": 197.29,
+      "row_bbox": {
+        "x_min": 109,
+        "y_min": 1070,
+        "x_max": 1541,
+        "y_max": 1090
+      }
+    },
+    {
+      "id": 19,
+      "row_id": "e9c2ym97",
+      "item_description": "Amazon DynamoDB",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 0,
+      "total_price_before_vat": 0,
+      "row_bbox": {
+        "x_min": 109,
+        "y_min": 1251,
+        "x_max": 344,
+        "y_max": 1278
+      }
+    },
+    {
+      "id": 20,
+      "row_id": "em03x0jj",
+      "item_description": "Amazon Route 53",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 367.06,
+      "total_price_before_vat": 367.06,
+      "row_bbox": {
+        "x_min": 108,
+        "y_min": 1298,
+        "x_max": 1541,
+        "y_max": 1319
+      }
+    },
+    {
+      "id": 21,
+      "row_id": "8m8gj1pr",
+      "item_description": "Amazon Elastic File System",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 0.51,
+      "total_price_before_vat": 0.51,
+      "row_bbox": {
+        "x_min": 108,
+        "y_min": 1482,
+        "x_max": 1538,
+        "y_max": 1506
+      }
+    },
+    {
+      "id": 22,
+      "row_id": "46yvj4dz",
+      "item_description": "Amazon Relational Database Service",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 47.61,
+      "total_price_before_vat": 47.61,
+      "row_bbox": {
+        "x_min": 108,
+        "y_min": 1664,
+        "x_max": 1539,
+        "y_max": 1685
+      }
+    },
+    {
+      "id": 23,
+      "row_id": "etzythxj",
+      "item_description": "Amazon Simple Storage Service",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 7.66,
+      "total_price_before_vat": 7.66,
+      "row_bbox": {
+        "x_min": 108,
+        "y_min": 111,
+        "x_max": 1541,
+        "y_max": 135
+      }
+    },
+    {
+      "id": 24,
+      "row_id": "qoaqup34",
+      "item_description": "CloudWatch Events",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 0,
+      "total_price_before_vat": 0,
+      "row_bbox": {
+        "x_min": 110,
+        "y_min": 295,
+        "x_max": 337,
+        "y_max": 313
+      }
+    },
+    {
+      "id": 25,
+      "row_id": "mbyimkxi",
+      "item_description": "AWS Certificate Manager",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 0,
+      "total_price_before_vat": 0,
+      "row_bbox": {
+        "x_min": 109,
+        "y_min": 339,
+        "x_max": 404,
+        "y_max": 363
+      }
+    },
+    {
+      "id": 26,
+      "row_id": "l49m8uie",
+      "item_description": "Amazon Simple Notification Service",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 0,
+      "total_price_before_vat": 0,
+      "row_bbox": {
+        "x_min": 109,
+        "y_min": 386,
+        "x_max": 529,
+        "y_max": 411
+      }
+    },
+    {
+      "id": 27,
+      "row_id": "9jj0sxyg",
+      "item_description": "Amazon Simple Queue Service",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 0,
+      "total_price_before_vat": 0,
+      "row_bbox": {
+        "x_min": 108,
+        "y_min": 435,
+        "x_max": 468,
+        "y_max": 457
+      }
+    }
+  ],
+  "run_id": "69fdc41c60da4c597765b7c5",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:14:32.378Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

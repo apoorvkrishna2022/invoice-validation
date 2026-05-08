@@ -1,0 +1,109 @@
+{
+  "run_id": "69e0870f3dfc3844665e771a",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "0000011"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2026-03-09"
+    },
+    {
+      "field": "payment_terms",
+      "value": "30 DAYS"
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "KATHREEN DIANNE B. SANTOS - HAIR AND MAKEUP SERVICES"
+    },
+    {
+      "field": "vendor_address",
+      "value": "62 Sgt. Bumatay St., Brgy. Plainview, 1550 City of Mandaluyong NCR, Second District Philippines"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "326-890-849-00000"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "BF JADE E SERVICES"
+    },
+    {
+      "field": "customer_address",
+      "value": "MUNTINLUPA CITY"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "09-183-175-072"
+    },
+    {
+      "field": "description",
+      "value": "HAIR & MAKEUP SOCIALS"
+    },
+    {
+      "field": "currency",
+      "value": "PHP"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": "24444.44"
+    },
+    {
+      "field": "vat_gst",
+      "value": ""
+    },
+    {
+      "field": "total_amount",
+      "value": "24444.44"
+    },
+    {
+      "field": "wht",
+      "value": 2444.44
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": "22000"
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "HAIR & MAKEUP SOCIALS",
+      "item_code": "",
+      "unit_of_measurement": "DAYS",
+      "quantity": 4,
+      "unit_price": "6111.11",
+      "total_price_before_vat": "24444.44",
+      "Page": 1,
+      "total_price": "24444.44"
+    }
+  ]
+}

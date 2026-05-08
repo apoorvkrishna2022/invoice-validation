@@ -1,0 +1,119 @@
+{
+  "run_id": "69e5cc7c5fda1716eb34dd72",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5100036591"
+    },
+    {
+      "field": "invoice_number",
+      "value": "SF82683543-2510_1"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-10-06"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": "2025-11-05"
+    },
+    {
+      "field": "vendor_name",
+      "value": "HORIZONS GLOBAL TECHNOLOGY PTE. LTD."
+    },
+    {
+      "field": "vendor_address",
+      "value": "261 Waterloo Street #03-36, Waterloo Center Singapore Singapore"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "202117926G"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "ZALORA SOUTH EAST ASIA PTE LTD"
+    },
+    {
+      "field": "customer_address",
+      "value": "JustCo, Centrepoint Singapore, 176 Orchard Road #05-05 Singapore, 238843 Singapore"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": ""
+    },
+    {
+      "field": "description",
+      "value": "Monthly Service Fees - October, 2025"
+    },
+    {
+      "field": "currency",
+      "value": "SGD"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 245.0
+    },
+    {
+      "field": "vat_gst",
+      "value": 22.05
+    },
+    {
+      "field": "total_amount",
+      "value": 267.05
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "HSBC Singapore"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "Horizons Global Technology Pte. Ltd."
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "051-002236-001"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": "HSBCSGSG"
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "Monthly Service Fees - October, 2025",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "1",
+      "unit_price": "230",
+      "total_price_before_vat": 230,
+      "Page": 1,
+      "total_price": "230.00"
+    },
+    {
+      "item_description": "Benefits Admin Fee",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "1",
+      "unit_price": "15",
+      "total_price_before_vat": 15,
+      "Page": 1,
+      "total_price": "15.00"
+    }
+  ]
+}

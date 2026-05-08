@@ -1,0 +1,119 @@
+{
+  "run_id": "69e5cea45fda1716eb34ddac",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "INV-2025-4203271"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-12-20"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": "2026-01-03"
+    },
+    {
+      "field": "vendor_name",
+      "value": "Deel Inc."
+    },
+    {
+      "field": "vendor_address",
+      "value": "425 1st St San Francisco, CA 94105 United States"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": ""
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "Zalora South East Asia Pte. Ltd"
+    },
+    {
+      "field": "customer_address",
+      "value": "176 ORCHARD ROAD #05-05 THE CENTREPOINT SINGAPORE Singapore, 238843 Singapore"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": ""
+    },
+    {
+      "field": "description",
+      "value": "Proficient hands-on in implementing Account to Account and Bank to Bank solutions using IDOC, RFC, JDBC, File, ABAP Proxy, SOAP, HTTP, REST, SFTP, and JMS adapters, including UDFS coding, development of PI adapter modules & ECC/CRM ABAP enhancements. JAVA skills are a plus. Proficiency in developing integration scenarios and interfaces using SAP PO. This includes designing and configuring communication channels, mappings, and message flows within SAP PO. Strong knowledge of integration technologies such as XML, XSLT, SOAP, REST, JSON, and relevant protocols (HTTP, FTP, SFTP, etc.). Understanding how to work with different data formats and transforming data between systems. Will configure and utilize various adapters available in SAP PO, such as SOAP, REST, IDOC, RFC, JDBC, SFTP, JMS, and File. Understanding how to establish connections with different systems and handle message exchange Proficiency in using SAP PO's mapping capabilities, including graphical mapping tools like the Graphical Mapping Editor. Ability to transform data structures, perform field-level mappings, and apply data validation and enrichment during the mapping process. Knowledge of securing integration scenarios using encryption, digital signatures, and other security mechanisms. Understanding authentication protocols like SAML, OAuth, and SSL, and how to configure them in SAP PO. Providing technical support for SAP PI/PO systems, troubleshooting integration issues, and ensuring system reliability. Working closely with business analysts, developers, and other stakeholders to understand integration needs and deliver effective solutions. Documenting integration processes, configurations, and custom developments for future reference and knowledge sharing. Managing upgrades of SAP PI/PO systems and implementing enhancements to improve integration efficiency. Identifying and implementing optimizations to enhance the performance of integration processes. Monitoring system performance, maintaining interfaces, and addressing any issues to ensure smooth operations. Providing training to end-users and other team members on SAP PI/PO functionalities. Keeping up-to-date with SAP PI/PO advancements and industry best practices to continuously improve integration solutions."
+    },
+    {
+      "field": "currency",
+      "value": "USD"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 515.0
+    },
+    {
+      "field": "vat_gst",
+      "value": 0.0
+    },
+    {
+      "field": "total_amount",
+      "value": 515.0
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "EOR platform fee",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "1",
+      "unit_price": "500",
+      "total_price_before_vat": 500,
+      "Page": 1,
+      "total_price": "500.00"
+    },
+    {
+      "item_description": "Health insurance fee",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "1",
+      "unit_price": "15",
+      "total_price_before_vat": 15,
+      "Page": 1,
+      "total_price": "15.00"
+    }
+  ]
+}

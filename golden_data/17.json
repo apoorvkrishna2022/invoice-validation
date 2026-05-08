@@ -1,0 +1,108 @@
+{
+  "run_id": "69e5cc776eb9b6ae3163b383",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "112120063"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-12-01"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": "2025-12-31"
+    },
+    {
+      "field": "vendor_name",
+      "value": "FUJIFILM Business Innovation Singapore Pte. Ltd."
+    },
+    {
+      "field": "vendor_address",
+      "value": "20E Pasir Panjang Road #02-21A Mapletree Business City Singapore 117439"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "MR-8500294-0"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "JADE E-SERVICES SINGAPORE PTE. LTD."
+    },
+    {
+      "field": "customer_address",
+      "value": "7 TEMASEK BOULEVARD SUNTEC CITY TOWER 1 #35-01 SINGAPORE,038987"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": ""
+    },
+    {
+      "field": "description",
+      "value": "Being billing for the agreement number: L00043701 For period from 01-DEC-2025 to 31-DEC-2025"
+    },
+    {
+      "field": "currency",
+      "value": "SGD"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 364.0
+    },
+    {
+      "field": "vat_gst",
+      "value": 32.76
+    },
+    {
+      "field": "total_amount",
+      "value": 396.76
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "Deutsche Bank AG"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "2547818-00-0"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": "DEUTSGSG"
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "MODEL F1C4570H-4T SERIAL NO 205065",
+      "item_code": "F1C4570H-4T",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 364,
+      "Page": 1
+    }
+  ]
+}

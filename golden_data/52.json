@@ -1,0 +1,108 @@
+{
+  "run_id": "69fb3908c0ba10b24f363387",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5100033769"
+    },
+    {
+      "field": "invoice_number",
+      "value": "SF/2025/02-078"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-02-03"
+    },
+    {
+      "field": "payment_terms",
+      "value": "Net 30"
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "CV. PLASTINDO MEGA UTAMA"
+    },
+    {
+      "field": "vendor_address",
+      "value": "GEDUNG EQUITY TOWER LT.49 JL. JEND. SUDIRMAN KAV. 52-53, RT 000, RW 000, SENAYAN, KEBAYORAN BARU, KOTA ADM. JAKARTA SELATAN, DKI JAKARTA 12190"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "002.341.844.5-012.000"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "PT. FASHION ESERVICES INDONESIA"
+    },
+    {
+      "field": "customer_address",
+      "value": "CAPITAL PLACE LANTAI 26, JL. JEND. GATOT SUBROTO KAV.18, RT 000, RW 000, KUNINGAN BARAT, MAMPANG PRAPATAN, KOTA ADM. JAKARTA SELATAN, DKI JAKARTA 12710"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "003.223.576.4-015.000"
+    },
+    {
+      "field": "description",
+      "value": "PE KW BOTTOM SEAL UK 0.05 X 90 X 150 (PACKING 200 PCS/BUNGKUS)"
+    },
+    {
+      "field": "currency",
+      "value": "IDR"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 1298700.0
+    },
+    {
+      "field": "vat_gst",
+      "value": 142857.0
+    },
+    {
+      "field": "total_amount",
+      "value": 1441557.0
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "BANK MANDIRI"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "CV. PLASTINDO MEGA UTAMA"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "118.000.670.2517"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": 0.0
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "PE KW BOTTOM SEAL UK 0.05 X 90 X 150 (PACKING 200 PCS/BUNGKUS)",
+      "item_code": "ZAL-020",
+      "unit_of_measurement": "LBR",
+      "quantity": 351,
+      "unit_price": 3700,
+      "total_price_before_vat": 1298700,
+      "Page": 1
+    }
+  ]
+}

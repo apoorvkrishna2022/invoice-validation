@@ -1,0 +1,108 @@
+{
+  "run_id": "69e5cc775fda1716eb34dd52",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5200004589"
+    },
+    {
+      "field": "invoice_number",
+      "value": "11-0253-0044"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-11-30"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "SENKEE Logistics Pte Ltd"
+    },
+    {
+      "field": "vendor_address",
+      "value": "21 PANDAN AVE #06-00 SINGAPORE 609388"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "M2-0011142-7"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "JADE E-SERVICES SINGAPORE PTE LTD"
+    },
+    {
+      "field": "customer_address",
+      "value": "7, TEMASEK BOULEVARD, #35-01 SUNTEC CITY TOWER 1, 038987 SINGAPORE"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": ""
+    },
+    {
+      "field": "description",
+      "value": "Electricity Usage at 19 Pandan Avenue (#04-05) (16.10.25 to 14.11.25)"
+    },
+    {
+      "field": "currency",
+      "value": "SGD"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 808.61
+    },
+    {
+      "field": "vat_gst",
+      "value": 72.77
+    },
+    {
+      "field": "total_amount",
+      "value": 881.38
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "Electricity Usage at 19 Pandan Avenue (#04-05) (16.10.25 to 14.11.25)",
+      "item_code": "01",
+      "unit_of_measurement": "kWh",
+      "quantity": 1785,
+      "unit_price": 0.453,
+      "total_price_before_vat": 808.61,
+      "Page": 1
+    }
+  ]
+}

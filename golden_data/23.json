@@ -1,0 +1,283 @@
+{
+  "run_id": "69e5cc7b745f6f336b49f412",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5200004659"
+    },
+    {
+      "field": "invoice_number",
+      "value": "L53581.6"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-09-30"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": "2025-11-30"
+    },
+    {
+      "field": "vendor_name",
+      "value": "Rakuten Marketing Australia Pty Ltd"
+    },
+    {
+      "field": "vendor_address",
+      "value": "Suite 1, Level 3, 7 Macquarie Place, Sydney NSW 2000, Australia"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "79155366215"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "Jade E-Services Singapore Pte Ltd, Zalora SG"
+    },
+    {
+      "field": "customer_address",
+      "value": "JustCo, Centrepoint Singapore, 176 Orchard Road #05-05 Singapore, Central Singapore 238843 SG"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": ""
+    },
+    {
+      "field": "description",
+      "value": "Basic Tracking Fees - Percentage of Sales"
+    },
+    {
+      "field": "currency",
+      "value": "AUD"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 1798.72
+    },
+    {
+      "field": "vat_gst",
+      "value": ""
+    },
+    {
+      "field": "total_amount",
+      "value": 1798.72
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "Bank of America N.A"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "Rakuten Marketing Australia Pty Ltd"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "15971011"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": "BOFAAUSX"
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "Jul-2025, Amount: $1,405.10, LS Rate: 0.5%",
+      "item_code": "Offer 9.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 7.03
+    },
+    {
+      "item_description": "Jul-2025, Amount: $1,583.03, LS Rate: 0.5%",
+      "item_code": "Offer 10.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 7.92
+    },
+    {
+      "item_description": "Jul-2025, Amount: $298.99, LS Rate: 0.5%",
+      "item_code": "Offer 11.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 1.49
+    },
+    {
+      "item_description": "Apr-2025, Amount: $32.31, LS Rate: 0.5%",
+      "item_code": "Offer 13.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 0.16
+    },
+    {
+      "item_description": "Jun-2025, Amount: $181.42, LS Rate: 0.5%",
+      "item_code": "Offer 13.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 0.91
+    },
+    {
+      "item_description": "Jul-2025, Amount: $123,527.46, LS Rate: 0.5%",
+      "item_code": "Offer 13.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 617.64
+    },
+    {
+      "item_description": "Jul-2025, Amount: $109.00, LS Rate: 0.5%",
+      "item_code": "Offer 15.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 0.55
+    },
+    {
+      "item_description": "Jul-2025, Amount: $26.16, LS Rate: 0.5%",
+      "item_code": "Offer 16.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 0.13
+    },
+    {
+      "item_description": "Jul-2025, Amount: $810.25, LS Rate: 0.5%",
+      "item_code": "Offer 29.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 4.05
+    },
+    {
+      "item_description": "Jun-2025, Amount: $150.98, LS Rate: 0.5%",
+      "item_code": "Offer 34.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 0.75
+    },
+    {
+      "item_description": "Jun-2025, Amount: $94.95, LS Rate: 0.5%",
+      "item_code": "Offer 35.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 0.47
+    },
+    {
+      "item_description": "Jun-2025, Amount: $53.56, LS Rate: 0.5%",
+      "item_code": "Offer 36.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 0.27
+    },
+    {
+      "item_description": "Jun-2025, Amount: $251.64, LS Rate: 0.5%",
+      "item_code": "Offer 37.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 1.26
+    },
+    {
+      "item_description": "Jun-2025, Amount: $172.23, LS Rate: 0.5%",
+      "item_code": "Offer 39.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 0.86
+    },
+    {
+      "item_description": "Jul-2025, Amount: $2,568.46, LS Rate: 0.5%",
+      "item_code": "Offer 41.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 12.84
+    },
+    {
+      "item_description": "Jul-2025, Amount: $3,483.37, LS Rate: 0.5%",
+      "item_code": "Offer 42.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 17.42
+    },
+    {
+      "item_description": "Jul-2025, Amount: $9,573.89, LS Rate: 0.5%",
+      "item_code": "Offer 43.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 47.87
+    },
+    {
+      "item_description": "Jul-2025, Amount: $7,765.15, LS Rate: 0.5%",
+      "item_code": "Offer 44.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 38.83
+    },
+    {
+      "item_description": "Jul-2025, Amount: $3,111.86, LS Rate: 0.5%",
+      "item_code": "Offer 45.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 15.56
+    },
+    {
+      "item_description": "Jul-2025, Amount: $8,873.31, LS Rate: 0.5%",
+      "item_code": "Offer 46.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 44.37
+    },
+    {
+      "item_description": "Jul-2025, Amount: $668.34, LS Rate: 0.5%",
+      "item_code": "Offer 51.1",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 3.34
+    },
+    {
+      "item_description": "Monthly Service Fees",
+      "item_code": "Account Service",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 825
+    },
+    {
+      "item_description": "Override for Zalora SG (Shopback SG) Platform Fees Sep 2025",
+      "item_code": "Non-CPA Fee",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": 150
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "_id": "69fdc5b5666a9f60396db9df",
+  "id": null,
+  "created_at": "2026-05-08T11:15:01.455Z",
+  "updated_at": "2026-05-08T11:15:01.455Z",
+  "metadata": [
+    {
+      "row_id": "s8z9jbx6",
+      "field": "customer_legal_entity",
+      "value": "ZALORA Southeast Asia Pte. Ltd",
+      "is_required": true
+    },
+    {
+      "row_id": "bxs9zs60",
+      "field": "po_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "ciz0cpty",
+      "field": "vendor_name",
+      "value": "Google Asia Pacific Pte. Ltd.",
+      "is_required": true
+    },
+    {
+      "row_id": "gh6byfkn",
+      "field": "vendor_address",
+      "value": "70 Pasir Panjang Road, #03-71 Mapletree Business City Singapore 117371",
+      "is_required": false
+    },
+    {
+      "row_id": "r9davqgx",
+      "field": "invoice_date",
+      "value": "2025-08-31",
+      "is_required": true
+    },
+    {
+      "row_id": "kozh742f",
+      "field": "invoice_number",
+      "value": "5340240880",
+      "is_required": true
+    },
+    {
+      "row_id": "chazkixr",
+      "field": "currency",
+      "value": "USD",
+      "is_required": true
+    },
+    {
+      "row_id": "3cfeekgz",
+      "field": "total_amount_before_vat",
+      "value": 10867.5,
+      "is_required": true
+    },
+    {
+      "row_id": "xiotdm0h",
+      "field": "vat_gst",
+      "value": 978.08,
+      "is_required": false
+    },
+    {
+      "row_id": "ovnpv845",
+      "field": "total_amount",
+      "value": 11845.58,
+      "is_required": true
+    },
+    {
+      "row_id": "2numyud5",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "790286mb",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "q6gojoo3",
+      "field": "description",
+      "value": "PLATFORM STANDARD (POWERED BY LOOKER) - LOOKER HOSTED - SO# 8001541239.000010 - Support Term:30-AUG-2025 to 29-SEP-2025 - LOOKERPLATFORMPBLSTANDARD -Ship-to:-Zalora South East Asia Pte Ltd - 7 TEMASEK BOULEVARD, 35-01 - SUNTEC TOWER 1 - Singapore - 038987 Singapore - SG",
+      "is_required": false
+    },
+    {
+      "row_id": "izblfyjr",
+      "field": "vendor_vat_id",
+      "value": "200817984R",
+      "is_required": false
+    },
+    {
+      "row_id": "h0nhsb0i",
+      "field": "customer_address",
+      "value": "7 TEMASEK BOULEVARD #35-01 SUNTEC TOWER 1 Singapore 038987",
+      "is_required": false
+    },
+    {
+      "row_id": "n5jxaszo",
+      "field": "customer_vat_id",
+      "value": "201215493R",
+      "is_required": false
+    },
+    {
+      "row_id": "uhntor7u",
+      "field": "payment_terms",
+      "value": "Net 45",
+      "is_required": false
+    },
+    {
+      "row_id": "z89u6cqi",
+      "field": "due_date",
+      "value": "2025-10-15",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "fhzwp7rm",
+      "item_description": "PLATFORM STANDARD (POWERED BY LOOKER) - LOOKER HOSTED - SO# 8001541239.000010 - Support Term:30-AUG-2025 to 29-SEP-2025 - LOOKERPLATFORMPBLSTANDARD -Ship-to:-Zalora South East Asia Pte Ltd - 7 TEMASEK BOULEVARD, 35-01 - SUNTEC TOWER 1 - Singapore - 038987 Singapore - SG",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 2250,
+      "total_price_before_vat": 2250,
+      "row_bbox": {
+        "x_min": 132,
+        "y_min": 352,
+        "x_max": 1186,
+        "y_max": 466
+      }
+    },
+    {
+      "id": 2,
+      "row_id": "t3w3lq5r",
+      "item_description": "STANDARD USER (POWERED BY LOOKER) - LOOKER HOSTED - SO# 8001541239.000020 - Support Term:30-AUG-2025 to 29-SEP-2025 - LOOKERUSERPBLSTANDARD -Ship-to:-Zalora South East Asia Pte Ltd - 7 TEMASEK BOULEVARD, 35-01 - SUNTEC TOWER 1 - Singapore - 038987 - Singapore - SG",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 240,
+      "unit_price": 27,
+      "total_price_before_vat": 6480,
+      "row_bbox": {
+        "x_min": 132,
+        "y_min": 352,
+        "x_max": 1331,
+        "y_max": 466
+      }
+    },
+    {
+      "id": 3,
+      "row_id": "6gciqmjs",
+      "item_description": "VIEWER USER (POWERED BY LOOKER) - LOOKER HOSTED - SO# 8001541239.000030 - Support Term:30-AUG-2025 to 29-SEP-2025 - LOOKERUSERPBLVIEWER -Ship-to:-Zalora South East Asia Pte Ltd - 7 TEMASEK BOULEVARD, 35-01 - SUNTEC TOWER 1 - Singapore - 038987 - Singapore - SG",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 450,
+      "unit_price": 0,
+      "total_price_before_vat": 0,
+      "row_bbox": {
+        "x_min": 132,
+        "y_min": 357,
+        "x_max": 1330,
+        "y_max": 437
+      }
+    },
+    {
+      "id": 4,
+      "row_id": "pw2bw9zj",
+      "item_description": "DEVELOPER USER - LOOKER HOSTED - SO# 8001541239.000040 - Support Term:30-AUG-2025 to 29-SEP-2025 - LOOKERUSERINTERNALADMIN -Ship-to:-Zalora South East Asia Pte Ltd - 7 TEMASEK BOULEVARD, 35-01 - SUNTEC TOWER 1 - Singapore - 038987 - Singapore - SG",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 38,
+      "unit_price": 56.25,
+      "total_price_before_vat": 2137.5,
+      "row_bbox": {
+        "x_min": 133,
+        "y_min": 357,
+        "x_max": 1518,
+        "y_max": 437
+      }
+    }
+  ],
+  "run_id": "69fdc41e2fb73018fa565e7c",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:15:03.406Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

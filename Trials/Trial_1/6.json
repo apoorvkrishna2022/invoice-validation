@@ -1,0 +1,213 @@
+{
+  "_id": "69fdc3dd2fb73018fa565e64",
+  "id": null,
+  "created_at": "2026-05-08T11:07:09.752Z",
+  "updated_at": "2026-05-08T11:07:09.752Z",
+  "metadata": [
+    {
+      "row_id": "97mj524c",
+      "field": "customer_legal_entity",
+      "value": "BE JADE E-SERVICES PHILIPPINES INC.",
+      "is_required": true
+    },
+    {
+      "row_id": "vktx2ch0",
+      "field": "po_number",
+      "value": "5100038587",
+      "is_required": true
+    },
+    {
+      "row_id": "v4l63bv7",
+      "field": "vendor_name",
+      "value": "MICHAEL JEFFREY N. LABUGUEN (MODELLING AGENCY)",
+      "is_required": true
+    },
+    {
+      "row_id": "5akrl9j6",
+      "field": "vendor_address",
+      "value": "8 Pulog St., Brgy. Malamig, Mandaluyong City",
+      "is_required": false
+    },
+    {
+      "row_id": "pcbqfku0",
+      "field": "invoice_date",
+      "value": "2026-03-18",
+      "is_required": true
+    },
+    {
+      "row_id": "80xa9e56",
+      "field": "invoice_number",
+      "value": "6848",
+      "is_required": true
+    },
+    {
+      "row_id": "tp4917pp",
+      "field": "currency",
+      "value": "PHP",
+      "is_required": true
+    },
+    {
+      "row_id": "xvkfap75",
+      "field": "total_amount_before_vat",
+      "value": 10813.49,
+      "is_required": true
+    },
+    {
+      "row_id": "a7y9q9q2",
+      "field": "vat_gst",
+      "value": 1297.62,
+      "is_required": false
+    },
+    {
+      "row_id": "6d0f9pn6",
+      "field": "total_amount",
+      "value": 12111.11,
+      "is_required": true
+    },
+    {
+      "row_id": "cg492osz",
+      "field": "wht",
+      "value": 1126.11,
+      "is_required": false
+    },
+    {
+      "row_id": "xynzpjld",
+      "field": "net_amount_after_wht",
+      "value": 10985,
+      "is_required": false
+    },
+    {
+      "row_id": "shtyrkye",
+      "field": "description",
+      "value": "ZALORA SHOOT TALENT FEE 12 FEB 2026",
+      "is_required": false
+    },
+    {
+      "row_id": "ejxqixmw",
+      "field": "vendor_vat_id",
+      "value": "933-320-894-000",
+      "is_required": false
+    },
+    {
+      "row_id": "ep2h3xac",
+      "field": "customer_address",
+      "value": "MCX E-COMMERCE DAANG HARI - DAANG REYNA JUNCTION EXPRESSWAY, POBLACION 1776, CITY OF MUNTINLUPA CAVITE",
+      "is_required": false
+    },
+    {
+      "row_id": "65yx364i",
+      "field": "customer_vat_id",
+      "value": "008-183-175",
+      "is_required": false
+    },
+    {
+      "row_id": "t7ykl8s3",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "3tu2odqc",
+      "field": "due_date",
+      "value": "",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "ycguem0c",
+      "item_description": "TALENT FEE",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 10111.11,
+      "total_price_before_vat": 10111.11,
+      "row_bbox": {
+        "x_min": 67,
+        "y_min": 377,
+        "x_max": 311,
+        "y_max": 416
+      }
+    },
+    {
+      "id": 2,
+      "row_id": "jlfgtp5m",
+      "item_description": "FOOD & TRANSPO",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 1000,
+      "total_price_before_vat": 1000,
+      "row_bbox": {
+        "x_min": 68,
+        "y_min": 427,
+        "x_max": 684,
+        "y_max": 542
+      }
+    },
+    {
+      "id": 3,
+      "row_id": "bnnyo7v2",
+      "item_description": "LESS TRANSPO WHT",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": -10,
+      "total_price_before_vat": -10,
+      "row_bbox": {
+        "x_min": 61,
+        "y_min": 502,
+        "x_max": 423,
+        "y_max": 553
+      }
+    },
+    {
+      "id": 4,
+      "row_id": "sm3h4wbd",
+      "item_description": "LESS FOOD WHT",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": -6,
+      "total_price_before_vat": -6,
+      "row_bbox": {
+        "x_min": 62,
+        "y_min": 576,
+        "x_max": 2004,
+        "y_max": 710
+      }
+    },
+    {
+      "id": 5,
+      "row_id": "6mo4taz6",
+      "item_description": "LESS 12,111.11 WHT",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": -1281.62,
+      "total_price_before_vat": -1281.62,
+      "row_bbox": {
+        "x_min": 440,
+        "y_min": 1038,
+        "x_max": 2603,
+        "y_max": 1149
+      }
+    }
+  ],
+  "run_id": "69fdc24a7cd80c867f48af83",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:07:11.402Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

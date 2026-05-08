@@ -1,0 +1,98 @@
+{
+  "run_id": "69e0afcc60331355dac59a14",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5100038188"
+    },
+    {
+      "field": "invoice_number",
+      "value": "551055"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2026-03-06"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "SUPERIOR PACKAGING CORPORATION"
+    },
+    {
+      "field": "vendor_address",
+      "value": "No. 5 Tandang Sora Estas Lalapa Novaliches, Quezon City"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": ""
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "BF JADE E-SERVICES PHILS. INC."
+    },
+    {
+      "field": "customer_address",
+      "value": "MCX E Commerce Center Daang Hari Daang Reyna Junction Cavite Expressway Poblacion 1776 City of Muntinlupa NCR Fourth District Philippines"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "008-183-175-00000"
+    },
+    {
+      "field": "description",
+      "value": "Corrugated Carton RSC IN GLUED Joint, C Flute, 125 lbs. 1, Color SIZE: 370 X 250 X 150 CODE: PK0325 OBZM OUTBOUND ZALORA BOX MEDIUM ZALORA B"
+    },
+    {
+      "field": "currency",
+      "value": "PHP"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 122767.86
+    },
+    {
+      "field": "vat_gst",
+      "value": 14732.14
+    },
+    {
+      "field": "total_amount",
+      "value": 137500.0
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": []
+}

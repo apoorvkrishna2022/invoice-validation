@@ -1,0 +1,149 @@
+{
+  "_id": "69fdc3ea60da4c597765b7bf",
+  "id": null,
+  "created_at": "2026-05-08T11:07:22.394Z",
+  "updated_at": "2026-05-08T11:07:22.394Z",
+  "metadata": [
+    {
+      "row_id": "dmw3iext",
+      "field": "customer_legal_entity",
+      "value": "BF JADE E-SERVICES PHILS. INC.",
+      "is_required": true
+    },
+    {
+      "row_id": "3craw7zz",
+      "field": "po_number",
+      "value": "5100038188",
+      "is_required": true
+    },
+    {
+      "row_id": "c94i8aed",
+      "field": "vendor_name",
+      "value": "SUPERIOR PACKAGING CORPORATION",
+      "is_required": true
+    },
+    {
+      "row_id": "8s0mmp8r",
+      "field": "vendor_address",
+      "value": "No. 5 Tandang Sora Estas Lalapa Novaliches, Quezon City",
+      "is_required": false
+    },
+    {
+      "row_id": "zujojp8f",
+      "field": "invoice_date",
+      "value": "2026-03-06",
+      "is_required": true
+    },
+    {
+      "row_id": "fb8dvy7u",
+      "field": "invoice_number",
+      "value": "551055",
+      "is_required": true
+    },
+    {
+      "row_id": "olofo3l2",
+      "field": "currency",
+      "value": "PHP",
+      "is_required": true
+    },
+    {
+      "row_id": "ro8ettl5",
+      "field": "total_amount_before_vat",
+      "value": 122767.86,
+      "is_required": true
+    },
+    {
+      "row_id": "hpop54l4",
+      "field": "vat_gst",
+      "value": 14732.14,
+      "is_required": false
+    },
+    {
+      "row_id": "5w6yok9u",
+      "field": "total_amount",
+      "value": 137500,
+      "is_required": true
+    },
+    {
+      "row_id": "7r7f015h",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "8qg89mgx",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "tferxtk1",
+      "field": "description",
+      "value": "Corrugated Carton RSC IN GLUED Joint, C Flute, 125 lbs. 1. Color pcs, SIZE: 370 X 250 X 150 CODE: PK0325 OBZM OUTBOUND ZALORA BOX MEDIUM ZALORA B",
+      "is_required": false
+    },
+    {
+      "row_id": "r745mxju",
+      "field": "vendor_vat_id",
+      "value": "006-03-00000",
+      "is_required": false
+    },
+    {
+      "row_id": "mec4yhi2",
+      "field": "customer_address",
+      "value": "MCX E Commerce Center Daang Hari Daang Reyna Junction Cavite Expressway Poblacion 1776 City of Muntinlupa NCRATE Fourth District Philippines",
+      "is_required": false
+    },
+    {
+      "row_id": "ukvfvt4t",
+      "field": "customer_vat_id",
+      "value": "008-183-175-00000",
+      "is_required": false
+    },
+    {
+      "row_id": "ckvptaaf",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "3g24nr9j",
+      "field": "due_date",
+      "value": "",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "tmhn8fcm",
+      "item_description": "Corrugated Carton RSC IN GLUED Joint, C Flute, 125 lbs. 1. Color pcs, SIZE: 370 X 250 X 150 CODE: PK0325 OBZM OUTBOUND ZALORA BOX MEDIUM ZALORA B",
+      "item_code": "PK0325 OBZM",
+      "unit_of_measurement": "pcs",
+      "quantity": 10000,
+      "unit_price": 13.75,
+      "total_price_before_vat": 137500,
+      "row_bbox": {
+        "x_min": 292,
+        "y_min": 616,
+        "x_max": 785,
+        "y_max": 646
+      }
+    }
+  ],
+  "run_id": "69fdc24d7cd80c867f48af8b",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:07:24.085Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

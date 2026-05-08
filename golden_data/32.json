@@ -1,0 +1,108 @@
+{
+  "run_id": "69e9cf1ab450169114a150c7",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "CGK/GINMFEE/01/2512000960"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-12-23"
+    },
+    {
+      "field": "payment_terms",
+      "value": "14 Days"
+    },
+    {
+      "field": "due_date",
+      "value": "2026-01-06"
+    },
+    {
+      "field": "vendor_name",
+      "value": "JNE JAKARTA"
+    },
+    {
+      "field": "vendor_address",
+      "value": "JL TOMANG RAYA NO 11 TOMANG - GROGOL PETAMBURAN JAKARTA BARAT"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "001.539.710.2-038.000"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "FASHION ESERVICES INDONESIA PT"
+    },
+    {
+      "field": "customer_address",
+      "value": "CAPITAL PLACE LT26 JL JENDGAT SUBROTO KAV 18 KUNINGAN BRT"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "003.223.576.4-015.000"
+    },
+    {
+      "field": "description",
+      "value": "MANAGEMENT FEE SEPTEMBER 2025"
+    },
+    {
+      "field": "currency",
+      "value": "IDR"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 3025307.0
+    },
+    {
+      "field": "vat_gst",
+      "value": 332784.0
+    },
+    {
+      "field": "total_amount",
+      "value": 3358091.0
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "BANK CENTRAL ASIA"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "FASHION MARKETPLACE INDONESIA PT"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "31169030180077903"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": 0.0
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "Jasa Penunjang Pengiriman - COD Ecommerce - CGK/GINMFEE/01/2512000960",
+      "item_code": "090102",
+      "unit_of_measurement": "Lainnya",
+      "quantity": 1,
+      "unit_price": 3025307,
+      "total_price_before_vat": 3025307,
+      "Page": 7
+    }
+  ]
+}

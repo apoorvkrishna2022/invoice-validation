@@ -1,0 +1,149 @@
+{
+  "_id": "69fdc7886628369e846950a3",
+  "id": null,
+  "created_at": "2026-05-08T11:22:48.939Z",
+  "updated_at": "2026-05-08T11:22:48.939Z",
+  "metadata": [
+    {
+      "row_id": "o646d5hd",
+      "field": "customer_legal_entity",
+      "value": "BF JACE E SERVICE",
+      "is_required": true
+    },
+    {
+      "row_id": "sdf9x1uq",
+      "field": "po_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "gm544xmz",
+      "field": "vendor_name",
+      "value": "KATHREEN DIANNE B. SANTOS - HAIR AND MAKEUP SERVICES",
+      "is_required": true
+    },
+    {
+      "row_id": "8hoixbrb",
+      "field": "vendor_address",
+      "value": "62 Sgt. Bumatay St., Brgy. Plainview, 1550 City of Mandaluyong NCR, Second District Philippines",
+      "is_required": false
+    },
+    {
+      "row_id": "8jpe9vnu",
+      "field": "invoice_date",
+      "value": "2016-03-09",
+      "is_required": true
+    },
+    {
+      "row_id": "vsg1n94c",
+      "field": "invoice_number",
+      "value": "0000011",
+      "is_required": true
+    },
+    {
+      "row_id": "aaj1bx6a",
+      "field": "currency",
+      "value": "PHP",
+      "is_required": true
+    },
+    {
+      "row_id": "a6vpnokz",
+      "field": "total_amount_before_vat",
+      "value": 22000,
+      "is_required": true
+    },
+    {
+      "row_id": "eol9jdg9",
+      "field": "vat_gst",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "zryceuya",
+      "field": "total_amount",
+      "value": 22000,
+      "is_required": true
+    },
+    {
+      "row_id": "l706b155",
+      "field": "wht",
+      "value": 2444.44,
+      "is_required": false
+    },
+    {
+      "row_id": "wwbknnu2",
+      "field": "net_amount_after_wht",
+      "value": 19555.56,
+      "is_required": false
+    },
+    {
+      "row_id": "a5hlw0bo",
+      "field": "description",
+      "value": "HAIR & MAKEUP SOCIALS 1-800",
+      "is_required": false
+    },
+    {
+      "row_id": "t9tvwhma",
+      "field": "vendor_vat_id",
+      "value": "326-890-849-00000",
+      "is_required": false
+    },
+    {
+      "row_id": "7jrgs20a",
+      "field": "customer_address",
+      "value": "MUNTINLUPA CITY",
+      "is_required": false
+    },
+    {
+      "row_id": "ehyvvn77",
+      "field": "customer_vat_id",
+      "value": "09-183-175072",
+      "is_required": false
+    },
+    {
+      "row_id": "qdpn04gu",
+      "field": "payment_terms",
+      "value": "30 DAYS",
+      "is_required": false
+    },
+    {
+      "row_id": "yfr80nt1",
+      "field": "due_date",
+      "value": "",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "zhfx7owk",
+      "item_description": "HAIR & MAKEUP SOCIALS 1-800",
+      "item_code": "",
+      "unit_of_measurement": "DAYS",
+      "quantity": 4,
+      "unit_price": 5500,
+      "total_price_before_vat": 22000,
+      "row_bbox": {
+        "x_min": 1202,
+        "y_min": 1348,
+        "x_max": 3428,
+        "y_max": 1470
+      }
+    }
+  ],
+  "run_id": "69fdc6497cd80c867f48afe1",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:22:50.377Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

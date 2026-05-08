@@ -1,0 +1,117 @@
+{
+  "run_id": "69fb3a14c0ba10b24f363399",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "ARINV-IL-100113650"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2026-01-09"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": "2026-03-02"
+    },
+    {
+      "field": "vendor_name",
+      "value": "PT IDEXPRESS LOGISTIK INDONESIA"
+    },
+    {
+      "field": "vendor_address",
+      "value": "Menara Tendean (M-Ten) Lt 25, JL. Kapten Tendean No 20C, RT.004 RW.003, Kuningan Barat, Mampang Prapatan, Jakarta Selatan, 12710"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "0423722586047000"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "PT FASHION ESERVICES INDONESIA"
+    },
+    {
+      "field": "customer_address",
+      "value": "Capital Place Lt. 26, Jl. Jend. Gatot Subroto Kav. 18, Kuningan Barat, Mampang Prapatan, Jakarta Selatan, DKI Jakarta 12710"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "0032235764015000"
+    },
+    {
+      "field": "description",
+      "value": "Shipping Fee Zalora Retail Periode December 2025"
+    },
+    {
+      "field": "currency",
+      "value": "IDR"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 351858414.0
+    },
+    {
+      "field": "vat_gst",
+      "value": 3870443.0
+    },
+    {
+      "field": "total_amount",
+      "value": 355728857.0
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "BCA"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "PT IDExpress Logistik Indonesia"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "0353101690"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": "388449202"
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "Shipping Fee",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 740307616,
+      "total_price_before_vat": 740307616,
+      "Page": 6
+    },
+    {
+      "item_description": "Discount",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": -1,
+      "unit_price": 388449202,
+      "total_price_before_vat": -388449202,
+      "Page": 6
+    }
+  ]
+}

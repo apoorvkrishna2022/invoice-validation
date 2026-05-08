@@ -1,0 +1,171 @@
+{
+  "run_id": "69e5cea5745f6f336b49f440",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5200004784"
+    },
+    {
+      "field": "invoice_number",
+      "value": "SG-JCS-087559"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-11-09"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": "2025-12-01"
+    },
+    {
+      "field": "vendor_name",
+      "value": "JustCo (Singapore) Pte. Ltd."
+    },
+    {
+      "field": "vendor_address",
+      "value": "7 Straits View, Floor #05-02, Marina One East Tower, Singapore 018936"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "201507302C"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "Zalora South East Asia Pte Ltd"
+    },
+    {
+      "field": "customer_address",
+      "value": "7 Temasek Boulevard #35-01 Suntec City Tower 1, Singapore 038987, Singapore"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": ""
+    },
+    {
+      "field": "description",
+      "value": "JustStudio Other Services 01/12/25 - 31/12/25"
+    },
+    {
+      "field": "currency",
+      "value": "SGD"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 21510.0
+    },
+    {
+      "field": "vat_gst",
+      "value": 1935.9
+    },
+    {
+      "field": "total_amount",
+      "value": 23445.9
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "The Hongkong and Shanghai Banking Corporation Ltd"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "JustCo (Singapore) Pte. Ltd."
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "815093646001"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": "HSBCSGSGXXX"
+    },
+    {
+      "field": "discount",
+      "value": 248.5
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "JustStudio Other Services",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 21280,
+      "total_price_before_vat": 21280
+    },
+    {
+      "item_description": "Complimentary printing",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": -18.5,
+      "total_price_before_vat": -18.5
+    },
+    {
+      "item_description": "Event Space Rental",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 2,
+      "unit_price": 70,
+      "total_price_before_vat": 140
+    },
+    {
+      "item_description": "Meeting Room Rental",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 3,
+      "unit_price": 30,
+      "total_price_before_vat": 90
+    },
+    {
+      "item_description": "Meeting Room Rental",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": -230,
+      "total_price_before_vat": -230
+    },
+    {
+      "item_description": "Printing - A3 color",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 3,
+      "unit_price": 0.8,
+      "total_price_before_vat": 2.4
+    },
+    {
+      "item_description": "Printing - A4 B&W",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 19,
+      "unit_price": 0.3,
+      "total_price_before_vat": 5.7
+    },
+    {
+      "item_description": "Printing - A4 color",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 13,
+      "unit_price": 0.8,
+      "total_price_before_vat": 10.4
+    },
+    {
+      "item_description": "Superpass",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 230,
+      "total_price_before_vat": 230
+    }
+  ]
+}

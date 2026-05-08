@@ -1,0 +1,108 @@
+{
+  "run_id": "69eafc957eef5a5ed677d090",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "INV202602054"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2026-02-28"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": "2026-03-30"
+    },
+    {
+      "field": "vendor_name",
+      "value": "Skynet Worldwide Express (HK) Limited"
+    },
+    {
+      "field": "vendor_address",
+      "value": "17/F Leahander Centre, 28 Wang Wo Tsai Street, Tsuen Wan Hong Kong"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": ""
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "Zalora (Hong Kong) Ltd"
+    },
+    {
+      "field": "customer_address",
+      "value": "UNIT 48-137, 48/F, 33 HYSAN AVENUE, CAUSEWAY BAY, HONG KONG"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": ""
+    },
+    {
+      "field": "description",
+      "value": "DDP CHARGES OF HK-SG Return for Feb 2026"
+    },
+    {
+      "field": "currency",
+      "value": "HKD"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 495.0
+    },
+    {
+      "field": "vat_gst",
+      "value": ""
+    },
+    {
+      "field": "total_amount",
+      "value": 495.0
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "DBS Bank (Hong Kong) Limited"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "Skynet Worldwide Express (HK) Limited"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "016-478-783325381"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": "DHBKHKHH"
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "DDP CHARGES OF HK-SG Return for Feb 2026 Shipment details as per attached",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 495,
+      "total_price_before_vat": 495,
+      "Page": 1
+    }
+  ]
+}

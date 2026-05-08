@@ -1,0 +1,213 @@
+{
+  "_id": "69fdc79a666a9f60396dba0b",
+  "id": null,
+  "created_at": "2026-05-08T11:23:06.432Z",
+  "updated_at": "2026-05-08T11:23:06.432Z",
+  "metadata": [
+    {
+      "row_id": "58qdxs0s",
+      "field": "customer_legal_entity",
+      "value": "Zalora Efulfillment Services Sdn. Bhd.",
+      "is_required": true
+    },
+    {
+      "row_id": "32l4z3yh",
+      "field": "po_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "ej92bjgf",
+      "field": "vendor_name",
+      "value": "PricewaterhouseCoopers Taxation Services Sdn. Bhd.",
+      "is_required": true
+    },
+    {
+      "row_id": "u91s82d2",
+      "field": "vendor_address",
+      "value": "Level 10, Menara TH 1 Sentral, Jalan Rakyat Kuala Lumpur Sentral, P O Box 10192, 50706 Kuala Lumpur, Malaysia",
+      "is_required": false
+    },
+    {
+      "row_id": "dpg692y8",
+      "field": "invoice_date",
+      "value": "2025-12-01",
+      "is_required": true
+    },
+    {
+      "row_id": "uwy6prmx",
+      "field": "invoice_number",
+      "value": "580261105876",
+      "is_required": true
+    },
+    {
+      "row_id": "gd2s8dnd",
+      "field": "currency",
+      "value": "MYR",
+      "is_required": true
+    },
+    {
+      "row_id": "48zl5zub",
+      "field": "total_amount_before_vat",
+      "value": 8050,
+      "is_required": true
+    },
+    {
+      "row_id": "5az07my6",
+      "field": "vat_gst",
+      "value": 644,
+      "is_required": false
+    },
+    {
+      "row_id": "zrg61zvy",
+      "field": "total_amount",
+      "value": 8694,
+      "is_required": true
+    },
+    {
+      "row_id": "9yjc08h9",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "96jicvmc",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "pdwymwp4",
+      "field": "description",
+      "value": "Professional services rendered for the period from June 2025 to September 2025 in connection with the Company's taxation matters as per the appendix attached.",
+      "is_required": false
+    },
+    {
+      "row_id": "1f4aiswb",
+      "field": "vendor_vat_id",
+      "value": "W10-1808-31043874",
+      "is_required": false
+    },
+    {
+      "row_id": "wh01mqcv",
+      "field": "customer_address",
+      "value": "Unit 13-1, Level 13, Mercu 3, Jalan Bangsar, KL Eco City, 59200, Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "is_required": false
+    },
+    {
+      "row_id": "sey5ax2m",
+      "field": "customer_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "ssgxtagg",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "d6fccq18",
+      "field": "due_date",
+      "value": "",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "nw0p5qep",
+      "item_description": "Preparation and submission of the Company's tax return (Form e-C) for YA 2024. Work performed includes preparation and completion of the tax computation for YA 2024 - Final",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 5000,
+      "total_price_before_vat": 5000,
+      "row_bbox": {
+        "x_min": 333,
+        "y_min": 470,
+        "x_max": 1455,
+        "y_max": 554
+      }
+    },
+    {
+      "id": 2,
+      "row_id": "qjz112ap",
+      "item_description": "Less: Interim Bill No.580251112427 dated 6 June 2025",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": -2500,
+      "total_price_before_vat": -2500,
+      "row_bbox": {
+        "x_min": 333,
+        "y_min": 596,
+        "x_max": 1454,
+        "y_max": 618
+      }
+    },
+    {
+      "id": 3,
+      "row_id": "n8x6hn0s",
+      "item_description": "Submitted application for extension of time (\"EOT\") for the filing of YA 2024 tax return. Work done includes preparation and submission of EOT application to the Inland Revenue Board (\"IRB\") and follow up closely on the status of the application.",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 3000,
+      "total_price_before_vat": 3000,
+      "row_bbox": {
+        "x_min": 331,
+        "y_min": 697,
+        "x_max": 1455,
+        "y_max": 784
+      }
+    },
+    {
+      "id": 4,
+      "row_id": "jvspm8t2",
+      "item_description": "Submission of revised tax return for the year of assessment 2023. Work done includes: - Assisted the Company to prepare revised tax return and tax computation for the year of assessment (\"YA\") 2023; - Upon obtaining approval from the Company, submitted the revised tax return, tax computation and application letter to the IRB; and - Followed up with the IRB on the issuance of Notice of Reduced Assessment (i.e. Form JR).",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 2500,
+      "total_price_before_vat": 2500,
+      "row_bbox": {
+        "x_min": 1482,
+        "y_min": 2171,
+        "x_max": 1503,
+        "y_max": 2192
+      }
+    },
+    {
+      "id": 5,
+      "row_id": "ljppmdvo",
+      "item_description": "Out of pocket expenses",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 50,
+      "total_price_before_vat": 50,
+      "row_bbox": {
+        "x_min": 201,
+        "y_min": 1227,
+        "x_max": 494,
+        "y_max": 1260
+      }
+    }
+  ],
+  "run_id": "69fdc64a6628369e84695084",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:23:07.863Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

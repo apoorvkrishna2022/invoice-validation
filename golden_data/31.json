@@ -1,0 +1,252 @@
+{
+  "run_id": "69e9cf1ab450169114a150b8",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5100036794"
+    },
+    {
+      "field": "invoice_number",
+      "value": "INV/IX/2025/00444"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-09-25"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": "2025-11-09"
+    },
+    {
+      "field": "vendor_name",
+      "value": "CV Eksponen Indonesia"
+    },
+    {
+      "field": "vendor_address",
+      "value": "Jl. Gandaria No. 90"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "86.382.242.5-009.000"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "PT. Fashion Marketplace Indonesia"
+    },
+    {
+      "field": "customer_address",
+      "value": "Capital Place Lantai 26, JL. Jend. Gatot Subroto Kav. 18, Kuningan Barat, Mampang Prapatan, Indonesia 12710"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "0033443763015000"
+    },
+    {
+      "field": "description",
+      "value": "Clear Sleeves/Map L Folio"
+    },
+    {
+      "field": "currency",
+      "value": "IDR"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 3386500.0
+    },
+    {
+      "field": "vat_gst",
+      "value": 372515.0
+    },
+    {
+      "field": "total_amount",
+      "value": 3759015.0
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "Bank Mandiri"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "CV Eksponen Indonesia"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "1670012122122"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": 0.0
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "Clear Sleeves/Map L Folio",
+      "item_code": "000000",
+      "unit_of_measurement": "",
+      "quantity": 3,
+      "unit_price": 20000,
+      "total_price_before_vat": 60000,
+      "Page": 5
+    },
+    {
+      "item_description": "Sign Here Pronto 5 Warna Uk. 76 x 76 mm",
+      "item_code": "000000",
+      "unit_of_measurement": "",
+      "quantity": 2,
+      "unit_price": 22500,
+      "total_price_before_vat": 45000,
+      "Page": 1
+    },
+    {
+      "item_description": "Sticky Note Joyko MMS-1 5 warna",
+      "item_code": "000000",
+      "unit_of_measurement": "",
+      "quantity": 2,
+      "unit_price": 25000,
+      "total_price_before_vat": 50000,
+      "Page": 1
+    },
+    {
+      "item_description": "Amplop Coklat Folio isi 100 pcs isi 2pcs/pack",
+      "item_code": "000000",
+      "unit_of_measurement": "",
+      "quantity": 3,
+      "unit_price": 36000,
+      "total_price_before_vat": 108000,
+      "Page": 1
+    },
+    {
+      "item_description": "Baterai Alkaline AA isi 24 pack/box",
+      "item_code": "000000",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 356500,
+      "total_price_before_vat": 356500,
+      "Page": 5
+    },
+    {
+      "item_description": "Amplop Putih No. 90 Paperline",
+      "item_code": "000000",
+      "unit_of_measurement": "",
+      "quantity": 2,
+      "unit_price": 25000,
+      "total_price_before_vat": 50000,
+      "Page": 1
+    },
+    {
+      "item_description": "Spidol Snowman Whiteboard Hitam isi 12 pcs",
+      "item_code": "000000",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 80000,
+      "total_price_before_vat": 80000,
+      "Page": 3
+    },
+    {
+      "item_description": "Tissue See-U 250 Sheet 2 ply isi 40 pack",
+      "item_code": "000000",
+      "unit_of_measurement": "",
+      "quantity": 2,
+      "unit_price": 300000,
+      "total_price_before_vat": 600000,
+      "Page": 1
+    },
+    {
+      "item_description": "Pewangi mobil Glade Sensations Kecuali Orange",
+      "item_code": "000000",
+      "unit_of_measurement": "",
+      "quantity": 6,
+      "unit_price": 25000,
+      "total_price_before_vat": 150000,
+      "Page": 1
+    },
+    {
+      "item_description": "Panadol Hijau isi 10 tablet",
+      "item_code": "000000",
+      "unit_of_measurement": "",
+      "quantity": 3,
+      "unit_price": 24500,
+      "total_price_before_vat": 73500,
+      "Page": 1
+    },
+    {
+      "item_description": "Diapet isi 10 kapsul",
+      "item_code": "000000",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 12000,
+      "total_price_before_vat": 12000,
+      "Page": 1
+    },
+    {
+      "item_description": "Polysilane isi 8 tablet",
+      "item_code": "000000",
+      "unit_of_measurement": "",
+      "quantity": 2,
+      "unit_price": 14500,
+      "total_price_before_vat": 29000,
+      "Page": 1
+    },
+    {
+      "item_description": "Tolak Angin Plus Madu Jeruk Nipis 15ml",
+      "item_code": "000000",
+      "unit_of_measurement": "",
+      "quantity": 10,
+      "unit_price": 62000,
+      "total_price_before_vat": 620000,
+      "Page": 1
+    },
+    {
+      "item_description": "Mama Lemon Jeruk Nipis 680ml",
+      "item_code": "000000",
+      "unit_of_measurement": "",
+      "quantity": 15,
+      "unit_price": 14500,
+      "total_price_before_vat": 217500,
+      "Page": 4
+    },
+    {
+      "item_description": "Gulaku 1 kg Tebu Kuning",
+      "item_code": "000000",
+      "unit_of_measurement": "",
+      "quantity": 10,
+      "unit_price": 26500,
+      "total_price_before_vat": 265000,
+      "Page": 1
+    },
+    {
+      "item_description": "Kopi Kapal Api Special 350 gr",
+      "item_code": "000000",
+      "unit_of_measurement": "",
+      "quantity": 10,
+      "unit_price": 55000,
+      "total_price_before_vat": 550000,
+      "Page": 4
+    },
+    {
+      "item_description": "Teh celup cap botol isi 25 kantong",
+      "item_code": "000000",
+      "unit_of_measurement": "",
+      "quantity": 10,
+      "unit_price": 12000,
+      "total_price_before_vat": 120000,
+      "Page": 1
+    }
+  ]
+}

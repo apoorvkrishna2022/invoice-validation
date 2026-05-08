@@ -1,0 +1,109 @@
+{
+  "run_id": "69e07ce63dfc3844665e76f1",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "0048"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2026-03-16"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "LEYJES N. ROUS AGENT"
+    },
+    {
+      "field": "vendor_address",
+      "value": "5 BATAY ST. BRGY. KAUNLARAN, KAUNLARAN 1111 QUEZON CITY NCR, SECOND DISTRICT PHILIPPINES"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "238-938-286-00000"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "BF JADE E-SERVICES PHILIPPINES INC."
+    },
+    {
+      "field": "customer_address",
+      "value": "MCX E-COMMERCE CENTER DAANG HARI DAANG REYNA JUNCTION CAVITE EXPRESSWAY, POBLACION, MUNTINLUPA CITY 1776"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "008-183-175"
+    },
+    {
+      "field": "description",
+      "value": "ZALORA TF OF ANDREA PEREZ"
+    },
+    {
+      "field": "currency",
+      "value": "PHP"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 49313.0
+    },
+    {
+      "field": "vat_gst",
+      "value": 5917.56
+    },
+    {
+      "field": "total_amount",
+      "value": 55230.56
+    },
+    {
+      "field": "wht",
+      "value": 4931.3
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": 50299.26
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "ZALORA TF OF ANDREA PEREZ",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "1",
+      "unit_price": "49313",
+      "total_price_before_vat": 49313,
+      "Page": 1,
+      "total_price": "49313.00"
+    }
+  ]
+}

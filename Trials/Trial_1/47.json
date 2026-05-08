@@ -1,0 +1,149 @@
+{
+  "_id": "69fdc7692fb73018fa565eee",
+  "id": null,
+  "created_at": "2026-05-08T11:22:17.698Z",
+  "updated_at": "2026-05-08T11:22:17.698Z",
+  "metadata": [
+    {
+      "row_id": "49zesop7",
+      "field": "customer_legal_entity",
+      "value": "Zalora (Hong Kong) Limited",
+      "is_required": true
+    },
+    {
+      "row_id": "owh3n8k8",
+      "field": "po_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "rcasgpgw",
+      "field": "vendor_name",
+      "value": "Chillchi PR & Marketing Company Limited",
+      "is_required": true
+    },
+    {
+      "row_id": "q1pwg66h",
+      "field": "vendor_address",
+      "value": "4/F, KOHO, 73-75 Hung To Road, Kwun Tong",
+      "is_required": false
+    },
+    {
+      "row_id": "82ze6ubn",
+      "field": "invoice_date",
+      "value": "2025-01-29",
+      "is_required": true
+    },
+    {
+      "row_id": "8ltzn15p",
+      "field": "invoice_number",
+      "value": "IV20250104",
+      "is_required": true
+    },
+    {
+      "row_id": "zpohwsdv",
+      "field": "currency",
+      "value": "HKD",
+      "is_required": true
+    },
+    {
+      "row_id": "irjwbuge",
+      "field": "total_amount_before_vat",
+      "value": 4650,
+      "is_required": true
+    },
+    {
+      "row_id": "443u65tc",
+      "field": "vat_gst",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "jx6sjvcc",
+      "field": "total_amount",
+      "value": 4650,
+      "is_required": true
+    },
+    {
+      "row_id": "h5loqyu8",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "jfjvur8u",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "ewpd1b5v",
+      "field": "description",
+      "value": "Zalora Z-Crew Campaign Handling Fee (February 2026)",
+      "is_required": false
+    },
+    {
+      "row_id": "75riy2og",
+      "field": "vendor_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "kuhjrog4",
+      "field": "customer_address",
+      "value": "OFFICE 48-137, 48/F, LEE GARDEN ONE, 33 HYSAN AVENUE, CAUSEWAY BAY, HONG KONG",
+      "is_required": false
+    },
+    {
+      "row_id": "t0njvrmt",
+      "field": "customer_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "jdf6t1kj",
+      "field": "payment_terms",
+      "value": "Payment settlement due within two weeks of the invoice's date of issue",
+      "is_required": false
+    },
+    {
+      "row_id": "m2hhozfz",
+      "field": "due_date",
+      "value": "",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "j7w2ogxa",
+      "item_description": "PR Service Charge (15% service charge of total amount) - February 2025 - 31 KOLs @ $1,000 budget each - 15% service charge of total amount",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 4650,
+      "total_price_before_vat": 4650,
+      "row_bbox": {
+        "x_min": 841,
+        "y_min": 1145,
+        "x_max": 961,
+        "y_max": 1173
+      }
+    }
+  ],
+  "run_id": "69fdc6497cd80c867f48afda",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:22:19.195Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

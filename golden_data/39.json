@@ -1,0 +1,107 @@
+{
+  "run_id": "69e9fef313c7d787398160c1",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5300000467"
+    },
+    {
+      "field": "invoice_number",
+      "value": "22524579860"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-02-11"
+    },
+    {
+      "field": "payment_terms",
+      "value": "Net 30"
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "PT United Media (OfficePro)"
+    },
+    {
+      "field": "vendor_address",
+      "value": "Jl. Pangeran Jayakarta 121/55, Mangga Dua Selatan, Sawah Besar, Kota Adm. Jakarta Pusat, DKI Jakarta 10730"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "0020553970026000"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "PT Fashion Eservices Indonesia"
+    },
+    {
+      "field": "customer_address",
+      "value": "Capital Place Lantai 26, Jl. Jend. Gatot Subroto Kav. 18, Kuningan Barat, Mampang Prapatan, Kota Adm. Jakarta Selatan, DKI Jakarta 12710"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "0032235764015000"
+    },
+    {
+      "field": "description",
+      "value": "PHILIPS Lamp BN006C 32W 3200 lm 6500 K"
+    },
+    {
+      "field": "currency",
+      "value": "IDR"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 38500000.0
+    },
+    {
+      "field": "vat_gst",
+      "value": 4235000.0
+    },
+    {
+      "field": "total_amount",
+      "value": 42735000.0
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "CIMB Niaga Bank Cabang Sawah Besar"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "PT United Media or OfficePro"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "800048910100"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": 0.0
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "PHILIPS Lamp BN006C 32W 3200 lm 6500 K",
+      "item_code": "9410-14889",
+      "unit_of_measurement": "ea",
+      "quantity": 100,
+      "unit_price": 385000,
+      "total_price_before_vat": 38500000
+    }
+  ]
+}

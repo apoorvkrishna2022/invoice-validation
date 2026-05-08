@@ -1,0 +1,98 @@
+{
+  "run_id": "69e9dd74b96af9dc7089c0ee",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "NEXUS/1/2026/0113"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2026-01-02"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "PT Nusantara Executive Sukses"
+    },
+    {
+      "field": "vendor_address",
+      "value": "ICE BUSINESS PARK BSD Blok A No.10 Jl. BSD Grand Boulevard, Pagedangan, Kab. Tangerang"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "043270448445300"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "PT. Fashion Eservices Indonesia"
+    },
+    {
+      "field": "customer_address",
+      "value": "Capital Place Lantai 26, Jl. Jend. Gatot Subroto Kav. 18, Kuningan Barat, Mampang Prapatan, 12710 Jakarta Selatan, DKI Jakarta, Indonesia"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "003223576401500"
+    },
+    {
+      "field": "description",
+      "value": "Perhitungan Jasa Tenaga Kerja Daily Worker Dispatch Periode: DESEMBER 2025"
+    },
+    {
+      "field": "currency",
+      "value": "IDR"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 5393558.0
+    },
+    {
+      "field": "vat_gst",
+      "value": 33583.0
+    },
+    {
+      "field": "total_amount",
+      "value": 5427140.0
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "Bank Mandiri KCP Tangerang Serpong"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "PT Nusantara Executive Sukses"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "1640003858042"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": 0.0
+    }
+  ],
+  "line_items": []
+}

@@ -1,0 +1,115 @@
+{
+  "run_id": "69eafc965dfac62b9e3a6fd9",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5100037551"
+    },
+    {
+      "field": "invoice_number",
+      "value": "ZAL20251216"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-12-16"
+    },
+    {
+      "field": "payment_terms",
+      "value": "Pay in advance"
+    },
+    {
+      "field": "due_date",
+      "value": "2025-12-31"
+    },
+    {
+      "field": "vendor_name",
+      "value": "Cloudterrain Limited"
+    },
+    {
+      "field": "vendor_address",
+      "value": "Unit 1101, 11/F, Tower 1, Cheung Sha Wan Plaza, 833 Cheung Sha Wan Road, Lai Chi Kok, Kowloon Hong Kong"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": ""
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "ZALORA (HONG KONG) LIMITED"
+    },
+    {
+      "field": "customer_address",
+      "value": "Unit 48-137, 48/F 33 Hysan Avenue Causeway Bay Hong Kong"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": ""
+    },
+    {
+      "field": "description",
+      "value": "Annual Renewal for FortiWiFi 60F Firewall (Product Serial Number: FWF60FTK21006938)"
+    },
+    {
+      "field": "currency",
+      "value": "HKD"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 5012.0
+    },
+    {
+      "field": "vat_gst",
+      "value": ""
+    },
+    {
+      "field": "total_amount",
+      "value": 5012.0
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "HSBC Hong Kong"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "Cloudterrain Limited"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "813-304698-838"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": "HSBCHKHHHKH"
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "FortiWiFi-60F 1 Year Unified Threat Protection (UTP) (IPS, Advanced Malware Protection, Application Control, URL, DNS & Video Filtering, Antispam Service, and FortiCare Premium)",
+      "item_code": "FC-10-W060F-950-02-12",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 4023,
+      "total_price_before_vat": 4023
+    },
+    {
+      "item_description": "FortiGate 60 series annual onsite swapping service, standard 8x5xNBD, no troubleshooting included",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 989,
+      "total_price_before_vat": 989
+    }
+  ]
+}

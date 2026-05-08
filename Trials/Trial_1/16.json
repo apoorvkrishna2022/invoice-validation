@@ -1,0 +1,149 @@
+{
+  "_id": "69fdc5af60da4c597765b7ef",
+  "id": null,
+  "created_at": "2026-05-08T11:14:55.407Z",
+  "updated_at": "2026-05-08T11:14:55.407Z",
+  "metadata": [
+    {
+      "row_id": "8ff0i0dr",
+      "field": "customer_legal_entity",
+      "value": "JADE E-SERVICES SINGAPORE PTE LTD",
+      "is_required": true
+    },
+    {
+      "row_id": "ean38891",
+      "field": "po_number",
+      "value": "5100034579",
+      "is_required": true
+    },
+    {
+      "row_id": "btqnq3rd",
+      "field": "vendor_name",
+      "value": "SENKEE Logistics Pte Ltd",
+      "is_required": true
+    },
+    {
+      "row_id": "ur5ic9gv",
+      "field": "vendor_address",
+      "value": "21 PANDAN AVE #06-00 SINGAPORE 609388",
+      "is_required": false
+    },
+    {
+      "row_id": "fv3bzbcm",
+      "field": "invoice_date",
+      "value": "2025-11-30",
+      "is_required": true
+    },
+    {
+      "row_id": "zbvdzt8m",
+      "field": "invoice_number",
+      "value": "11-0253-0044",
+      "is_required": true
+    },
+    {
+      "row_id": "p702mv0u",
+      "field": "currency",
+      "value": "SGD",
+      "is_required": true
+    },
+    {
+      "row_id": "9kqqq9u7",
+      "field": "total_amount_before_vat",
+      "value": 808.61,
+      "is_required": true
+    },
+    {
+      "row_id": "sklue2d5",
+      "field": "vat_gst",
+      "value": 72.77,
+      "is_required": false
+    },
+    {
+      "row_id": "5edpgpjy",
+      "field": "total_amount",
+      "value": 881.38,
+      "is_required": true
+    },
+    {
+      "row_id": "oao5ze1s",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "vhqzi0ul",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "rhb98sj2",
+      "field": "description",
+      "value": "Electricity Usage at 19 Pandan Avenue (#04-05) (16.10.25 to 14.11.25)",
+      "is_required": false
+    },
+    {
+      "row_id": "3joog1yr",
+      "field": "vendor_vat_id",
+      "value": "M2-0011142-7",
+      "is_required": false
+    },
+    {
+      "row_id": "hwprxfhd",
+      "field": "customer_address",
+      "value": "7, TEMASEK BOULEVARD, #35-01 SUNTEC CITY TOWER 1, 038987 SINGAPORE",
+      "is_required": false
+    },
+    {
+      "row_id": "8luqskpi",
+      "field": "customer_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "s8ryk5cw",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "0p22eyig",
+      "field": "due_date",
+      "value": "",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "yurv6oo8",
+      "item_description": "Electricity Usage at 19 Pandan Avenue (#04-05) (16.10.25 to 14.11.25)",
+      "item_code": "01",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 808.61,
+      "total_price_before_vat": 808.61,
+      "row_bbox": {
+        "x_min": 179,
+        "y_min": 900,
+        "x_max": 1594,
+        "y_max": 966
+      }
+    }
+  ],
+  "run_id": "69fdc41d2fb73018fa565e6e",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:14:57.242Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

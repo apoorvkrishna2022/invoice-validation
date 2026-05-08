@@ -1,0 +1,98 @@
+{
+  "run_id": "69e5bfca6eb9b6ae3163b336",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "2403-2025-10"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-09-05"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "Religious Education Resource Centre"
+    },
+    {
+      "field": "vendor_address",
+      "value": "45 Berwick Street, Sham Shui Po, Kowloon, Hong Kong"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": ""
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "Zalora (Hong Kong) Limited"
+    },
+    {
+      "field": "customer_address",
+      "value": "Room 2403, Hong Kong Worsted Mills Industrial Building, 31-39 Wo Tong Tsui Street, Kwai Chung, NT"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": ""
+    },
+    {
+      "field": "description",
+      "value": "Rental for 02/10/2025 - 01/11/2025"
+    },
+    {
+      "field": "currency",
+      "value": "HKD"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 62500.0
+    },
+    {
+      "field": "vat_gst",
+      "value": ""
+    },
+    {
+      "field": "total_amount",
+      "value": 62500.0
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": []
+}

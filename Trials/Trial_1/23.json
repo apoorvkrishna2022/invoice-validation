@@ -1,0 +1,517 @@
+{
+  "_id": "69fdc5f47cd80c867f48afd5",
+  "id": null,
+  "created_at": "2026-05-08T11:16:04.983Z",
+  "updated_at": "2026-05-08T11:16:04.983Z",
+  "metadata": [
+    {
+      "row_id": "sfqui8ay",
+      "field": "customer_legal_entity",
+      "value": "Jade E-Services Singapore Pte Ltd, Zalora SG",
+      "is_required": true
+    },
+    {
+      "row_id": "eab4ycmo",
+      "field": "po_number",
+      "value": "5200004659",
+      "is_required": true
+    },
+    {
+      "row_id": "5j108cgx",
+      "field": "vendor_name",
+      "value": "Rakuten Marketing Australia Pty Ltd",
+      "is_required": true
+    },
+    {
+      "row_id": "ltg6omq9",
+      "field": "vendor_address",
+      "value": "Suite 1, Level 3, 7 Macquarie Place, Sydney NSW 2000, Australia",
+      "is_required": false
+    },
+    {
+      "row_id": "bfbp8b6e",
+      "field": "invoice_date",
+      "value": "2025-09-30",
+      "is_required": true
+    },
+    {
+      "row_id": "pt0h29pt",
+      "field": "invoice_number",
+      "value": "L53581.6",
+      "is_required": true
+    },
+    {
+      "row_id": "0xm641jk",
+      "field": "currency",
+      "value": "USD",
+      "is_required": true
+    },
+    {
+      "row_id": "7was9xi7",
+      "field": "total_amount_before_vat",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "o4922biq",
+      "field": "vat_gst",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "51gll1r7",
+      "field": "total_amount",
+      "value": 1798.72,
+      "is_required": true
+    },
+    {
+      "row_id": "v2pcb2fx",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "6qtziolv",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "cpt5bq4t",
+      "field": "description",
+      "value": "Basic Tracking Fees - Percentage of Sales",
+      "is_required": false
+    },
+    {
+      "row_id": "uquhuhdi",
+      "field": "vendor_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "irhp6twk",
+      "field": "customer_address",
+      "value": "JustCo, Centrepoint Singapore, 176 Orchard Road #05-05, Singapore, Central Singapore 238843 SG",
+      "is_required": false
+    },
+    {
+      "row_id": "w4i1fql3",
+      "field": "customer_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "botlytty",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "w1uagvra",
+      "field": "due_date",
+      "value": "2025-11-30",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "aakyvwj8",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 9.1",
+      "unit_of_measurement": "",
+      "quantity": 1405.1,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 7.03,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 1126,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 2,
+      "row_id": "n8zpo0n0",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 10.1",
+      "unit_of_measurement": "",
+      "quantity": 1583.03,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 7.92,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 3,
+      "row_id": "m63b2yuk",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 11.1",
+      "unit_of_measurement": "",
+      "quantity": 298.99,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 1.49,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 4,
+      "row_id": "v0d172r1",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 13.1",
+      "unit_of_measurement": "",
+      "quantity": 32.31,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 0.16,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 5,
+      "row_id": "g720pijm",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 13.1",
+      "unit_of_measurement": "",
+      "quantity": 181.42,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 0.91,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 6,
+      "row_id": "wmdvhlr7",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 13.1",
+      "unit_of_measurement": "",
+      "quantity": 123527.46,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 617.64,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 7,
+      "row_id": "p0t865zf",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 15.1",
+      "unit_of_measurement": "",
+      "quantity": 109,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 0.55,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 8,
+      "row_id": "gqegdfly",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 16.1",
+      "unit_of_measurement": "",
+      "quantity": 26.16,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 0.13,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 9,
+      "row_id": "dqndz1y9",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 29.1",
+      "unit_of_measurement": "",
+      "quantity": 810.25,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 4.05,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 10,
+      "row_id": "ivstspej",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 34.1",
+      "unit_of_measurement": "",
+      "quantity": 150.98,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 0.75,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 11,
+      "row_id": "0y6pjp4s",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 35.1",
+      "unit_of_measurement": "",
+      "quantity": 94.95,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 0.47,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 12,
+      "row_id": "5sty6rxa",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 36.1",
+      "unit_of_measurement": "",
+      "quantity": 53.56,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 0.27,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 13,
+      "row_id": "65ygn7hb",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 37.1",
+      "unit_of_measurement": "",
+      "quantity": 251.64,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 1.26,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 14,
+      "row_id": "q1vs9ysv",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 39.1",
+      "unit_of_measurement": "",
+      "quantity": 172.23,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 0.86,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 15,
+      "row_id": "o4qlwl64",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 41.1",
+      "unit_of_measurement": "",
+      "quantity": 2568.46,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 12.84,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 16,
+      "row_id": "u2gj0lod",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 42.1",
+      "unit_of_measurement": "",
+      "quantity": 3483.37,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 17.42,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 17,
+      "row_id": "oz80dqd0",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 43.1",
+      "unit_of_measurement": "",
+      "quantity": 9573.89,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 47.87,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 18,
+      "row_id": "te30desc",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 44.1",
+      "unit_of_measurement": "",
+      "quantity": 7765.15,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 38.83,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 19,
+      "row_id": "xvmc9lw3",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 45.1",
+      "unit_of_measurement": "",
+      "quantity": 3111.86,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 15.56,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 20,
+      "row_id": "8spzsav0",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 46.1",
+      "unit_of_measurement": "",
+      "quantity": 8873.31,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 44.37,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 21,
+      "row_id": "iv190qzn",
+      "item_description": "Percentage of Sales",
+      "item_code": "Offer 51.1",
+      "unit_of_measurement": "",
+      "quantity": 668.34,
+      "unit_price": "0.5%",
+      "total_price_before_vat": 3.34,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 625,
+        "x_max": 835,
+        "y_max": 715
+      }
+    },
+    {
+      "id": 22,
+      "row_id": "1p73smhd",
+      "item_description": "Monthly Service Fees",
+      "item_code": "Account Service",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 825,
+      "total_price_before_vat": 825,
+      "row_bbox": {
+        "x_min": 93,
+        "y_min": 1498,
+        "x_max": 253,
+        "y_max": 1561
+      }
+    },
+    {
+      "id": 23,
+      "row_id": "o0nuxeii",
+      "item_description": "Monthly Service Fees",
+      "item_code": "Non-CPA Fee",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 150,
+      "total_price_before_vat": 150,
+      "row_bbox": {
+        "x_min": 95,
+        "y_min": 1498,
+        "x_max": 253,
+        "y_max": 1518
+      }
+    },
+    {
+      "id": 24,
+      "row_id": "300z1o7y",
+      "item_description": "Monthly Service Fees",
+      "item_code": "Override for Zalora SG (Shopback SG) Platform Fees Sep 2025",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": "",
+      "total_price_before_vat": "",
+      "row_bbox": {
+        "x_min": 95,
+        "y_min": 1498,
+        "x_max": 253,
+        "y_max": 1518
+      }
+    }
+  ],
+  "run_id": "69fdc41d60da4c597765b7d3",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:16:07.000Z",
+      "results": [
+        {
+          "rule": "Tax on 0 with vat 0 should be 0, not 1798.72.",
+          "passed": false,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

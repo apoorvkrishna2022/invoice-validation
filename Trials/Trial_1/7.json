@@ -1,0 +1,149 @@
+{
+  "_id": "69fdc3bb7cd80c867f48afa7",
+  "id": null,
+  "created_at": "2026-05-08T11:06:35.794Z",
+  "updated_at": "2026-05-08T11:06:35.794Z",
+  "metadata": [
+    {
+      "row_id": "b6nvdexg",
+      "field": "customer_legal_entity",
+      "value": "BF JADE E-SERVICES PHILS. INC (ZALORA PHILIPPINES)",
+      "is_required": true
+    },
+    {
+      "row_id": "oakw3uql",
+      "field": "po_number",
+      "value": "5100038560",
+      "is_required": true
+    },
+    {
+      "row_id": "rip3yfiw",
+      "field": "vendor_name",
+      "value": "Metro Combined Logistics Solutions Inc.",
+      "is_required": true
+    },
+    {
+      "row_id": "2p8sfwdk",
+      "field": "vendor_address",
+      "value": "1201 Antel Corporate Center, 121 Valero Street, Salcedo Village, Makati City",
+      "is_required": false
+    },
+    {
+      "row_id": "8vc7rvse",
+      "field": "invoice_date",
+      "value": "2026-03-24",
+      "is_required": true
+    },
+    {
+      "row_id": "6s8jmpci",
+      "field": "invoice_number",
+      "value": "002517",
+      "is_required": true
+    },
+    {
+      "row_id": "sykwbkzg",
+      "field": "currency",
+      "value": "PHP",
+      "is_required": true
+    },
+    {
+      "row_id": "oe3y7yfj",
+      "field": "total_amount_before_vat",
+      "value": 17387.76,
+      "is_required": true
+    },
+    {
+      "row_id": "u5qge4kl",
+      "field": "vat_gst",
+      "value": 2086.53,
+      "is_required": false
+    },
+    {
+      "row_id": "xs231zgn",
+      "field": "total_amount",
+      "value": 19474.29,
+      "is_required": true
+    },
+    {
+      "row_id": "2an0mzl3",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "nmaprd54",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "8x351rr4",
+      "field": "description",
+      "value": "This represents TRUCKING CHARGES per ref#ZALORA-2025NOV-002, as per attached documents.",
+      "is_required": false
+    },
+    {
+      "row_id": "hiq4xf3b",
+      "field": "vendor_vat_id",
+      "value": "201-292-948-00000",
+      "is_required": false
+    },
+    {
+      "row_id": "gqmsized",
+      "field": "customer_address",
+      "value": "MCX E-Commerce Center, Daang Hari-Daang Reyna Junction Cavite Expressway Poblacion 1776 Muntinlupa city NCR, 4th District",
+      "is_required": false
+    },
+    {
+      "row_id": "nubp5xbz",
+      "field": "customer_vat_id",
+      "value": "008-183-175-000",
+      "is_required": false
+    },
+    {
+      "row_id": "1vklqkbl",
+      "field": "payment_terms",
+      "value": "V030 - 30 days Due net",
+      "is_required": false
+    },
+    {
+      "row_id": "h5dmm1u0",
+      "field": "due_date",
+      "value": "2026-04-23",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "erckwsct",
+      "item_description": "Pallet Transportation",
+      "item_code": "10",
+      "unit_of_measurement": "TP",
+      "quantity": 2,
+      "unit_price": 8693.88,
+      "total_price_before_vat": 17387.76,
+      "row_bbox": {
+        "x_min": 70,
+        "y_min": 1148,
+        "x_max": 1536,
+        "y_max": 1176
+      }
+    }
+  ],
+  "run_id": "69fdc24960da4c597765b797",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:06:37.946Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

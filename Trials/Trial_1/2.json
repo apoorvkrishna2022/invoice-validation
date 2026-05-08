@@ -1,0 +1,165 @@
+{
+  "_id": "69fdc3c17cd80c867f48afa9",
+  "id": null,
+  "created_at": "2026-05-08T11:06:41.535Z",
+  "updated_at": "2026-05-08T11:06:41.535Z",
+  "metadata": [
+    {
+      "row_id": "xmk5ttvx",
+      "field": "customer_legal_entity",
+      "value": "BF JADE E-SERVICES PHILIPPINES INC",
+      "is_required": true
+    },
+    {
+      "row_id": "ytb0olg8",
+      "field": "po_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "3hh0t2fq",
+      "field": "vendor_name",
+      "value": "Basilisa Arts & Graphic Manufacturing",
+      "is_required": true
+    },
+    {
+      "row_id": "nt3famdm",
+      "field": "vendor_address",
+      "value": "Greenhills Subd, Sampaloc, Quezon Prov",
+      "is_required": false
+    },
+    {
+      "row_id": "8xq0kyfx",
+      "field": "invoice_date",
+      "value": "2026-03-26",
+      "is_required": true
+    },
+    {
+      "row_id": "6hvumc3s",
+      "field": "invoice_number",
+      "value": "2509B0095208",
+      "is_required": true
+    },
+    {
+      "row_id": "y8436xnt",
+      "field": "currency",
+      "value": "PHP",
+      "is_required": true
+    },
+    {
+      "row_id": "ui242g60",
+      "field": "total_amount_before_vat",
+      "value": 17900,
+      "is_required": true
+    },
+    {
+      "row_id": "mczft59k",
+      "field": "vat_gst",
+      "value": 0,
+      "is_required": false
+    },
+    {
+      "row_id": "oc6xjenv",
+      "field": "total_amount",
+      "value": 17900,
+      "is_required": true
+    },
+    {
+      "row_id": "heq7riba",
+      "field": "wht",
+      "value": 0,
+      "is_required": false
+    },
+    {
+      "row_id": "cahd391y",
+      "field": "net_amount_after_wht",
+      "value": 17900,
+      "is_required": false
+    },
+    {
+      "row_id": "pyco31jz",
+      "field": "description",
+      "value": "Onsite (Pick + Click)",
+      "is_required": false
+    },
+    {
+      "row_id": "bkxds6bm",
+      "field": "vendor_vat_id",
+      "value": "471-861-779-00000",
+      "is_required": false
+    },
+    {
+      "row_id": "7b5imm8t",
+      "field": "customer_address",
+      "value": "MCX P. Commerce Center, Daang Hari Junction Cavite Expressway, Daang Hari Blvd, Poblacion II, Muntinlupa",
+      "is_required": false
+    },
+    {
+      "row_id": "dwl9bvlo",
+      "field": "customer_vat_id",
+      "value": "008-193-175",
+      "is_required": false
+    },
+    {
+      "row_id": "n835q2bt",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "3dnzf1hk",
+      "field": "due_date",
+      "value": "",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "r4bdlv2f",
+      "item_description": "Onsite (Pick + Click)",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 50,
+      "unit_price": 350,
+      "total_price_before_vat": 17500,
+      "row_bbox": {
+        "x_min": 135,
+        "y_min": 520,
+        "x_max": 976,
+        "y_max": 575
+      }
+    },
+    {
+      "id": 2,
+      "row_id": "5d4bad56",
+      "item_description": "Transportation Fee",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 400,
+      "total_price_before_vat": 400,
+      "row_bbox": {
+        "x_min": 130,
+        "y_min": 573,
+        "x_max": 992,
+        "y_max": 638
+      }
+    }
+  ],
+  "run_id": "69fdc24860da4c597765b789",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:06:43.212Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

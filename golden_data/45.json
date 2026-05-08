@@ -1,0 +1,109 @@
+{
+  "run_id": "69ea0fb83cd19508c6c88af8",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5200004012"
+    },
+    {
+      "field": "invoice_number",
+      "value": "ZALO0140"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-07-31"
+    },
+    {
+      "field": "payment_terms",
+      "value": "Net 45"
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "PROGRESSIVE CARGO &amp; SERVICES SDN BHD"
+    },
+    {
+      "field": "vendor_address",
+      "value": "NO 8 JALAN NIRWANA 1/1, TAMAN NIRWANA, 68000 AMPANG, SELANGOR DARUL EHSAN"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "W10-1809-32001501"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "JADE ESERVICES MALAYSIA SDN. BHD"
+    },
+    {
+      "field": "customer_address",
+      "value": "UNIT 13-1, LEVEL 13, MERCU 3, JALAN BANGSAR, KL ECO CITY, 59200 KUALA LUMPUR"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": ""
+    },
+    {
+      "field": "description",
+      "value": "INVOICE OF SUBCONTRACT WORKS - LOCAL WORKER FOR THE MONTH OF JULY 2025 (26.6.2025 - 25.7.2025)"
+    },
+    {
+      "field": "currency",
+      "value": "MYR"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 4542.58
+    },
+    {
+      "field": "vat_gst",
+      "value": 363.41
+    },
+    {
+      "field": "total_amount",
+      "value": 4905.99
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "MAYBANK BERHAD"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "PROGRESSIVE CARGO & SERVICES SDN BHD"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "562254505118"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "SUBCONTRACT WORK BPO: 5200004012",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "1",
+      "unit_price": "4542.58",
+      "total_price_before_vat": 4542.58,
+      "Page": 1,
+      "total_price": "4542.58"
+    }
+  ]
+}

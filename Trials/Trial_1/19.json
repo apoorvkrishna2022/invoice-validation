@@ -1,0 +1,197 @@
+{
+  "_id": "69fdc5c47cd80c867f48afd2",
+  "id": null,
+  "created_at": "2026-05-08T11:15:16.863Z",
+  "updated_at": "2026-05-08T11:15:16.863Z",
+  "metadata": [
+    {
+      "row_id": "23rslv1q",
+      "field": "customer_legal_entity",
+      "value": "JADE E-SERVICES SINGAPORE PTE. LTD.",
+      "is_required": true
+    },
+    {
+      "row_id": "ss8unuef",
+      "field": "po_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "d3pygaiy",
+      "field": "vendor_name",
+      "value": "FUJIFILM Business Innovation Singapore Pte. Ltd.",
+      "is_required": true
+    },
+    {
+      "row_id": "ysbf101z",
+      "field": "vendor_address",
+      "value": "20E Pasir Panjang Road #02-21A Mapletree Business City Singapore 117439",
+      "is_required": false
+    },
+    {
+      "row_id": "cvwkw432",
+      "field": "invoice_date",
+      "value": "2025-10-26",
+      "is_required": true
+    },
+    {
+      "row_id": "63imdp8n",
+      "field": "invoice_number",
+      "value": "125016211",
+      "is_required": true
+    },
+    {
+      "row_id": "rmajq6pp",
+      "field": "currency",
+      "value": "SGD",
+      "is_required": true
+    },
+    {
+      "row_id": "gnz54ei8",
+      "field": "total_amount_before_vat",
+      "value": 98.03,
+      "is_required": true
+    },
+    {
+      "row_id": "jgapw0nt",
+      "field": "vat_gst",
+      "value": 8.82,
+      "is_required": false
+    },
+    {
+      "row_id": "nedst188",
+      "field": "total_amount",
+      "value": 106.85,
+      "is_required": true
+    },
+    {
+      "row_id": "e1lfi72f",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "wqmjv7x1",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "z7vuzpw7",
+      "field": "description",
+      "value": "F1C4570H-4T S/N: 205065 M1-TOTAL COL M2-TOTAL B/W M3-COL LARGE M4-TOTAL",
+      "is_required": false
+    },
+    {
+      "row_id": "3f7wq02r",
+      "field": "vendor_vat_id",
+      "value": "MR-8500294-0",
+      "is_required": false
+    },
+    {
+      "row_id": "75lwilky",
+      "field": "customer_address",
+      "value": "7 TEMASEK BOULEVARD SUNTEC CITY TOWER 1 #35-01 SINGAPORE,038987",
+      "is_required": false
+    },
+    {
+      "row_id": "qx94pai1",
+      "field": "customer_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "abtouzca",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "2mdpc5f7",
+      "field": "due_date",
+      "value": "2025-11-25",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "pcjsvy8f",
+      "item_description": "M1-TOTAL COL",
+      "item_code": "F1C4570H-4T S/N: 205065",
+      "unit_of_measurement": "Copies",
+      "quantity": 55,
+      "unit_price": 0.14,
+      "total_price_before_vat": 7.7,
+      "row_bbox": {
+        "x_min": 260,
+        "y_min": 1026,
+        "x_max": 1565,
+        "y_max": 1078
+      }
+    },
+    {
+      "id": 2,
+      "row_id": "vp5sq1ju",
+      "item_description": "M2-TOTAL B/W",
+      "item_code": "F1C4570H-4T S/N: 205065",
+      "unit_of_measurement": "Copies",
+      "quantity": 11291,
+      "unit_price": 0.008,
+      "total_price_before_vat": 90.33,
+      "row_bbox": {
+        "x_min": 260,
+        "y_min": 1087,
+        "x_max": 1567,
+        "y_max": 1158
+      }
+    },
+    {
+      "id": 3,
+      "row_id": "6ewz8b8g",
+      "item_description": "M3-COL LARGE",
+      "item_code": "F1C4570H-4T S/N: 205065",
+      "unit_of_measurement": "Copies",
+      "quantity": 2,
+      "unit_price": 0,
+      "total_price_before_vat": 0,
+      "row_bbox": {
+        "x_min": 361,
+        "y_min": 1115,
+        "x_max": 665,
+        "y_max": 1133
+      }
+    },
+    {
+      "id": 4,
+      "row_id": "f4y13c5y",
+      "item_description": "M4-TOTAL",
+      "item_code": "F1C4570H-4T S/N: 205065",
+      "unit_of_measurement": "Copies",
+      "quantity": 11346,
+      "unit_price": 0,
+      "total_price_before_vat": 0,
+      "row_bbox": {
+        "x_min": 1116,
+        "y_min": 1697,
+        "x_max": 1482,
+        "y_max": 1714
+      }
+    }
+  ],
+  "run_id": "69fdc41c666a9f60396db9b9",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:15:18.433Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

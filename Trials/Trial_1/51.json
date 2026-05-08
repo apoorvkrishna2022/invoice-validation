@@ -1,0 +1,165 @@
+{
+  "_id": "69fdc76e2fb73018fa565ef1",
+  "id": null,
+  "created_at": "2026-05-08T11:22:22.356Z",
+  "updated_at": "2026-05-08T11:22:22.356Z",
+  "metadata": [
+    {
+      "row_id": "9j07ei61",
+      "field": "customer_legal_entity",
+      "value": "ZALORA (HONG KONG) LIMITED",
+      "is_required": true
+    },
+    {
+      "row_id": "upwz2str",
+      "field": "po_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "6d1vybqf",
+      "field": "vendor_name",
+      "value": "SUN ON TAI PAPER PACKAGING (HK) CO. LTD",
+      "is_required": true
+    },
+    {
+      "row_id": "w9wgedbv",
+      "field": "vendor_address",
+      "value": "Units A-D, 4/F, Precious Industrial Centre, 18 Cheung Yue Street, Cheung Sha Wan, Kln., H.K.",
+      "is_required": false
+    },
+    {
+      "row_id": "a5ru5tvx",
+      "field": "invoice_date",
+      "value": "2025-12-12",
+      "is_required": true
+    },
+    {
+      "row_id": "c1pjcxrp",
+      "field": "invoice_number",
+      "value": "SOT(HK)-ZA25-11",
+      "is_required": true
+    },
+    {
+      "row_id": "hra9qm6h",
+      "field": "currency",
+      "value": "HKD",
+      "is_required": true
+    },
+    {
+      "row_id": "zd2in8hk",
+      "field": "total_amount_before_vat",
+      "value": 10290,
+      "is_required": true
+    },
+    {
+      "row_id": "sjpca9jg",
+      "field": "vat_gst",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "jnxqk3s4",
+      "field": "total_amount",
+      "value": 10290,
+      "is_required": true
+    },
+    {
+      "row_id": "2nk6cik9",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "o2im1uzb",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "9eei8z6z",
+      "field": "description",
+      "value": "\u7c98\u7bb1 550 x 390 x 370 mm A=A no printing",
+      "is_required": false
+    },
+    {
+      "row_id": "annliytv",
+      "field": "vendor_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "kgb67ded",
+      "field": "customer_address",
+      "value": "UNIT 48-137, 48/F, 33 HYSAN AVENUE, CAUSEWAY BAY, HK",
+      "is_required": false
+    },
+    {
+      "row_id": "yqy96qdr",
+      "field": "customer_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "uwfo85r5",
+      "field": "payment_terms",
+      "value": "30 days",
+      "is_required": false
+    },
+    {
+      "row_id": "gviba1dv",
+      "field": "due_date",
+      "value": "",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "lzn7maxj",
+      "item_description": "\u7c98\u7bb1 550 x 390 x 370 mm A=A no printing",
+      "item_code": "ZA-550*390*370",
+      "unit_of_measurement": "PC",
+      "quantity": 500,
+      "unit_price": 11.22,
+      "total_price_before_vat": 5610,
+      "row_bbox": {
+        "x_min": 127,
+        "y_min": 748,
+        "x_max": 1058,
+        "y_max": 808
+      }
+    },
+    {
+      "id": 2,
+      "row_id": "id2ddna3",
+      "item_description": "\u7c98\u7bb1 570 x 460 x 760 mm A=A no printing",
+      "item_code": "ZA570*460*760",
+      "unit_of_measurement": "PC",
+      "quantity": 250,
+      "unit_price": 18.72,
+      "total_price_before_vat": 4680,
+      "row_bbox": {
+        "x_min": 60,
+        "y_min": 748,
+        "x_max": 1292,
+        "y_max": 808
+      }
+    }
+  ],
+  "run_id": "69fdc6496628369e8469507d",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:22:24.113Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

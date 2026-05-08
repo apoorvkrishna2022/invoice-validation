@@ -1,0 +1,165 @@
+{
+  "_id": "69fdc5e2666a9f60396db9e3",
+  "id": null,
+  "created_at": "2026-05-08T11:15:46.765Z",
+  "updated_at": "2026-05-08T11:15:46.765Z",
+  "metadata": [
+    {
+      "row_id": "sxtsh4ap",
+      "field": "customer_legal_entity",
+      "value": "ZALORA SOUTH EAST ASIA PTE LTD",
+      "is_required": true
+    },
+    {
+      "row_id": "75ihdfnx",
+      "field": "po_number",
+      "value": "5100036591",
+      "is_required": true
+    },
+    {
+      "row_id": "52wmqb3f",
+      "field": "vendor_name",
+      "value": "HORIZONS GLOBAL TECHNOLOGY PTE. LTD.",
+      "is_required": true
+    },
+    {
+      "row_id": "nqlry5p4",
+      "field": "vendor_address",
+      "value": "261 Waterloo Street #03-36, Waterloo Center Singapore Singapore",
+      "is_required": false
+    },
+    {
+      "row_id": "uatskcj3",
+      "field": "invoice_date",
+      "value": "2025-10-06",
+      "is_required": true
+    },
+    {
+      "row_id": "12msrjq5",
+      "field": "invoice_number",
+      "value": "SF82683543-2510_1",
+      "is_required": true
+    },
+    {
+      "row_id": "dfpys4bn",
+      "field": "currency",
+      "value": "SGD",
+      "is_required": true
+    },
+    {
+      "row_id": "yi42yugh",
+      "field": "total_amount_before_vat",
+      "value": 245,
+      "is_required": true
+    },
+    {
+      "row_id": "oapv7ekg",
+      "field": "vat_gst",
+      "value": 22.05,
+      "is_required": false
+    },
+    {
+      "row_id": "78u95s9n",
+      "field": "total_amount",
+      "value": 267.05,
+      "is_required": true
+    },
+    {
+      "row_id": "0vzpoljz",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "zycixykj",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "10ucuqki",
+      "field": "description",
+      "value": "Monthly Service Fees - October, 2025",
+      "is_required": false
+    },
+    {
+      "row_id": "kq5j5osi",
+      "field": "vendor_vat_id",
+      "value": "202117926G",
+      "is_required": false
+    },
+    {
+      "row_id": "x5d4h31h",
+      "field": "customer_address",
+      "value": "JustCo, Centrepoint Singapore, 176 Orchard Road #05-05 Singapore, 238843 Singapore",
+      "is_required": false
+    },
+    {
+      "row_id": "6ll2r3kn",
+      "field": "customer_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "es0asaz2",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "3ugso820",
+      "field": "due_date",
+      "value": "2025-11-05",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "xmjblk25",
+      "item_description": "Monthly Service Fees",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 230,
+      "total_price_before_vat": 230,
+      "row_bbox": {
+        "x_min": 75,
+        "y_min": 922,
+        "x_max": 583,
+        "y_max": 945
+      }
+    },
+    {
+      "id": 2,
+      "row_id": "86eh3hux",
+      "item_description": "Benefits Admin Fee",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 15,
+      "total_price_before_vat": 15,
+      "row_bbox": {
+        "x_min": 77,
+        "y_min": 977,
+        "x_max": 335,
+        "y_max": 998
+      }
+    }
+  ],
+  "run_id": "69fdc41d60da4c597765b7cc",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:15:48.385Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "run_id": "69eafc965dfac62b9e3a6fe8",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "SOT(HK)-ZA25-11"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-12-12"
+    },
+    {
+      "field": "payment_terms",
+      "value": "30 days"
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "SUN ON TAI PAPER PACKAGING (HK) CO. LTD"
+    },
+    {
+      "field": "vendor_address",
+      "value": "Units A-D, 4/F, Precious Industrial Centre, 18 Cheung Yue Street, Cheung Sha Wan, Kln., H.K."
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": ""
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "ZALORA (HONG KONG) LIMITED"
+    },
+    {
+      "field": "customer_address",
+      "value": "UNIT 48-137, 48/F, 33 HYSAN AVENUE, CAUSEWAY BAY, HK"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": ""
+    },
+    {
+      "field": "description",
+      "value": "粘箱 550 x 390 x 370 mm A=A no printing"
+    },
+    {
+      "field": "currency",
+      "value": "HKD"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 10290.0
+    },
+    {
+      "field": "vat_gst",
+      "value": ""
+    },
+    {
+      "field": "total_amount",
+      "value": 10290.0
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "20251110 粘箱 550 x 390 x 370 mm A=A no printing",
+      "item_code": "ZA-550*390*370",
+      "unit_of_measurement": "PC",
+      "quantity": 500,
+      "unit_price": 11.22,
+      "total_price_before_vat": 5610,
+      "Page": 1
+    },
+    {
+      "item_description": "粘箱 570 x 460 x 760 mm A=A no printing",
+      "item_code": "ZA570*460*760",
+      "unit_of_measurement": "PC",
+      "quantity": 250,
+      "unit_price": 18.72,
+      "total_price_before_vat": 4680,
+      "Page": 1
+    }
+  ]
+}

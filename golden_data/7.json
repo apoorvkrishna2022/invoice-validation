@@ -1,0 +1,109 @@
+{
+  "run_id": "69e0870f3dfc3844665e770d",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5100038560"
+    },
+    {
+      "field": "invoice_number",
+      "value": "002517"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2026-03-24"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": "2026-04-23"
+    },
+    {
+      "field": "vendor_name",
+      "value": "Metro Combined Logistics Solutions Inc."
+    },
+    {
+      "field": "vendor_address",
+      "value": "1201 Antel Corporate Center, 121 Valero Street, Salcedo Village, Makati City"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "201-292-948-00000"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "BF JADE E-SERVICES PHILS. INC (ZALORA PHILIPPINES)"
+    },
+    {
+      "field": "customer_address",
+      "value": "MCX E-Commerce Center, Daang Hari-Daang Reyna Junction Cavite Expressway Poblacion, 1776 Muntinlupa city NCR, 4th District"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "008-183-175-000"
+    },
+    {
+      "field": "description",
+      "value": "This represents TRUCKING CHARGES per ref#ZALORA-2025NOV-002, as per attached documents."
+    },
+    {
+      "field": "currency",
+      "value": "PHP"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 17387.76
+    },
+    {
+      "field": "vat_gst",
+      "value": 2086.53
+    },
+    {
+      "field": "total_amount",
+      "value": 19474.29
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "This represents TRUCKING CHARGES per ref#ZALORA-2025NOV-002, as per attached documents.",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": "17387.76",
+      "total_price_before_vat": 17387.76,
+      "Page": 1,
+      "total_price": "17387.76"
+    }
+  ]
+}

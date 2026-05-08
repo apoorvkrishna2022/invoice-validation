@@ -1,0 +1,149 @@
+{
+  "_id": "69fdc44e60da4c597765b7e4",
+  "id": null,
+  "created_at": "2026-05-08T11:09:02.176Z",
+  "updated_at": "2026-05-08T11:09:02.177Z",
+  "metadata": [
+    {
+      "row_id": "h4x8pd9c",
+      "field": "customer_legal_entity",
+      "value": "BF Vade E-Services Philippines Inc.",
+      "is_required": true
+    },
+    {
+      "row_id": "thi2779x",
+      "field": "po_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "m59r198e",
+      "field": "vendor_name",
+      "value": "FARAH MARIE R. DUMALAGAN",
+      "is_required": true
+    },
+    {
+      "row_id": "cowuaruh",
+      "field": "vendor_address",
+      "value": "52 Lourdes cor. Kaolin St. Twin River Subd 2 Parang 1809 City of Marikina NCR, Second District Philippines",
+      "is_required": false
+    },
+    {
+      "row_id": "tu3ugtq7",
+      "field": "invoice_date",
+      "value": "2026-10-03",
+      "is_required": true
+    },
+    {
+      "row_id": "0lpr901f",
+      "field": "invoice_number",
+      "value": "000163",
+      "is_required": true
+    },
+    {
+      "row_id": "ednmm5dl",
+      "field": "currency",
+      "value": "PHP",
+      "is_required": true
+    },
+    {
+      "row_id": "rderbs51",
+      "field": "total_amount_before_vat",
+      "value": 9803.92,
+      "is_required": true
+    },
+    {
+      "row_id": "qjatlxc7",
+      "field": "vat_gst",
+      "value": 1176.47,
+      "is_required": false
+    },
+    {
+      "row_id": "66ffeaw3",
+      "field": "total_amount",
+      "value": 10980.39,
+      "is_required": true
+    },
+    {
+      "row_id": "999fb0dw",
+      "field": "wht",
+      "value": 98.04,
+      "is_required": false
+    },
+    {
+      "row_id": "ob80hr1a",
+      "field": "net_amount_after_wht",
+      "value": 10882.35,
+      "is_required": false
+    },
+    {
+      "row_id": "inpkqnzn",
+      "field": "description",
+      "value": "Road / Transpo Allowance",
+      "is_required": false
+    },
+    {
+      "row_id": "kjx6pknx",
+      "field": "vendor_vat_id",
+      "value": "263-544-858-00000",
+      "is_required": false
+    },
+    {
+      "row_id": "y6pxyih3",
+      "field": "customer_address",
+      "value": "MCX V-commerce Center. Daang Hari - Daang Reyna Junction, Cavite Expressway Poblacion 1774 City of Muntinlupa",
+      "is_required": false
+    },
+    {
+      "row_id": "xfepd6h3",
+      "field": "customer_vat_id",
+      "value": "008-183-175",
+      "is_required": false
+    },
+    {
+      "row_id": "fg6p2zop",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "tr0p06ax",
+      "field": "due_date",
+      "value": "",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "otomqgsc",
+      "item_description": "Road / Transpo Allowance",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 1000,
+      "total_price_before_vat": 1000,
+      "row_bbox": {
+        "x_min": 640,
+        "y_min": 1693,
+        "x_max": 2229,
+        "y_max": 1829
+      }
+    }
+  ],
+  "run_id": "69fdc24a666a9f60396db988",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:09:03.820Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

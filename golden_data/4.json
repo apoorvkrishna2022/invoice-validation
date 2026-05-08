@@ -1,0 +1,119 @@
+{
+  "run_id": "69e085c3180fc41908436832",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "6863"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2026-03-26"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "MICHAEL JEFFREY N. LABUGUEN (MODELLING AGENCY)"
+    },
+    {
+      "field": "vendor_address",
+      "value": "8 Pulog St., Brgy. Malamig, Mandaluyong City"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "933-320-894-000"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "BF Jade E-Services Philippines Inc."
+    },
+    {
+      "field": "customer_address",
+      "value": "MCX E-Commerce Daang Hari-Daang Reyna Junction Cavite Express way, Poblacion, 1776, City of Muntinlupa"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "008-183-175"
+    },
+    {
+      "field": "description",
+      "value": "In full partial payment of Zawra Shoot Talent Fee - 26 March 2026"
+    },
+    {
+      "field": "currency",
+      "value": "PHP"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 12111.11
+    },
+    {
+      "field": "vat_gst",
+      "value": ""
+    },
+    {
+      "field": "total_amount",
+      "value": 12111.11
+    },
+    {
+      "field": "wht",
+      "value": 1126.11
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": 10985.0
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "Talent Fee",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "1",
+      "unit_price": "11111.11",
+      "total_price_before_vat": 11111.11,
+      "Page": 1,
+      "total_price": "11111.11"
+    },
+    {
+      "item_description": "Food & Transpo",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "1",
+      "unit_price": "1000",
+      "total_price_before_vat": 1000,
+      "Page": 1,
+      "total_price": "1000.00"
+    }
+  ]
+}

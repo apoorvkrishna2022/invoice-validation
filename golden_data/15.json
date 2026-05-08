@@ -1,0 +1,98 @@
+{
+  "run_id": "69e5c1015fda1716eb34dd25",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "SGIN25-500997"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-08-01"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": "2025-08-31"
+    },
+    {
+      "field": "vendor_name",
+      "value": "Amazon Web Services Singapore Private Limited"
+    },
+    {
+      "field": "vendor_address",
+      "value": "1, 17-00, Robinson Road, AIA Tower, 048542, Singapore"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "201434292D"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "Global Fashion Group SGP Services PTE Limited"
+    },
+    {
+      "field": "customer_address",
+      "value": "51 Bras Basah Road, #07-01, Lazada One, 189554, Republic of Singapore, 189554, SG"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "201541261G"
+    },
+    {
+      "field": "description",
+      "value": "AWS Service Charges"
+    },
+    {
+      "field": "currency",
+      "value": "USD"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 1423.72
+    },
+    {
+      "field": "vat_gst",
+      "value": 128.13
+    },
+    {
+      "field": "total_amount",
+      "value": 1551.85
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "Hongkong and Shanghai Banking Corporation Limited"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "Amazon Web Services Singapore Private Limited"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "260512298178"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": "HSBCSGSG"
+    },
+    {
+      "field": "discount",
+      "value": 209.11
+    }
+  ],
+  "line_items": []
+}

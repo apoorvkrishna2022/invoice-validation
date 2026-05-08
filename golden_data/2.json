@@ -1,0 +1,117 @@
+{
+  "run_id": "69e07f775843c99fb6ff19b1",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "2509B0095208"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2026-03-26"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "Basilisa Arts &amp; Crafts Manapahit"
+    },
+    {
+      "field": "vendor_address",
+      "value": "Greenhills Subd, Sampaloc, Quezon Prov."
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "471-861-779-00000"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "BF JADE E-SERVICES PHILIPPINES INC"
+    },
+    {
+      "field": "customer_address",
+      "value": "MCX P. COMMERCE CENTER, DAANG HARI JUNCTION CAVITE EXPRESSWAY, DAANG HARI, POBLACION II, MUNTINLUPA"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "008-183-175"
+    },
+    {
+      "field": "description",
+      "value": ""
+    },
+    {
+      "field": "currency",
+      "value": "PHP"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 17900.0
+    },
+    {
+      "field": "vat_gst",
+      "value": ""
+    },
+    {
+      "field": "total_amount",
+      "value": 17900.0
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "Onsite (Pick + Click)",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 50,
+      "unit_price": 350,
+      "total_price_before_vat": 17500,
+      "Page": 1
+    },
+    {
+      "item_description": "Transportation Fee",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 400,
+      "total_price_before_vat": 400,
+      "Page": 1
+    }
+  ]
+}

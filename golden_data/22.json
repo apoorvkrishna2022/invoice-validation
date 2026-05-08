@@ -1,0 +1,135 @@
+{
+  "run_id": "69e5cc7b745f6f336b49f403",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "5340240880"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-08-31"
+    },
+    {
+      "field": "payment_terms",
+      "value": "Net 45"
+    },
+    {
+      "field": "due_date",
+      "value": "2025-10-15"
+    },
+    {
+      "field": "vendor_name",
+      "value": "Google Asia Pacific Pte. Ltd."
+    },
+    {
+      "field": "vendor_address",
+      "value": "70 Pasir Panjang Road, #03-71, Mapletree Business City, Singapore 117371"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "200817984R"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "ZALORA Southeast Asia Pte. Ltd"
+    },
+    {
+      "field": "customer_address",
+      "value": "7 TEMASEK BOULEVARD, #35-01 SUNTEC TOWER 1, Singapore 038987"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "201215493R"
+    },
+    {
+      "field": "description",
+      "value": "Google Cloud"
+    },
+    {
+      "field": "currency",
+      "value": "USD"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 10867.5
+    },
+    {
+      "field": "vat_gst",
+      "value": 978.08
+    },
+    {
+      "field": "total_amount",
+      "value": 11845.58
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "Citibank"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "Google Asia Pacific Pte. Ltd."
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "0-851541-063"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": "CITISGSG"
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "PLATFORM STANDARD (POWERED BY LOOKER) - LOOKER HOSTED - SO# 8001541239.000010 - Support Term:30-AUG-2025 to 29-SEP-2025 - LOOKERPLATFORMPBLSTANDARD -Ship-to:-Zalora South East Asia Pte Ltd - 7 TEMASEK BOULEVARD, 35-01 - SUNTEC TOWER 1 - Singapore - 038987 - Singapore - SG",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 2250,
+      "total_price_before_vat": 2250,
+      "Page": 2
+    },
+    {
+      "item_description": "STANDARD USER (POWERED BY LOOKER) - LOOKER HOSTED - SO# 8001541239.000020 - Support Term:30-AUG-2025 to 29-SEP-2025 - LOOKERUSERPBLSTANDARD -Ship-to:-Zalora South East Asia Pte Ltd - 7 TEMASEK BOULEVARD, 35-01 - SUNTEC TOWER 1 - Singapore - 038987 - Singapore - SG",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 240,
+      "unit_price": 27,
+      "total_price_before_vat": 6480,
+      "Page": 3
+    },
+    {
+      "item_description": "VIEWER USER (POWERED BY LOOKER) - LOOKER HOSTED - SO# 8001541239.000030 - Support Term:30-AUG-2025 to 29-SEP-2025 - LOOKERUSERPBLVIEWER -Ship-to:-Zalora South East Asia Pte Ltd - 7 TEMASEK BOULEVARD, 35-01 - SUNTEC TOWER 1 - Singapore - 038987 - Singapore - SG",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 450,
+      "unit_price": 0,
+      "total_price_before_vat": 0,
+      "Page": 4
+    },
+    {
+      "item_description": "DEVELOPER USER - LOOKER HOSTED - SO# 8001541239.000040 - Support Term:30-AUG-2025 to 29-SEP-2025 - LOOKERUSERINTERNALADMIN -Ship-to:-Zalora South East Asia Pte Ltd - 7 TEMASEK BOULEVARD, 35-01 - SUNTEC TOWER 1 - Singapore - 038987 - Singapore - SG",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 38,
+      "unit_price": 56.25,
+      "total_price_before_vat": 2137.5,
+      "Page": 5
+    }
+  ]
+}

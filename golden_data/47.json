@@ -1,0 +1,109 @@
+{
+  "run_id": "69eafc955dfac62b9e3a6fac",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "IV20250104"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-01-29"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "Chillchi PR & Marketing Company Limited"
+    },
+    {
+      "field": "vendor_address",
+      "value": "4/F, KOHO, 73-75 Hung To Road, Kwun Tong"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": ""
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "Zalora (Hong Kong) Limited"
+    },
+    {
+      "field": "customer_address",
+      "value": "OFFICE 48-137, 48/F, LEE GARDEN ONE, 33 HYSAN AVENUE, CAUSEWAY BAY, HONG KONG"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": ""
+    },
+    {
+      "field": "description",
+      "value": "PR Service Charge (15% service charge of total amount) (February 2025) 31 KOLS @ $1,000 budget each 15% service charge of total amount"
+    },
+    {
+      "field": "currency",
+      "value": "HKD"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 4650.0
+    },
+    {
+      "field": "vat_gst",
+      "value": ""
+    },
+    {
+      "field": "total_amount",
+      "value": 4650.0
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "Bank of Communications (Hong Kong) Limited"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "Chillchi PR and Marketing Co Ltd"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "382-541-1-031013-01"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": "COMMHKHKXXX"
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "PR Service Charge (15% service charge of total amount) (February 2025) 31 KOLS @ $1,000 budget each 15% service charge of total amount",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "1",
+      "unit_price": "4650",
+      "total_price_before_vat": 4650,
+      "Page": 1,
+      "total_price": "4650.00"
+    }
+  ]
+}

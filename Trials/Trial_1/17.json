@@ -1,0 +1,149 @@
+{
+  "_id": "69fdc57b666a9f60396db9da",
+  "id": null,
+  "created_at": "2026-05-08T11:14:03.290Z",
+  "updated_at": "2026-05-08T11:14:03.290Z",
+  "metadata": [
+    {
+      "row_id": "iqojykrw",
+      "field": "customer_legal_entity",
+      "value": "JADE E-SERVICES SINGAPORE PTE. LTD.",
+      "is_required": true
+    },
+    {
+      "row_id": "w2xtzm8g",
+      "field": "po_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "qwotxnpp",
+      "field": "vendor_name",
+      "value": "FUJIFILM BUSINESS INNOVATION SINGAPORE PTE. LTD.",
+      "is_required": true
+    },
+    {
+      "row_id": "chuay6ck",
+      "field": "vendor_address",
+      "value": "20E Pasir Panjang Road, #02-21A Mapletree Business City, Singapore 117439",
+      "is_required": false
+    },
+    {
+      "row_id": "w2315svk",
+      "field": "invoice_date",
+      "value": "2025-12-01",
+      "is_required": true
+    },
+    {
+      "row_id": "e3ddm3gi",
+      "field": "invoice_number",
+      "value": "112120063",
+      "is_required": true
+    },
+    {
+      "row_id": "x1h7z9mt",
+      "field": "currency",
+      "value": "SGD",
+      "is_required": true
+    },
+    {
+      "row_id": "3xs2ravw",
+      "field": "total_amount_before_vat",
+      "value": 364,
+      "is_required": true
+    },
+    {
+      "row_id": "37teo1kb",
+      "field": "vat_gst",
+      "value": 32.76,
+      "is_required": false
+    },
+    {
+      "row_id": "4pp9w4cl",
+      "field": "total_amount",
+      "value": 396.76,
+      "is_required": true
+    },
+    {
+      "row_id": "act51mk6",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "jl962gqs",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "bcoboqkh",
+      "field": "description",
+      "value": "Being billing for the agreement number: L00043701 For period from 01-DEC-2025 to 31-DEC-2025",
+      "is_required": false
+    },
+    {
+      "row_id": "4ctbdglc",
+      "field": "vendor_vat_id",
+      "value": "MR-8500294-0",
+      "is_required": false
+    },
+    {
+      "row_id": "37etdaw8",
+      "field": "customer_address",
+      "value": "7 TEMASEK BOULEVARD SUNTEC CITY TOWER 1 #35-01 SINGAPORE,038987",
+      "is_required": false
+    },
+    {
+      "row_id": "5b99sw1t",
+      "field": "customer_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "i2hql0qk",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "41gus2a2",
+      "field": "due_date",
+      "value": "2025-12-31",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "yougygt9",
+      "item_description": "RENTAL CHARGES - Number of instalment 16",
+      "item_code": "F1C4570H-4T",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 364,
+      "total_price_before_vat": 364,
+      "row_bbox": {
+        "x_min": 170,
+        "y_min": 1650,
+        "x_max": 328,
+        "y_max": 1666
+      }
+    }
+  ],
+  "run_id": "69fdc41d2fb73018fa565e75",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:14:04.946Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

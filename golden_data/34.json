@@ -1,0 +1,108 @@
+{
+  "run_id": "69e9cf1ae791fe853a510010",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "13"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2024-11-01"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "RIESTA TIARA P."
+    },
+    {
+      "field": "vendor_address",
+      "value": ""
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": ""
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "PT Fashion Marketplace Indonesia"
+    },
+    {
+      "field": "customer_address",
+      "value": "Capital Place Lantai 26, Jl. Jend. Gatot Subroto Kav. 18, Kuningan Barat, Mampang Prapatan, 12710 Jakarta Selatan, DKI Jakarta, Indonesia"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": ""
+    },
+    {
+      "field": "description",
+      "value": "Freelance Graphic Designer"
+    },
+    {
+      "field": "currency",
+      "value": "IDR"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 5641026.0
+    },
+    {
+      "field": "vat_gst",
+      "value": 0.0
+    },
+    {
+      "field": "total_amount",
+      "value": 5641026.0
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "Bank Central Asia (BCA)"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "Riesta Tiara Pratiwi"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "5271 2603 43"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": 0.0
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "Freelance Graphic Designer",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 5641026,
+      "total_price_before_vat": 5641026,
+      "Page": 1
+    }
+  ]
+}

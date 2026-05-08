@@ -1,0 +1,126 @@
+{
+  "run_id": "69e9fef3a7123d0f33ae859d",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5300000472"
+    },
+    {
+      "field": "invoice_number",
+      "value": "INV-B2202258"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-05-23"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "PT. Aditya Sriwijaya"
+    },
+    {
+      "field": "vendor_address",
+      "value": "Jl. Raya Siliwangi No. 267, RT 002, RW 041, Bojong Rawalumbu, Rawalumbu, Kota Bekasi, Jawa Barat 17116"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "0211277868432000"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "PT. FASHION ESERVICES INDONESIA"
+    },
+    {
+      "field": "customer_address",
+      "value": "CAPITAL PLACE LANTAI 26, JL. JEND. GATOT SUBROTO KAV.18, KUNINGAN BARAT, MAMPANG PRAPATAN, KOTA ADM. JAKARTA SELATAN, DKI JAKARTA 12710"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "0032235764015000"
+    },
+    {
+      "field": "description",
+      "value": ""
+    },
+    {
+      "field": "currency",
+      "value": "IDR"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 27645000.0
+    },
+    {
+      "field": "vat_gst",
+      "value": 3040950.0
+    },
+    {
+      "field": "total_amount",
+      "value": 30685950.0
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "BCA"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "PT ADITYA SRIWIJAYA"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "5770.502.758"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": 0.0
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "LED SiMbat TMS012 1xTLED 1200mm FTB 1CT/6",
+      "item_code": "000000",
+      "unit_of_measurement": "Unit",
+      "quantity": 100,
+      "unit_price": 118000,
+      "total_price_before_vat": 11800000,
+      "Page": 2
+    },
+    {
+      "item_description": "MAS LEDTube STD 1200mm 10W865 T8 1CT/20",
+      "item_code": "000000",
+      "unit_of_measurement": "Unit",
+      "quantity": 100,
+      "unit_price": 154000,
+      "total_price_before_vat": 15400000,
+      "Page": 2
+    },
+    {
+      "item_description": "Supreme NYM @50m 2x1.5",
+      "item_code": "000000",
+      "unit_of_measurement": "Unit",
+      "quantity": 1,
+      "unit_price": 445000,
+      "total_price_before_vat": 445000,
+      "Page": 2
+    }
+  ]
+}

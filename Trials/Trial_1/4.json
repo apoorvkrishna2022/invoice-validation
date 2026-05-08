@@ -1,0 +1,197 @@
+{
+  "_id": "69fdc3ef2fb73018fa565e69",
+  "id": null,
+  "created_at": "2026-05-08T11:07:27.973Z",
+  "updated_at": "2026-05-08T11:07:27.973Z",
+  "metadata": [
+    {
+      "row_id": "47o9j4sb",
+      "field": "customer_legal_entity",
+      "value": "BF Jade E-Services Philippines Inc.",
+      "is_required": true
+    },
+    {
+      "row_id": "e4q8qtyc",
+      "field": "po_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "0zk32p2t",
+      "field": "vendor_name",
+      "value": "MICHAEL JEFFREY N. LABUGUEN",
+      "is_required": true
+    },
+    {
+      "row_id": "pr9ps69b",
+      "field": "vendor_address",
+      "value": "8 Pulog St., Brgy. Malamig, Mandaluyong City",
+      "is_required": false
+    },
+    {
+      "row_id": "y1tt2umy",
+      "field": "invoice_date",
+      "value": "2026-03-26",
+      "is_required": true
+    },
+    {
+      "row_id": "r09b2y2v",
+      "field": "invoice_number",
+      "value": "6863",
+      "is_required": true
+    },
+    {
+      "row_id": "rxrqcqwd",
+      "field": "currency",
+      "value": "PHP",
+      "is_required": true
+    },
+    {
+      "row_id": "183oocz7",
+      "field": "total_amount_before_vat",
+      "value": 12111.11,
+      "is_required": true
+    },
+    {
+      "row_id": "9eviur50",
+      "field": "vat_gst",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "31cuiwcw",
+      "field": "total_amount",
+      "value": 12111.11,
+      "is_required": true
+    },
+    {
+      "row_id": "8pcci788",
+      "field": "wht",
+      "value": 1126.11,
+      "is_required": false
+    },
+    {
+      "row_id": "ul0i66lo",
+      "field": "net_amount_after_wht",
+      "value": 10985,
+      "is_required": false
+    },
+    {
+      "row_id": "94lcn4gs",
+      "field": "description",
+      "value": "zawra shoot Talent Fee - 26 march 2026",
+      "is_required": false
+    },
+    {
+      "row_id": "6p1ooqn3",
+      "field": "vendor_vat_id",
+      "value": "935-320-884-000",
+      "is_required": false
+    },
+    {
+      "row_id": "5ug8h6xr",
+      "field": "customer_address",
+      "value": "mcx E-commerce Daang Hari-Daang Reyna Junction Cavite Express way, Poblacion, 1776, city of muntinlupa",
+      "is_required": false
+    },
+    {
+      "row_id": "zvf1wapm",
+      "field": "customer_vat_id",
+      "value": "088-183-533",
+      "is_required": false
+    },
+    {
+      "row_id": "op5zewr4",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "kca0caud",
+      "field": "due_date",
+      "value": "",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "sqvwigh0",
+      "item_description": "Talent Fee",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 11111.11,
+      "total_price_before_vat": 11111.11,
+      "row_bbox": {
+        "x_min": 15,
+        "y_min": 360,
+        "x_max": 653,
+        "y_max": 412
+      }
+    },
+    {
+      "id": 2,
+      "row_id": "ueb331w6",
+      "item_description": "Food & Transpo",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 1000,
+      "total_price_before_vat": 1000,
+      "row_bbox": {
+        "x_min": 18,
+        "y_min": 416,
+        "x_max": 728,
+        "y_max": 537
+      }
+    },
+    {
+      "id": 3,
+      "row_id": "p1dnwgzj",
+      "item_description": "Less: Transpo WHT",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": -10,
+      "total_price_before_vat": -10,
+      "row_bbox": {
+        "x_min": 18,
+        "y_min": 500,
+        "x_max": 437,
+        "y_max": 564
+      }
+    },
+    {
+      "id": 4,
+      "row_id": "464pjku4",
+      "item_description": "Less: Food WHT",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": -6,
+      "total_price_before_vat": -6,
+      "row_bbox": {
+        "x_min": 24,
+        "y_min": 560,
+        "x_max": 411,
+        "y_max": 610
+      }
+    }
+  ],
+  "run_id": "69fdc24a60da4c597765b7a5",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:07:29.573Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

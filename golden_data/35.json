@@ -1,0 +1,144 @@
+{
+  "run_id": "69e9cf1bb96af9dc7089c0af",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5100035432"
+    },
+    {
+      "field": "invoice_number",
+      "value": "INV/GDN/2505/5000207530"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-05-28"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": "2025-06-27"
+    },
+    {
+      "field": "vendor_name",
+      "value": "PT. Global Digital Niaga Tbk."
+    },
+    {
+      "field": "vendor_address",
+      "value": "JL. JEND. A. YANI No 34 PANJUNAN KOTA KUDUS- JAWA TENGAH"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "0030006449506000"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "PT FASHION ESERVICES INDONESIA"
+    },
+    {
+      "field": "customer_address",
+      "value": "CAPITAL PLACE LANTAI 26 JL. JEND. GATOT SUBROTO KAV. 18 KUNINGAN BARAT, MAMPANG PRAPATAN JAKARTA SELATAN, DKI JAKARTA"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "0032235764015000"
+    },
+    {
+      "field": "description",
+      "value": "B2B PLUXEE Digital Voucher"
+    },
+    {
+      "field": "currency",
+      "value": "IDR"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": "2217240"
+    },
+    {
+      "field": "vat_gst",
+      "value": 18067.0
+    },
+    {
+      "field": "total_amount",
+      "value": 2235307.0
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "BCA"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "PT FASHIONESERVICES INDONESIA"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "0766087100136"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": "CENAIDJA"
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "B2B PLUXEE Digital Voucher Rp 200.000",
+      "item_code": "",
+      "unit_of_measurement": "PC",
+      "quantity": 7,
+      "unit_price": 206000,
+      "total_price_before_vat": 1442000,
+      "Page": 1
+    },
+    {
+      "item_description": "B2B PLUXEE Digital Voucher Rp 150.000",
+      "item_code": "",
+      "unit_of_measurement": "PC",
+      "quantity": 1,
+      "unit_price": 155000,
+      "total_price_before_vat": 155000,
+      "Page": 1
+    },
+    {
+      "item_description": "B2B PLUXEE Digital Voucher Rp 80.000",
+      "item_code": "",
+      "unit_of_measurement": "PC",
+      "quantity": 3,
+      "unit_price": 83000,
+      "total_price_before_vat": 249000,
+      "Page": 1
+    },
+    {
+      "item_description": "B2B PLUXEE Digital Voucher Rp 60.000",
+      "item_code": "",
+      "unit_of_measurement": "PC",
+      "quantity": 3,
+      "unit_price": 62000,
+      "total_price_before_vat": 186000,
+      "Page": 1
+    },
+    {
+      "item_description": "B2B PLUXEE Digital Voucher Rp 20.000",
+      "item_code": "",
+      "unit_of_measurement": "PC",
+      "quantity": 1,
+      "unit_price": 21000,
+      "total_price_before_vat": 21000,
+      "Page": 1
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "run_id": "69ea0fb80a0539349a15e3eb",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5200004017"
+    },
+    {
+      "field": "invoice_number",
+      "value": "THR/008/0825"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-08-25"
+    },
+    {
+      "field": "payment_terms",
+      "value": "Net 45 Days"
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "TETAP HANGAT RELIANCE SDN BHD"
+    },
+    {
+      "field": "vendor_address",
+      "value": "9 & 9-1, JALAN RAMIN 1, BANDAR BOTANIC, 41200 KLANG, SELANGOR D.E."
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "B10-1809-32000147"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "JADE ESERVICES MALAYSIA SDN BHD"
+    },
+    {
+      "field": "customer_address",
+      "value": "UNIT 13-1, LEVEL 13, MERCU 3, JALAN BANGSAR, KL ECO CITY, 59200 KUALA LUMPUR"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": ""
+    },
+    {
+      "field": "description",
+      "value": "BEING CHARGES FOR THE PERIOD FROM 26.07.2025 TO 25.08.2025"
+    },
+    {
+      "field": "currency",
+      "value": "MYR"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 9700.6
+    },
+    {
+      "field": "vat_gst",
+      "value": 776.05
+    },
+    {
+      "field": "total_amount",
+      "value": 10476.65
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "Hong Leong Bank Berhad"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "TETAP HANGAT RELIANCE SDN BHD"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "327-00-03234-5"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "WAN MUHAMMAD SYAFIQ BIN WAN ROSLEE",
+      "item_code": "",
+      "unit_of_measurement": "Days",
+      "quantity": "1",
+      "unit_price": "1520.3",
+      "total_price_before_vat": 1520.3,
+      "Page": 2,
+      "total_price": "1520.30"
+    },
+    {
+      "item_description": "NORSALIN BINTI TASIM",
+      "item_code": "",
+      "unit_of_measurement": "Days",
+      "quantity": "1",
+      "unit_price": "2258.54",
+      "total_price_before_vat": 2258.54,
+      "Page": 2,
+      "total_price": "2258.54"
+    },
+    {
+      "item_description": "MUHAMMAD ZULHILMI BIN MAT JUSOH",
+      "item_code": "",
+      "unit_of_measurement": "Days",
+      "quantity": "1",
+      "unit_price": "2406.54",
+      "total_price_before_vat": "2406.54",
+      "Page": 2,
+      "total_price": "2406.54"
+    },
+    {
+      "item_description": "MUHAMMAD IKMAL BIN ABDULLAH",
+      "item_code": "",
+      "unit_of_measurement": "Days",
+      "quantity": "1",
+      "unit_price": "3515.22",
+      "total_price_before_vat": 3515.22,
+      "Page": 2,
+      "total_price": "3515.22"
+    }
+  ]
+}

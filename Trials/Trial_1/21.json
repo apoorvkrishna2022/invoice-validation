@@ -1,0 +1,132 @@
+{
+  "_id": "69fdc6047cd80c867f48afd7",
+  "id": null,
+  "created_at": "2026-05-08T11:16:20.719Z",
+  "updated_at": "2026-05-08T11:16:20.719Z",
+  "metadata": [
+    {
+      "row_id": "lpu690pp",
+      "field": "customer_legal_entity",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "3nf2y4h9",
+      "field": "po_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "wd0otk2y",
+      "field": "vendor_name",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "mvgdqnwb",
+      "field": "vendor_address",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "x15hcqoi",
+      "field": "invoice_date",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "c4ijw2b9",
+      "field": "invoice_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "pscot3m8",
+      "field": "currency",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "wu48cau5",
+      "field": "total_amount_before_vat",
+      "value": 2448.86,
+      "is_required": true
+    },
+    {
+      "row_id": "x68vt0cz",
+      "field": "vat_gst",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "xtejawgy",
+      "field": "total_amount",
+      "value": 2448.86,
+      "is_required": true
+    },
+    {
+      "row_id": "34l5zetf",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "j4d9omt3",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "y6121o37",
+      "field": "description",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "ejhl7nez",
+      "field": "vendor_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "qv7lfl6r",
+      "field": "customer_address",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "pa0y3fn2",
+      "field": "customer_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "s35s78q7",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "l4tf31xn",
+      "field": "due_date",
+      "value": "",
+      "is_required": false
+    }
+  ],
+  "line_items": [],
+  "run_id": "69fdc4202fb73018fa565ea5",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:16:22.597Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

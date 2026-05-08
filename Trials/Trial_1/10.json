@@ -1,0 +1,149 @@
+{
+  "_id": "69fdc4307cd80c867f48afbc",
+  "id": null,
+  "created_at": "2026-05-08T11:08:32.501Z",
+  "updated_at": "2026-05-08T11:08:32.501Z",
+  "metadata": [
+    {
+      "row_id": "l1i78hw1",
+      "field": "customer_legal_entity",
+      "value": "BF Jade E-Services Philippines, Inc",
+      "is_required": true
+    },
+    {
+      "row_id": "56yg5utj",
+      "field": "po_number",
+      "value": "5100035534",
+      "is_required": true
+    },
+    {
+      "row_id": "3ho182ux",
+      "field": "vendor_name",
+      "value": "R. DAN AND CO., INC.",
+      "is_required": true
+    },
+    {
+      "row_id": "xsug22ob",
+      "field": "vendor_address",
+      "value": "Lot 6,7,8,9 Blk. 5 Greenway Business Park, Bulihan Silang 4118 Cavite Phils. Tel. Nos: (046) 419-4708 / (046) 419-4709. Fax No: (046) 419-4704",
+      "is_required": false
+    },
+    {
+      "row_id": "og7goex4",
+      "field": "invoice_date",
+      "value": "2026-03-25",
+      "is_required": true
+    },
+    {
+      "row_id": "dwlil57j",
+      "field": "invoice_number",
+      "value": "0736",
+      "is_required": true
+    },
+    {
+      "row_id": "79175nqs",
+      "field": "currency",
+      "value": "PHP",
+      "is_required": true
+    },
+    {
+      "row_id": "i0v384p0",
+      "field": "total_amount_before_vat",
+      "value": 34227.68,
+      "is_required": true
+    },
+    {
+      "row_id": "wycuegkx",
+      "field": "vat_gst",
+      "value": 4107.32,
+      "is_required": false
+    },
+    {
+      "row_id": "7m8m4vmp",
+      "field": "total_amount",
+      "value": 37650.45,
+      "is_required": true
+    },
+    {
+      "row_id": "atouc0su",
+      "field": "wht",
+      "value": 684.55,
+      "is_required": false
+    },
+    {
+      "row_id": "bveedngk",
+      "field": "net_amount_after_wht",
+      "value": 33543.13,
+      "is_required": false
+    },
+    {
+      "row_id": "n8euct38",
+      "field": "description",
+      "value": "Quarterly PMS Support Services for the material Handling Equipment in Zalora MCX Facility",
+      "is_required": false
+    },
+    {
+      "row_id": "vgy6atik",
+      "field": "vendor_vat_id",
+      "value": "908-345-630-00000",
+      "is_required": false
+    },
+    {
+      "row_id": "m9vnpi72",
+      "field": "customer_address",
+      "value": "MCX E-Commerce Center Daang Hari and Daang Reyna Junction Muntinlupa - Cavite Expressway (MCX)",
+      "is_required": false
+    },
+    {
+      "row_id": "wrc0sqib",
+      "field": "customer_vat_id",
+      "value": "008-183-175-000",
+      "is_required": false
+    },
+    {
+      "row_id": "h11e3w69",
+      "field": "payment_terms",
+      "value": "3rd PMS; 15 Days",
+      "is_required": false
+    },
+    {
+      "row_id": "cyo63ve6",
+      "field": "due_date",
+      "value": "",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "5ds7v179",
+      "item_description": "Quarterly PMS Support Services for the material Handling Equipment in Zalora MCX Facility",
+      "item_code": "",
+      "unit_of_measurement": "LOT",
+      "quantity": 1,
+      "unit_price": 34227.68,
+      "total_price_before_vat": 34227.68,
+      "row_bbox": {
+        "x_min": 94,
+        "y_min": 657,
+        "x_max": 891,
+        "y_max": 727
+      }
+    }
+  ],
+  "run_id": "69fdc24a2fb73018fa565e43",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:08:34.816Z",
+      "results": [
+        {
+          "rule": "Tax on 34227.68 with vat 4107.32 should be 38335, not 37650.45.",
+          "passed": false,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

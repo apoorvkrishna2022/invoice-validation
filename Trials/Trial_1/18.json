@@ -1,0 +1,165 @@
+{
+  "_id": "69fdc5ae7cd80c867f48afce",
+  "id": null,
+  "created_at": "2026-05-08T11:14:54.275Z",
+  "updated_at": "2026-05-08T11:14:54.275Z",
+  "metadata": [
+    {
+      "row_id": "8265vdhc",
+      "field": "customer_legal_entity",
+      "value": "ZALORA SOUTH EAST ASIA PTE LTD",
+      "is_required": true
+    },
+    {
+      "row_id": "zng76i60",
+      "field": "po_number",
+      "value": "5100036591",
+      "is_required": true
+    },
+    {
+      "row_id": "vdk34mra",
+      "field": "vendor_name",
+      "value": "HORIZONS GLOBAL TECHNOLOGY PTE. LTD.",
+      "is_required": true
+    },
+    {
+      "row_id": "yugwns2y",
+      "field": "vendor_address",
+      "value": "261 Waterloo Street #03-36, Waterloo Center Singapore Singapore",
+      "is_required": false
+    },
+    {
+      "row_id": "47svj9ca",
+      "field": "invoice_date",
+      "value": "2025-09-05",
+      "is_required": true
+    },
+    {
+      "row_id": "1p6ztupp",
+      "field": "invoice_number",
+      "value": "PR82683543-2509_1",
+      "is_required": true
+    },
+    {
+      "row_id": "m4c955n6",
+      "field": "currency",
+      "value": "SGD",
+      "is_required": true
+    },
+    {
+      "row_id": "vfx50sgn",
+      "field": "total_amount_before_vat",
+      "value": 3040.67,
+      "is_required": true
+    },
+    {
+      "row_id": "8h5t5txl",
+      "field": "vat_gst",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "c5c5es58",
+      "field": "total_amount",
+      "value": 3040.67,
+      "is_required": true
+    },
+    {
+      "row_id": "oitm004o",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "rjkvv8g2",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "25f7ujeq",
+      "field": "description",
+      "value": "Global Project Charges - September, 2025",
+      "is_required": false
+    },
+    {
+      "row_id": "sw5k0vw4",
+      "field": "vendor_vat_id",
+      "value": "202117926G",
+      "is_required": false
+    },
+    {
+      "row_id": "49ni65md",
+      "field": "customer_address",
+      "value": "JustCo, Centrepoint Singapore, 176 Orchard Road #05-05 Singapore, 238843 Singapore",
+      "is_required": false
+    },
+    {
+      "row_id": "ittmgl5o",
+      "field": "customer_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "kivf8meh",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "q24177ra",
+      "field": "due_date",
+      "value": "2025-09-15",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "9kmnu86a",
+      "item_description": "Recurring Income",
+      "item_code": "",
+      "unit_of_measurement": "INR",
+      "quantity": 200000,
+      "unit_price": 0.01505654,
+      "total_price_before_vat": 3011.31,
+      "row_bbox": {
+        "x_min": 88,
+        "y_min": 343,
+        "x_max": 2168,
+        "y_max": 423
+      }
+    },
+    {
+      "id": 2,
+      "row_id": "yqy9ykir",
+      "item_description": "Employer Burden",
+      "item_code": "",
+      "unit_of_measurement": "INR",
+      "quantity": 1950,
+      "unit_price": 0.01505654,
+      "total_price_before_vat": 29.36,
+      "row_bbox": {
+        "x_min": 88,
+        "y_min": 343,
+        "x_max": 2166,
+        "y_max": 423
+      }
+    }
+  ],
+  "run_id": "69fdc41d666a9f60396db9c0",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:14:56.332Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

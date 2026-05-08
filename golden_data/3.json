@@ -1,0 +1,109 @@
+{
+  "run_id": "69e07f775843c99fb6ff19be",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5100038434"
+    },
+    {
+      "field": "invoice_number",
+      "value": "8430"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2024-03-24"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "ROBTON INDUSTRIES, INC."
+    },
+    {
+      "field": "vendor_address",
+      "value": "38-D JHB Compound Malinis St. Lawang Bato 1443 City of Valenzuela NCR Third District Philippines"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "000-365-708-00001"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "BF Jade E-Services Philippines Inc."
+    },
+    {
+      "field": "customer_address",
+      "value": "MCX E-Commerce Center, Daang Hari-Reyna Poblacion, Muntinlupa"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "183-175-00000"
+    },
+    {
+      "field": "description",
+      "value": "Plain PE Bag with ziplock with 2 holes 12 x 16 x .002 (PM12), PO#5100038434"
+    },
+    {
+      "field": "currency",
+      "value": "PHP"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 33884.0
+    },
+    {
+      "field": "vat_gst",
+      "value": 4066.08
+    },
+    {
+      "field": "total_amount",
+      "value": 37950.08
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "Plain PE Bag with ziplock with 2 holes 12 x 16 x .002, PO#5100038434",
+      "item_code": "PM12",
+      "unit_of_measurement": "pcs",
+      "quantity": 17200,
+      "unit_price": "1.97",
+      "total_price_before_vat": "33884",
+      "Page": 1,
+      "total_price": "33884.00"
+    }
+  ]
+}

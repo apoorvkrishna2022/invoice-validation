@@ -1,0 +1,108 @@
+{
+  "run_id": "69e9fef33cd19508c6c88adc",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5300000478"
+    },
+    {
+      "field": "invoice_number",
+      "value": "INV/0693/KB/IX/2025"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-09-26"
+    },
+    {
+      "field": "payment_terms",
+      "value": "30 Days"
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "CV. KIRAMEKU BERSAMA"
+    },
+    {
+      "field": "vendor_address",
+      "value": "KP PISANGAN NO.05, RT 011, RW 003, PENGGILINGAN, CAKUNG, KOTA ADM. JAKARTA TIMUR, DKI JAKARTA 13940"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "0966522468003000"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "PT. FASHION ESERVICES INDONESIA"
+    },
+    {
+      "field": "customer_address",
+      "value": "CAPITAL PLACE LANTAI 26, JL. JEND. GATOT SUBROTO KAV.18, RT 000, RW 000, KUNINGAN BARAT, MAMPANG PRAPATAN, KOTA ADM. JAKARTA SELATAN, DKI JAKARTA 12710"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "0032235764015000"
+    },
+    {
+      "field": "description",
+      "value": "keranjang GreenLeaf 2209L"
+    },
+    {
+      "field": "currency",
+      "value": "IDR"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": "12500000"
+    },
+    {
+      "field": "vat_gst",
+      "value": 1375000.0
+    },
+    {
+      "field": "total_amount",
+      "value": 13875000.0
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "BCA Cab. Rawamangun"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "Kirameku Bersama CV"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "0947130033"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": 0.0
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "keranjang GreenLeaf 2209L (Ukuran 698mm x 479mm x 375mm,Ready Warna Biru, Merah, Hijau, & Kuning)",
+      "item_code": "000000",
+      "unit_of_measurement": "Piece",
+      "quantity": 100,
+      "unit_price": 125000,
+      "total_price_before_vat": 12500000,
+      "Page": 4
+    }
+  ]
+}

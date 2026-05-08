@@ -1,0 +1,181 @@
+{
+  "_id": "69fdc5cd60da4c597765b7f3",
+  "id": null,
+  "created_at": "2026-05-08T11:15:25.299Z",
+  "updated_at": "2026-05-08T11:15:25.299Z",
+  "metadata": [
+    {
+      "row_id": "v8i1ha5a",
+      "field": "customer_legal_entity",
+      "value": "ZALORA SOUTH EAST ASIA PTE LTD",
+      "is_required": true
+    },
+    {
+      "row_id": "qvuw3k5z",
+      "field": "po_number",
+      "value": "5100036591",
+      "is_required": true
+    },
+    {
+      "row_id": "34b8nvbc",
+      "field": "vendor_name",
+      "value": "HORIZONS GLOBAL TECHNOLOGY PTE. LTD.",
+      "is_required": true
+    },
+    {
+      "row_id": "wlomval7",
+      "field": "vendor_address",
+      "value": "261 Waterloo Street #03-36, Waterloo Center Singapore Singapore",
+      "is_required": false
+    },
+    {
+      "row_id": "yss7muf9",
+      "field": "invoice_date",
+      "value": "2025-11-12",
+      "is_required": true
+    },
+    {
+      "row_id": "eid7uomd",
+      "field": "invoice_number",
+      "value": "CON82683543-2510_1",
+      "is_required": true
+    },
+    {
+      "row_id": "edy83fr2",
+      "field": "currency",
+      "value": "SGD",
+      "is_required": true
+    },
+    {
+      "row_id": "r3s8he4c",
+      "field": "total_amount_before_vat",
+      "value": 2977.09,
+      "is_required": true
+    },
+    {
+      "row_id": "lm5rwpkf",
+      "field": "vat_gst",
+      "value": 5.85,
+      "is_required": false
+    },
+    {
+      "row_id": "jja06072",
+      "field": "total_amount",
+      "value": 2982.94,
+      "is_required": true
+    },
+    {
+      "row_id": "wdz1xf46",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "l658g0su",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "mpiojyjg",
+      "field": "description",
+      "value": "Global Project Charges - October, 2025",
+      "is_required": false
+    },
+    {
+      "row_id": "gnrxylli",
+      "field": "vendor_vat_id",
+      "value": "202117926G",
+      "is_required": false
+    },
+    {
+      "row_id": "tqfuhv80",
+      "field": "customer_address",
+      "value": "JustCo, Centrepoint Singapore, 176 Orchard Road #05-05 Singapore, 238843 Singapore",
+      "is_required": false
+    },
+    {
+      "row_id": "noolsvkk",
+      "field": "customer_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "pnj2ws3f",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "a5u3tjl0",
+      "field": "due_date",
+      "value": "2025-12-12",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "n4bnwh6x",
+      "item_description": "Global Project Charges - October, 2025",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 2912.09,
+      "total_price_before_vat": 2912.09,
+      "row_bbox": {
+        "x_min": 75,
+        "y_min": 1000,
+        "x_max": 927,
+        "y_max": 1024
+      }
+    },
+    {
+      "id": 2,
+      "row_id": "52njchca",
+      "item_description": "Monthly Service Fees - October, 2025",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 38,
+      "total_price_before_vat": 38,
+      "row_bbox": {
+        "x_min": 76,
+        "y_min": 1056,
+        "x_max": 584,
+        "y_max": 1079
+      }
+    },
+    {
+      "id": 3,
+      "row_id": "cu5i42qp",
+      "item_description": "Payout Fees - October, 2025",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 27,
+      "total_price_before_vat": 27,
+      "row_bbox": {
+        "x_min": 76,
+        "y_min": 1108,
+        "x_max": 461,
+        "y_max": 1136
+      }
+    }
+  ],
+  "run_id": "69fdc41d7cd80c867f48afb2",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:15:27.572Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

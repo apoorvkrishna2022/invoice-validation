@@ -1,0 +1,245 @@
+{
+  "_id": "69fdc458666a9f60396db9cd",
+  "id": null,
+  "created_at": "2026-05-08T11:09:12.634Z",
+  "updated_at": "2026-05-08T11:09:12.634Z",
+  "metadata": [
+    {
+      "row_id": "5ecn2cvp",
+      "field": "customer_legal_entity",
+      "value": "Global Fashion Group SGP Services Pte. Ltd.",
+      "is_required": true
+    },
+    {
+      "row_id": "ko8do1ra",
+      "field": "po_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "4w8kbw9r",
+      "field": "vendor_name",
+      "value": "Amazon Web Services, Inc.",
+      "is_required": true
+    },
+    {
+      "row_id": "m9qtrr2c",
+      "field": "vendor_address",
+      "value": "410 Terry Avenue North, Seattle, Washington 98109-5210",
+      "is_required": false
+    },
+    {
+      "row_id": "18tgnij9",
+      "field": "invoice_date",
+      "value": "2025-08-01",
+      "is_required": true
+    },
+    {
+      "row_id": "c31rh51n",
+      "field": "invoice_number",
+      "value": "2253933525",
+      "is_required": true
+    },
+    {
+      "row_id": "ojfhq4e8",
+      "field": "currency",
+      "value": "USD",
+      "is_required": true
+    },
+    {
+      "row_id": "xmk7xf4q",
+      "field": "total_amount_before_vat",
+      "value": 16007.95,
+      "is_required": true
+    },
+    {
+      "row_id": "l7xcmd5a",
+      "field": "vat_gst",
+      "value": 0,
+      "is_required": false
+    },
+    {
+      "row_id": "vp4dq917",
+      "field": "total_amount",
+      "value": 16007.95,
+      "is_required": true
+    },
+    {
+      "row_id": "qf14wqoq",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "ko1hcbyx",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "3bon70y4",
+      "field": "description",
+      "value": "AWS Marketplace Charges",
+      "is_required": false
+    },
+    {
+      "row_id": "iv2h0lnt",
+      "field": "vendor_vat_id",
+      "value": "M90373009E",
+      "is_required": false
+    },
+    {
+      "row_id": "e5v42opc",
+      "field": "customer_address",
+      "value": "51 Bras Basah Road, #07-01 SONE CENTRAL, Singapore, Singapore, 189554, SG",
+      "is_required": false
+    },
+    {
+      "row_id": "gnadpoac",
+      "field": "customer_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "1j1ra9n7",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "1bumfpxp",
+      "field": "due_date",
+      "value": "2025-08-31",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "57t6yilv",
+      "item_description": "Claude 3.7 Sonnet (Amazon Bedrock Edition) sold by Anthropic, PBC",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 32.85,
+      "total_price_before_vat": 32.85,
+      "row_bbox": {
+        "x_min": 136,
+        "y_min": 792,
+        "x_max": 994,
+        "y_max": 818
+      }
+    },
+    {
+      "id": 2,
+      "row_id": "1tmkcquw",
+      "item_description": "Datadog sold by Datadog Inc.",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 15663.42,
+      "total_price_before_vat": 15663.42,
+      "row_bbox": {
+        "x_min": 138,
+        "y_min": 1388,
+        "x_max": 1589,
+        "y_max": 1413
+      }
+    },
+    {
+      "id": 3,
+      "row_id": "akl3e20n",
+      "item_description": "Claude 3.5 Sonnet (Amazon Bedrock Edition) sold by Anthropic, PBC",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 8.9,
+      "total_price_before_vat": 8.9,
+      "row_bbox": {
+        "x_min": 136,
+        "y_min": 112,
+        "x_max": 1589,
+        "y_max": 137
+      }
+    },
+    {
+      "id": 4,
+      "row_id": "38f78oh5",
+      "item_description": "Claude Opus 4 (Amazon Bedrock Edition) sold by Anthropic, PBC",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 112.89,
+      "total_price_before_vat": 112.89,
+      "row_bbox": {
+        "x_min": 136,
+        "y_min": 371,
+        "x_max": 1587,
+        "y_max": 398
+      }
+    },
+    {
+      "id": 5,
+      "row_id": "5wlzgwxx",
+      "item_description": "Claude Sonnet 4 (Amazon Bedrock Edition) sold by Anthropic, PBC",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 147.37,
+      "total_price_before_vat": 147.37,
+      "row_bbox": {
+        "x_min": 136,
+        "y_min": 631,
+        "x_max": 1589,
+        "y_max": 657
+      }
+    },
+    {
+      "id": 6,
+      "row_id": "eju6z8uh",
+      "item_description": "New Relic APM, Logs + Infrastructure Monitoring (PAYG with Free Tier) sold by New Relic - Commerce",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 42.48,
+      "total_price_before_vat": 42.48,
+      "row_bbox": {
+        "x_min": 137,
+        "y_min": 891,
+        "x_max": 1589,
+        "y_max": 946
+      }
+    },
+    {
+      "id": 7,
+      "row_id": "rhmjobtb",
+      "item_description": "Claude 3.5 Haiku (Amazon Bedrock Edition) sold by Anthropic, PBC",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 0.04,
+      "total_price_before_vat": 0.04,
+      "row_bbox": {
+        "x_min": 137,
+        "y_min": 1184,
+        "x_max": 1589,
+        "y_max": 1252
+      }
+    }
+  ],
+  "run_id": "69fdc250666a9f60396db99d",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:09:14.502Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

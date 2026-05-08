@@ -1,0 +1,149 @@
+{
+  "_id": "69fdc59a2fb73018fa565ec9",
+  "id": null,
+  "created_at": "2026-05-08T11:14:34.666Z",
+  "updated_at": "2026-05-08T11:14:34.666Z",
+  "metadata": [
+    {
+      "row_id": "8lszwug4",
+      "field": "customer_legal_entity",
+      "value": "Zalora South East Asia Pte. Ltd",
+      "is_required": true
+    },
+    {
+      "row_id": "781refkf",
+      "field": "po_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "iwu8pjka",
+      "field": "vendor_name",
+      "value": "Amazon Web Services, Inc.",
+      "is_required": true
+    },
+    {
+      "row_id": "u6j2hm1p",
+      "field": "vendor_address",
+      "value": "410 Terry Avenue North, Seattle, Washington 98109-5210",
+      "is_required": false
+    },
+    {
+      "row_id": "fy5hoix1",
+      "field": "invoice_date",
+      "value": "2025-11-10",
+      "is_required": true
+    },
+    {
+      "row_id": "b4ufpizw",
+      "field": "invoice_number",
+      "value": "2396796069",
+      "is_required": true
+    },
+    {
+      "row_id": "60zrega9",
+      "field": "currency",
+      "value": "USD",
+      "is_required": true
+    },
+    {
+      "row_id": "sn3rxj8p",
+      "field": "total_amount_before_vat",
+      "value": 6008.33,
+      "is_required": true
+    },
+    {
+      "row_id": "f9frn1h7",
+      "field": "vat_gst",
+      "value": 0,
+      "is_required": false
+    },
+    {
+      "row_id": "y46aiwa4",
+      "field": "total_amount",
+      "value": 6008.33,
+      "is_required": true
+    },
+    {
+      "row_id": "sf3xz273",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "q5702l34",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "xe6y04d0",
+      "field": "description",
+      "value": "Human Defense Platform by HUMAN Security sold by White Ops, Inc.",
+      "is_required": false
+    },
+    {
+      "row_id": "6nz4vk0h",
+      "field": "vendor_vat_id",
+      "value": "M90373009E",
+      "is_required": false
+    },
+    {
+      "row_id": "r5mvu8vs",
+      "field": "customer_address",
+      "value": "ATTN: Sumit Jain, 7 Temasek Boulevard, #35-01 Suntec City Tower 1, Singapore, Singapore, 038987, SG",
+      "is_required": false
+    },
+    {
+      "row_id": "ebtcovj8",
+      "field": "customer_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "s2rkcbx1",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "31es9sz4",
+      "field": "due_date",
+      "value": "2025-12-10",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "ynocsj50",
+      "item_description": "Human Defense Platform by HUMAN Security sold by White Ops, Inc. Start Date - 2025/11/10; End Date - 2025/12/10",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 6008.33,
+      "total_price_before_vat": 6008.33,
+      "row_bbox": {
+        "x_min": 138,
+        "y_min": 1128,
+        "x_max": 1590,
+        "y_max": 1196
+      }
+    }
+  ],
+  "run_id": "69fdc41f2fb73018fa565e9d",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:14:36.306Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

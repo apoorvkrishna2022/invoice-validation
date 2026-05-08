@@ -1,0 +1,149 @@
+{
+  "_id": "69fdc3b0666a9f60396db9b2",
+  "id": null,
+  "created_at": "2026-05-08T11:06:24.773Z",
+  "updated_at": "2026-05-08T11:06:24.773Z",
+  "metadata": [
+    {
+      "row_id": "punmiwx2",
+      "field": "customer_legal_entity",
+      "value": "Zalora (Hong Kong) Limited",
+      "is_required": true
+    },
+    {
+      "row_id": "x8zwnu6a",
+      "field": "po_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "n8bio6b0",
+      "field": "vendor_name",
+      "value": "Religious Education Resource Centre",
+      "is_required": true
+    },
+    {
+      "row_id": "tlbsqod8",
+      "field": "vendor_address",
+      "value": "45 Berwick Street, Sham Shui Po, Kowloon, Hong Kong",
+      "is_required": false
+    },
+    {
+      "row_id": "61zk3zum",
+      "field": "invoice_date",
+      "value": "2025-09-05",
+      "is_required": true
+    },
+    {
+      "row_id": "8dyyr2rg",
+      "field": "invoice_number",
+      "value": "2403-2025-10",
+      "is_required": true
+    },
+    {
+      "row_id": "8pfi6oxm",
+      "field": "currency",
+      "value": "HKD",
+      "is_required": true
+    },
+    {
+      "row_id": "s75mueod",
+      "field": "total_amount_before_vat",
+      "value": 62500,
+      "is_required": true
+    },
+    {
+      "row_id": "h6d8eb1l",
+      "field": "vat_gst",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "lb6ift41",
+      "field": "total_amount",
+      "value": 62500,
+      "is_required": true
+    },
+    {
+      "row_id": "nmc983fc",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "tdleowbx",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "oe0ne7d4",
+      "field": "description",
+      "value": "Rental for 02/10/2025 - 01/11/2025",
+      "is_required": false
+    },
+    {
+      "row_id": "sx0c0di9",
+      "field": "vendor_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "42hj0r9i",
+      "field": "customer_address",
+      "value": "Room 2403, Hong Kong Worsted Mills Industrial Building, 31-39 Wo Tong Tsui Street, Kwai Chung, NT",
+      "is_required": false
+    },
+    {
+      "row_id": "0eqbaq6t",
+      "field": "customer_vat_id",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "cngi0gbq",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "4tgg8pdf",
+      "field": "due_date",
+      "value": "",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "qlnp6w8g",
+      "item_description": "Rental for 02/10/2025 - 01/11/2025",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 62500,
+      "total_price_before_vat": 62500,
+      "row_bbox": {
+        "x_min": 259,
+        "y_min": 1163,
+        "x_max": 1388,
+        "y_max": 1192
+      }
+    }
+  ],
+  "run_id": "69fdc24b666a9f60396db98f",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:06:26.867Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

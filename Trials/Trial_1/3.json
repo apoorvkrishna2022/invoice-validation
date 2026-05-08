@@ -1,0 +1,149 @@
+{
+  "_id": "69fdc3aa60da4c597765b7b7",
+  "id": null,
+  "created_at": "2026-05-08T11:06:18.770Z",
+  "updated_at": "2026-05-08T11:06:18.770Z",
+  "metadata": [
+    {
+      "row_id": "wmzpun3e",
+      "field": "customer_legal_entity",
+      "value": "BF Jade E-Services Philippines Inc.",
+      "is_required": true
+    },
+    {
+      "row_id": "1dq38huq",
+      "field": "po_number",
+      "value": "PO#5100038434",
+      "is_required": true
+    },
+    {
+      "row_id": "2cki7fki",
+      "field": "vendor_name",
+      "value": "BROBTON INDUSTRIES, INC.",
+      "is_required": true
+    },
+    {
+      "row_id": "zxf3t32z",
+      "field": "vendor_address",
+      "value": "38-D JHB Compound Malinis St. Lawang Bato 1443 City of Valenzuela NCR Third District Philippines",
+      "is_required": false
+    },
+    {
+      "row_id": "z8acpidk",
+      "field": "invoice_date",
+      "value": "2024-09-17",
+      "is_required": true
+    },
+    {
+      "row_id": "0zioiroe",
+      "field": "invoice_number",
+      "value": "8430",
+      "is_required": true
+    },
+    {
+      "row_id": "xfnyg0ba",
+      "field": "currency",
+      "value": "PHP",
+      "is_required": true
+    },
+    {
+      "row_id": "f6q5o03h",
+      "field": "total_amount_before_vat",
+      "value": 33884,
+      "is_required": true
+    },
+    {
+      "row_id": "3ghywonp",
+      "field": "vat_gst",
+      "value": 4066.08,
+      "is_required": false
+    },
+    {
+      "row_id": "4i45mtla",
+      "field": "total_amount",
+      "value": 37950.08,
+      "is_required": true
+    },
+    {
+      "row_id": "xt60iw0g",
+      "field": "wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "9k4ixlz7",
+      "field": "net_amount_after_wht",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "v68rau32",
+      "field": "description",
+      "value": "Plain PE Bag with ziplock with 2 holes 12 x 16 x .002 (PM12), PO#5100038434",
+      "is_required": false
+    },
+    {
+      "row_id": "8dui5c9e",
+      "field": "vendor_vat_id",
+      "value": "000-365-708-00001",
+      "is_required": false
+    },
+    {
+      "row_id": "6ti485jz",
+      "field": "customer_address",
+      "value": "MCX E-Commerce Center, Daang Hari-Reyna Poblacion, Muntinlupa",
+      "is_required": false
+    },
+    {
+      "row_id": "x643g0yz",
+      "field": "customer_vat_id",
+      "value": "HOOB-183-175-00000",
+      "is_required": false
+    },
+    {
+      "row_id": "26nxjvrl",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "82v4xs06",
+      "field": "due_date",
+      "value": "",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "wgdsf61u",
+      "item_description": "Plain PE Bag with ziplock with 2 holes 12 x 16 x .002 (PM12), PO#5100038434",
+      "item_code": "",
+      "unit_of_measurement": "pcs",
+      "quantity": 17200,
+      "unit_price": 2.2064,
+      "total_price_before_vat": 37950.08,
+      "row_bbox": {
+        "x_min": 74,
+        "y_min": 634,
+        "x_max": 1588,
+        "y_max": 686
+      }
+    }
+  ],
+  "run_id": "69fdc24960da4c597765b790",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:06:21.084Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

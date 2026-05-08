@@ -1,0 +1,165 @@
+{
+  "_id": "69fdc3ec7cd80c867f48afae",
+  "id": null,
+  "created_at": "2026-05-08T11:07:24.475Z",
+  "updated_at": "2026-05-08T11:07:24.475Z",
+  "metadata": [
+    {
+      "row_id": "mstwnfac",
+      "field": "customer_legal_entity",
+      "value": "BF Jade E-services Philippines",
+      "is_required": true
+    },
+    {
+      "row_id": "m9porurl",
+      "field": "po_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "ft9pz6z4",
+      "field": "vendor_name",
+      "value": "FARAH MARIE R. DUMALAGAN",
+      "is_required": true
+    },
+    {
+      "row_id": "wt9aa87k",
+      "field": "vendor_address",
+      "value": "52 Lourdes cor. Kaolin St. Twin River Subd 2 Parang 1809 City of Marikina NCR, Second District Philippines",
+      "is_required": false
+    },
+    {
+      "row_id": "7d4ka1di",
+      "field": "invoice_date",
+      "value": "2026-03-27",
+      "is_required": true
+    },
+    {
+      "row_id": "rsosjyes",
+      "field": "invoice_number",
+      "value": "000166",
+      "is_required": true
+    },
+    {
+      "row_id": "vftcucle",
+      "field": "currency",
+      "value": "PHP",
+      "is_required": true
+    },
+    {
+      "row_id": "shob0rvp",
+      "field": "total_amount_before_vat",
+      "value": 19607.84,
+      "is_required": true
+    },
+    {
+      "row_id": "q1ifq0kg",
+      "field": "vat_gst",
+      "value": 2352.94,
+      "is_required": false
+    },
+    {
+      "row_id": "kk67ph1h",
+      "field": "total_amount",
+      "value": 21960.78,
+      "is_required": true
+    },
+    {
+      "row_id": "yni734yn",
+      "field": "wht",
+      "value": 194.78,
+      "is_required": false
+    },
+    {
+      "row_id": "ox5qkitm",
+      "field": "net_amount_after_wht",
+      "value": 19413.06,
+      "is_required": false
+    },
+    {
+      "row_id": "2fdjsd0c",
+      "field": "description",
+      "value": "In partial/full payment for Zalora Shoots - Jane (01-13) & Vienne (02-04)",
+      "is_required": false
+    },
+    {
+      "row_id": "aokzqn53",
+      "field": "vendor_vat_id",
+      "value": "263-544-858-00000",
+      "is_required": false
+    },
+    {
+      "row_id": "77rtee72",
+      "field": "customer_address",
+      "value": "MCX 6 - Commerce Center, Daang Hari - Daang Reyna Junction, Cavite Expressway Poblacion 1776 City of Muntinlupa",
+      "is_required": false
+    },
+    {
+      "row_id": "59nqaxcl",
+      "field": "customer_vat_id",
+      "value": "008-183-175",
+      "is_required": false
+    },
+    {
+      "row_id": "sjmtozwv",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "39pt2bjk",
+      "field": "due_date",
+      "value": "",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "1nw1idly",
+      "item_description": "Food/Transpo",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 2000,
+      "total_price_before_vat": 2000,
+      "row_bbox": {
+        "x_min": 489,
+        "y_min": 1556,
+        "x_max": 2257,
+        "y_max": 1713
+      }
+    },
+    {
+      "id": 2,
+      "row_id": "iourne9z",
+      "item_description": "WHT Less 2%",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 20,
+      "total_price_before_vat": 20,
+      "row_bbox": {
+        "x_min": 479,
+        "y_min": 1699,
+        "x_max": 2162,
+        "y_max": 1959
+      }
+    }
+  ],
+  "run_id": "69fdc24a60da4c597765b79e",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:07:25.919Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

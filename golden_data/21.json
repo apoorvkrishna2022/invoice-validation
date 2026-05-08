@@ -1,0 +1,98 @@
+{
+  "run_id": "69e5cc7a5fda1716eb34dd61",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5200004659"
+    },
+    {
+      "field": "invoice_number",
+      "value": "L53581.5"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-08-31"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": "2025-10-31"
+    },
+    {
+      "field": "vendor_name",
+      "value": "Rakuten Marketing Australia Pty Ltd"
+    },
+    {
+      "field": "vendor_address",
+      "value": "Suite 1, Level 3, 7 Macquarie Place, Sydney NSW 2000, Australia"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "79155366215"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "Jade E-Services Singapore Pte Ltd"
+    },
+    {
+      "field": "customer_address",
+      "value": "7 Temasek Boulevard, #35-01, Suntec City Tower 1, Singapore, Central Singapore 038987 SG"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": ""
+    },
+    {
+      "field": "description",
+      "value": "Basic Tracking Fees"
+    },
+    {
+      "field": "currency",
+      "value": "AUD"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 2448.86
+    },
+    {
+      "field": "vat_gst",
+      "value": ""
+    },
+    {
+      "field": "total_amount",
+      "value": 2448.86
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "Bank of America N.A"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "Rakuten Marketing Australia Pty Ltd"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "15971011"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": "BOFAAUSX"
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": []
+}

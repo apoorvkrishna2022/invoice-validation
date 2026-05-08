@@ -1,0 +1,107 @@
+{
+  "run_id": "69e0aa9642cdb0b57b3a728f",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5100035534"
+    },
+    {
+      "field": "invoice_number",
+      "value": "0736"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2026-03-25"
+    },
+    {
+      "field": "payment_terms",
+      "value": "3rd PMS, 15 Days"
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "R. DAN AND CO., INC."
+    },
+    {
+      "field": "vendor_address",
+      "value": "Lot 6,7,8,9 Blk. 5 Greenway Business Park, Bulihan Silang 4118 Cavite Phils. Tel. Nos: (046) 419-4708 / (046) 419-4709. Fax No: (046) 419-4704"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "908-345-630-00000"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "BF Jade E-Services Philippines, Inc"
+    },
+    {
+      "field": "customer_address",
+      "value": "MCX E-Commerce Center Daang Hari and Daang Reyna Junction Muntinlupa - Cavite Expressway (MCX)"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "008-183-175-000"
+    },
+    {
+      "field": "description",
+      "value": "Quarterly PMS Support Services for the material Handling Equipment in Zalora MCX Facility"
+    },
+    {
+      "field": "currency",
+      "value": "PHP"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 34227.68
+    },
+    {
+      "field": "vat_gst",
+      "value": 4107.32
+    },
+    {
+      "field": "total_amount",
+      "value": 38335.0
+    },
+    {
+      "field": "wht",
+      "value": 684.55
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": 33543.13
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "Quarterly PMS 3rd PMS; 15 Days Support Services for the material Handling Equipment in Zalora MCX Facility",
+      "item_code": "",
+      "unit_of_measurement": "LOT",
+      "quantity": 1,
+      "unit_price": 34227.68,
+      "total_price_before_vat": 34227.68
+    }
+  ]
+}

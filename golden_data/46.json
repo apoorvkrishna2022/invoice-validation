@@ -1,0 +1,98 @@
+{
+  "run_id": "69ea0fb8a7123d0f33ae85ba",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5200004012"
+    },
+    {
+      "field": "invoice_number",
+      "value": "ZALO0149"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-12-30"
+    },
+    {
+      "field": "payment_terms",
+      "value": "Net 45"
+    },
+    {
+      "field": "due_date",
+      "value": ""
+    },
+    {
+      "field": "vendor_name",
+      "value": "PROGRESSIVE CARGO & SERVICES SDN BHD"
+    },
+    {
+      "field": "vendor_address",
+      "value": "NO 8 JALAN NIRWANA 1/1, TAMAN NIRWANA, 68000 AMPANG, SELANGOR DARUL EHSAN"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "W10-1809-32001501"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "JADE ESERVICES MALAYSIA SDN. BHD."
+    },
+    {
+      "field": "customer_address",
+      "value": "UNIT 13-1, LEVEL 13, MERCU 3, JALAN BANGSAR, KL ECO CITY, 59200"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": ""
+    },
+    {
+      "field": "description",
+      "value": "INVOICE OF SUBCONTRACT WORKS - FOREIGN WORKER FOR THE MONTH OF DECEMBER 2025 (26.11.2025 - 25.12.2025)"
+    },
+    {
+      "field": "currency",
+      "value": "MYR"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 296710.33
+    },
+    {
+      "field": "vat_gst",
+      "value": 23736.83
+    },
+    {
+      "field": "total_amount",
+      "value": 320447.16
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "MAYBANK BERHAD"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "PROGRESSIVE CARGO & SERVICES SDN BHD"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "562254505118"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": []
+}

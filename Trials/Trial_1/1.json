@@ -1,0 +1,149 @@
+{
+  "_id": "69fdc3bb7cd80c867f48afa6",
+  "id": null,
+  "created_at": "2026-05-08T11:06:35.260Z",
+  "updated_at": "2026-05-08T11:06:35.260Z",
+  "metadata": [
+    {
+      "row_id": "atnrhagz",
+      "field": "customer_legal_entity",
+      "value": "BF JADE E-SERVICES PHILIPPINES, INC.",
+      "is_required": true
+    },
+    {
+      "row_id": "5sat0kn7",
+      "field": "po_number",
+      "value": "",
+      "is_required": true
+    },
+    {
+      "row_id": "460q6l2o",
+      "field": "vendor_name",
+      "value": "LEYJES N. ROUS",
+      "is_required": true
+    },
+    {
+      "row_id": "6u8lc55u",
+      "field": "vendor_address",
+      "value": "5 BATAY ST. BRGY. KAUNLARAN, KAUNLARAN 1111 QUEZON CITY NCR, SECOND DISTRICT PHILIPPINES",
+      "is_required": false
+    },
+    {
+      "row_id": "6fzqplnk",
+      "field": "invoice_date",
+      "value": "2026-03-16",
+      "is_required": true
+    },
+    {
+      "row_id": "juu4er6g",
+      "field": "invoice_number",
+      "value": "0048",
+      "is_required": true
+    },
+    {
+      "row_id": "48tucd76",
+      "field": "currency",
+      "value": "PHP",
+      "is_required": true
+    },
+    {
+      "row_id": "1u0o0vxj",
+      "field": "total_amount_before_vat",
+      "value": 49313,
+      "is_required": true
+    },
+    {
+      "row_id": "r2y1gyfm",
+      "field": "vat_gst",
+      "value": 5917.56,
+      "is_required": false
+    },
+    {
+      "row_id": "179o78ig",
+      "field": "total_amount",
+      "value": 55230.56,
+      "is_required": true
+    },
+    {
+      "row_id": "eozk5tnd",
+      "field": "wht",
+      "value": 4931.3,
+      "is_required": false
+    },
+    {
+      "row_id": "nl9w5xib",
+      "field": "net_amount_after_wht",
+      "value": 50299.26,
+      "is_required": false
+    },
+    {
+      "row_id": "ufoht0a0",
+      "field": "description",
+      "value": "ZALORA TF OF ANDREA PEREZ",
+      "is_required": false
+    },
+    {
+      "row_id": "cli4q8t8",
+      "field": "vendor_vat_id",
+      "value": "238-938-286-00000",
+      "is_required": false
+    },
+    {
+      "row_id": "xyce81eh",
+      "field": "customer_address",
+      "value": "MCX E-COMMERCE CENTER DAANG HARI DAANG REYNA JUNCTION CAVITE EXPRESSWAY, POBLACION, MUNTINLUPA City 1776",
+      "is_required": false
+    },
+    {
+      "row_id": "lr1cfdpj",
+      "field": "customer_vat_id",
+      "value": "008-183-175",
+      "is_required": false
+    },
+    {
+      "row_id": "rmnv2b5t",
+      "field": "payment_terms",
+      "value": "",
+      "is_required": false
+    },
+    {
+      "row_id": "4yxunroa",
+      "field": "due_date",
+      "value": "",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "6qs1mtk1",
+      "item_description": "ZALORA TF OF ANDREA PEREZ",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 49313,
+      "total_price_before_vat": 49313,
+      "row_bbox": {
+        "x_min": 185,
+        "y_min": 2721,
+        "x_max": 3528,
+        "y_max": 2844
+      }
+    }
+  ],
+  "run_id": "69fdc248666a9f60396db97a",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:06:38.228Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

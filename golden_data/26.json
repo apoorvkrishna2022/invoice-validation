@@ -1,0 +1,459 @@
+{
+  "run_id": "69e5ce8e6eb9b6ae3163b3e3",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "5351569554"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-08-31"
+    },
+    {
+      "field": "payment_terms",
+      "value": "Net 45"
+    },
+    {
+      "field": "due_date",
+      "value": "2025-10-15"
+    },
+    {
+      "field": "vendor_name",
+      "value": "Google Asia Pacific Pte. Ltd."
+    },
+    {
+      "field": "vendor_address",
+      "value": "70 Pasir Panjang Road, #03-71, Mapletree Business City, Singapore 117371"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "200817984R"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "ZALORA SOUTH EAST ASIA PTE. LTD."
+    },
+    {
+      "field": "customer_address",
+      "value": "51 Bras Basah Road, #07-01 5one Central, Singapore 189554"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "201215493R"
+    },
+    {
+      "field": "description",
+      "value": "Google Ads"
+    },
+    {
+      "field": "currency",
+      "value": "SGD"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 38879.53
+    },
+    {
+      "field": "vat_gst",
+      "value": 3499.16
+    },
+    {
+      "field": "total_amount",
+      "value": 42378.69
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "Citibank"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "Google Asia Pacific Pte. Ltd."
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "0-851103-023"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": "CITISGSG"
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "[S[SHO_000016]: Performance Max Traffic",
+      "item_code": "",
+      "unit_of_measurement": "Impressions",
+      "quantity": 1061103,
+      "unit_price": "",
+      "total_price_before_vat": 7204.16,
+      "Page": 3
+    },
+    {
+      "item_description": "[S[SHO_000016]: Performance Max Women",
+      "item_code": "",
+      "unit_of_measurement": "Clicks",
+      "quantity": 49622,
+      "unit_price": "",
+      "total_price_before_vat": 5861.83,
+      "Page": 3
+    },
+    {
+      "item_description": "[S[SHO_000016]: Performance Max Men (2)",
+      "item_code": "",
+      "unit_of_measurement": "Clicks",
+      "quantity": 19918,
+      "unit_price": "",
+      "total_price_before_vat": 4872.12,
+      "Page": 3
+    },
+    {
+      "item_description": "[S[SHO_000016]: Performance Max Traffic",
+      "item_code": "",
+      "unit_of_measurement": "Clicks",
+      "quantity": 68380,
+      "unit_price": "",
+      "total_price_before_vat": 4278.03,
+      "Page": 3
+    },
+    {
+      "item_description": "[S[SHO_000016]: Performance Max Women",
+      "item_code": "",
+      "unit_of_measurement": "Impressions",
+      "quantity": 351214,
+      "unit_price": "",
+      "total_price_before_vat": 2754.4,
+      "Page": 3
+    },
+    {
+      "item_description": "[S[SHO_000016]: Performance Max Men (2)",
+      "item_code": "",
+      "unit_of_measurement": "Impressions",
+      "quantity": 28656,
+      "unit_price": "",
+      "total_price_before_vat": 275.89,
+      "Page": 3
+    },
+    {
+      "item_description": "[S[SHO_000016]: Performance Max New Arrivals",
+      "item_code": "",
+      "unit_of_measurement": "Impressions",
+      "quantity": 378,
+      "unit_price": "",
+      "total_price_before_vat": 4.08,
+      "Page": 3
+    },
+    {
+      "item_description": "[S[SHO_000016]: Performance Max New Arrivals",
+      "item_code": "",
+      "unit_of_measurement": "Clicks",
+      "quantity": 94,
+      "unit_price": "",
+      "total_price_before_vat": 3.1,
+      "Page": 3
+    },
+    {
+      "item_description": "Invalid activity - Original invoice #: 5273044205, original month of service: May 2025, account budget name: Zalora South East Asia Pte Ltd - Sep 15, 2020, campaign name: [S[SHO_000016]: Performance Max New Arrivals",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -0.02,
+      "Page": 3
+    },
+    {
+      "item_description": "Invalid activity - Original invoice #: 5273044205, original month of service: May 2025, account budget name: Zalora South East Asia Pte Ltd - Sep 15, 2020, campaign name: [S[SHO_000016]: Performance Max Men (2)",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -0.03,
+      "Page": 3
+    },
+    {
+      "item_description": "Invalid activity - Original invoice #: 5300344815, original month of service: Jun 2025, account budget name: Zalora South East Asia Pte Ltd - Sep 15, 2020, campaign name: [S[SHO_000016]: Performance_Max_PDV",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -0.14,
+      "Page": 3
+    },
+    {
+      "item_description": "Invalid activity - Original invoice #: 5273044205, original month of service: May 2025, account budget name: Zalora South East Asia Pte Ltd - Sep 15, 2020, campaign name: [S[SHO_000016]: Performance Max Traffic",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -0.23,
+      "Page": 3
+    },
+    {
+      "item_description": "Invalid activity - Original invoice #: 5273044205, original month of service: May 2025, account budget name: Zalora South East Asia Pte Ltd - Sep 15, 2020, campaign name: [S[SHO_000016]: Performance Max Women",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -0.31,
+      "Page": 3
+    },
+    {
+      "item_description": "Invalid activity - Original invoice #: 5300344815, original month of service: Jun 2025, account budget name: Zalora South East Asia Pte Ltd - Sep 15, 2020, campaign name: [S[SHO_000016]: Performance Max Men (2)",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -0.46,
+      "Page": 3
+    },
+    {
+      "item_description": "Invalid activity - Original invoice #: 5300344815, original month of service: Jun 2025, account budget name: Zalora South East Asia Pte Ltd - Sep 15, 2020, campaign name: [S[SHO_000016]: Performance Max New Arrivals",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -0.84,
+      "Page": 3
+    },
+    {
+      "item_description": "Invalid activity - Original invoice #: 5328029082, original month of service: Jul 2025, account budget name: Zalora South East Asia Pte Ltd - Sep 15, 2020, campaign name: [S[SHO_000016]: Performance Max New Arrivals",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -1.03,
+      "Page": 3
+    },
+    {
+      "item_description": "Invalid activity - Original invoice #: 5328029082, original month of service: Jul 2025, account budget name: Zalora South East Asia Pte Ltd - Sep 15, 2020, campaign name: [S[SHO_000016]: Performance_Max_PDV",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -1.35,
+      "Page": 3
+    },
+    {
+      "item_description": "Invalid activity - Original invoice #: 5300344815, original month of service: Jun 2025, account budget name: Zalora South East Asia Pte Ltd - Sep 15, 2020, campaign name: [S[SHO_000016]: Performance Max Women",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -2.78,
+      "Page": 3
+    },
+    {
+      "item_description": "Invalid activity",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -4.26,
+      "Page": 3
+    },
+    {
+      "item_description": "Invalid activity - Original invoice #: 5328029082, original month of service: Jul 2025, account budget name: Zalora South East Asia Pte Ltd - Sep 15, 2020, campaign name: [S[SHO_000016]: Performance Max Men (2)",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -5.71,
+      "Page": 3
+    },
+    {
+      "item_description": "Invalid activity - Original invoice #: 5300344815, original month of service: Jun 2025, account budget name: Zalora South East Asia Pte Ltd - Sep 15, 2020, campaign name: [S[SHO_000016]: Performance Max Traffic",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -6.32,
+      "Page": 3
+    },
+    {
+      "item_description": "Invalid activity - Original invoice #: 5328029082, original month of service: Jul 2025, account budget name: Zalora South East Asia Pte Ltd - Sep 15, 2020, campaign name: [S[SHO_000016]: Performance Max Traffic",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -23.19,
+      "Page": 3
+    },
+    {
+      "item_description": "Invalid activity - Original invoice #: 5328029082, original month of service: Jul 2025, account budget name: Zalora South East Asia Pte Ltd - Sep 15, 2020, campaign name: [S[SHO_000016]: Performance Max Women",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -25.37,
+      "Page": 3
+    },
+    {
+      "item_description": "Invalid activity",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -1.1,
+      "Page": 3
+    },
+    {
+      "item_description": "Invalid activity - Original invoice #: 5300344815, original month of service: Jun 2025, account budget name: Zalora South East Asia Pte Ltd, campaign name: [D[DV_STA|YOU]: ZBFS2025_VRC_Awareness",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -1.44,
+      "Page": 5
+    },
+    {
+      "item_description": "[D[DI_UAC]: UAC2.5_Android_PurchaseV2_ROAS",
+      "item_code": "",
+      "unit_of_measurement": "Clicks",
+      "quantity": 53277,
+      "unit_price": "",
+      "total_price_before_vat": 6088.96,
+      "Page": 6
+    },
+    {
+      "item_description": "[D[DI_UAC]: UAC2.5_Android_PurchaseV2_ROAS",
+      "item_code": "",
+      "unit_of_measurement": "Impressions",
+      "quantity": 61398,
+      "unit_price": "",
+      "total_price_before_vat": 509.19,
+      "Page": 6
+    },
+    {
+      "item_description": "Invalid activity",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -0.08,
+      "Page": 3
+    },
+    {
+      "item_description": "Invalid activity - Original invoice #: 5300344815, original month of service: Jun 2025, account budget name: Zalora South East Asia Pte Ltd - Sep 15, 2020, campaign name: [D[DI_UAC]: UAC2.5_Android_PurchaseV2_ROAS",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -0.34,
+      "Page": 7
+    },
+    {
+      "item_description": "Invalid activity - Original invoice #: 5328029082, original month of service: Jul 2025, account budget name: Zalora South East Asia Pte Ltd - Sep 15, 2020, campaign name: [D[DI_UAC]: UAC2.5_Android_PurchaseV2_ROAS",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -1.72,
+      "Page": 7
+    },
+    {
+      "item_description": "[D[DI_UACE]: Android_Purchase_All_Engagement_TROAS",
+      "item_code": "",
+      "unit_of_measurement": "Clicks",
+      "quantity": 8615,
+      "unit_price": "",
+      "total_price_before_vat": 838.77,
+      "Page": 7
+    },
+    {
+      "item_description": "[D[DI_UACE]: Android_Purchase_All_Engagement_TROAS",
+      "item_code": "",
+      "unit_of_measurement": "Impressions",
+      "quantity": 14027,
+      "unit_price": "",
+      "total_price_before_vat": 61.03,
+      "Page": 7
+    },
+    {
+      "item_description": "Invalid activity",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -0.02,
+      "Page": 3
+    },
+    {
+      "item_description": "Invalid activity - Original invoice #: 5328029082, original month of service: Jul 2025, account budget name: Zalora South East Asia Pte Ltd - Jan 6, 2021, campaign name: [D[DI_UACe]: Android_Purchase_All_Engagement_TROA...",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -0.03,
+      "Page": 7
+    },
+    {
+      "item_description": "[S[CB_010001]: Zalora",
+      "item_code": "",
+      "unit_of_measurement": "Clicks",
+      "quantity": 18293,
+      "unit_price": "",
+      "total_price_before_vat": 2756.02,
+      "Page": 8
+    },
+    {
+      "item_description": "[S[PRO_SKU]: ProductCat HTML (DSA) - EC Churned180D",
+      "item_code": "",
+      "unit_of_measurement": "Clicks",
+      "quantity": 13444,
+      "unit_price": "",
+      "total_price_before_vat": 2389.75,
+      "Page": 9
+    },
+    {
+      "item_description": "[S[PRO_SKU]: Product Luxury (DSA url)",
+      "item_code": "",
+      "unit_of_measurement": "Clicks",
+      "quantity": 1268,
+      "unit_price": "",
+      "total_price_before_vat": 495.93,
+      "Page": 9
+    },
+    {
+      "item_description": "[S[PRO_SKU]: Product Shoes (DSA url)",
+      "item_code": "",
+      "unit_of_measurement": "Clicks",
+      "quantity": 902,
+      "unit_price": "",
+      "total_price_before_vat": 363.54,
+      "Page": 9
+    },
+    {
+      "item_description": "[S[PRO_SKU]: Product Sports (DSA url)",
+      "item_code": "",
+      "unit_of_measurement": "Clicks",
+      "quantity": 532,
+      "unit_price": "",
+      "total_price_before_vat": 199.58,
+      "Page": 9
+    },
+    {
+      "item_description": "Invalid activity - Original invoice #: 5328029082, original month of service: Jul 2025, account budget name: Zalora South East Asia Pte Ltd - Sep 15, 2020, campaign name: [S[PRO_SKU]: Product Luxury (DSA url)",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "",
+      "unit_price": "",
+      "total_price_before_vat": -0.08,
+      "Page": 9
+    }
+  ]
+}

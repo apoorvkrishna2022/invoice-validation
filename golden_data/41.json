@@ -1,0 +1,107 @@
+{
+  "run_id": "69e9fef3a7123d0f33ae858e",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": "5300000471"
+    },
+    {
+      "field": "invoice_number",
+      "value": "MIPINV-25F10-A-00000206"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-06-10"
+    },
+    {
+      "field": "payment_terms",
+      "value": "Net 30"
+    },
+    {
+      "field": "due_date",
+      "value": "2025-07-10"
+    },
+    {
+      "field": "vendor_name",
+      "value": "PT. MITRA INFOTECH PRIMA"
+    },
+    {
+      "field": "vendor_address",
+      "value": "Sahid Sudirman Center 56th floor, Jl. Jend. Sudirman No.86, Jakarta Pusat"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "0031909781022000"
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "PT. FASHION MARKETPLACE INDONESIA"
+    },
+    {
+      "field": "customer_address",
+      "value": "Capital Place Lantai 26, Jl. Jend. Gatot Subroto Kav.18, Kuningan Barat, Mampang Prapatan, Jakarta Selatan"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": "0033443763015000"
+    },
+    {
+      "field": "description",
+      "value": "3 unit 24 Inch iMac M4"
+    },
+    {
+      "field": "currency",
+      "value": "IDR"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 86720688.0
+    },
+    {
+      "field": "vat_gst",
+      "value": 9539276.0
+    },
+    {
+      "field": "total_amount",
+      "value": 96259964.0
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "Bank Central Asia"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "PT Mitra Infotech Prima"
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "459-303-8338"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": ""
+    },
+    {
+      "field": "discount",
+      "value": 0.0
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "3 unit 24 Inch iMac M4",
+      "item_code": "SLD2QT90X6K; SLGW44W1KFQ; SLHCWWH34RW",
+      "unit_of_measurement": "",
+      "quantity": 3,
+      "unit_price": 28906896,
+      "total_price_before_vat": 86720688
+    }
+  ]
+}

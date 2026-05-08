@@ -1,0 +1,165 @@
+{
+  "_id": "69fdc6ad7cd80c867f48afea",
+  "id": null,
+  "created_at": "2026-05-08T11:19:09.303Z",
+  "updated_at": "2026-05-08T11:19:09.303Z",
+  "metadata": [
+    {
+      "row_id": "6r07bnt8",
+      "field": "customer_legal_entity",
+      "value": "PT FASHION ESERVICES INDONESIA",
+      "is_required": true
+    },
+    {
+      "row_id": "kf2yk2lo",
+      "field": "po_number",
+      "value": "5200004132",
+      "is_required": true
+    },
+    {
+      "row_id": "uqheh3bg",
+      "field": "vendor_name",
+      "value": "PT JMAX INDONESIA",
+      "is_required": true
+    },
+    {
+      "row_id": "7wkmuxab",
+      "field": "vendor_address",
+      "value": "Sahid Sudirman Center 56th Floor, Jl. Jend. Sudirman kav. 86, Jakarta 10220, Tel. +6221 8063 1805, Fax. +6221 8063 1999 dung Citywalk Sudirman Lt.5 Jl. K H Mas Mansyur No. 121 Tanah Abang, Jakarta Pusat",
+      "is_required": false
+    },
+    {
+      "row_id": "wj1hqz0b",
+      "field": "invoice_date",
+      "value": "2025-12-29",
+      "is_required": true
+    },
+    {
+      "row_id": "fv5x0vot",
+      "field": "invoice_number",
+      "value": "702/JMAX.ZLR/FIN-OS/XII/2025",
+      "is_required": true
+    },
+    {
+      "row_id": "2qle0s7b",
+      "field": "currency",
+      "value": "IDR",
+      "is_required": true
+    },
+    {
+      "row_id": "phb2tlun",
+      "field": "total_amount_before_vat",
+      "value": 3665574,
+      "is_required": true
+    },
+    {
+      "row_id": "339ve5fd",
+      "field": "vat_gst",
+      "value": 18780,
+      "is_required": false
+    },
+    {
+      "row_id": "lfnyly96",
+      "field": "total_amount",
+      "value": 3680939,
+      "is_required": true
+    },
+    {
+      "row_id": "64tbi0ke",
+      "field": "wht",
+      "value": 3414,
+      "is_required": false
+    },
+    {
+      "row_id": "v4tn0x9s",
+      "field": "net_amount_after_wht",
+      "value": 3660939,
+      "is_required": false
+    },
+    {
+      "row_id": "bxmrxl3g",
+      "field": "description",
+      "value": "Total Salary Reimbursement for Zalora DW- Quality Division Period 26 November - 25 December 2025",
+      "is_required": false
+    },
+    {
+      "row_id": "48kwcl8g",
+      "field": "vendor_vat_id",
+      "value": "0033017948063000",
+      "is_required": false
+    },
+    {
+      "row_id": "mbfxzbjr",
+      "field": "customer_address",
+      "value": "CAPITAL PLACE LANTAI 26, JL. JEND. GATOT SUBROTO KAV.18, KUNINGAN BARAT, MAMPANG PRAPATAN, KOTA ADM. JAKARTA SELATAN, DKI JAKARTA, 12710",
+      "is_required": false
+    },
+    {
+      "row_id": "buo51jdm",
+      "field": "customer_vat_id",
+      "value": "0032235764015000",
+      "is_required": false
+    },
+    {
+      "row_id": "dxhb5tem",
+      "field": "payment_terms",
+      "value": "Payment due within 45 days after payroll",
+      "is_required": false
+    },
+    {
+      "row_id": "qoqlnbba",
+      "field": "due_date",
+      "value": "",
+      "is_required": false
+    }
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "row_id": "1zigamjb",
+      "item_description": "Total Salary Reimbursement for Zalora DW- Quality Division Period 26 November - 25 December 2025",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 3494851,
+      "total_price_before_vat": 3494851,
+      "row_bbox": {
+        "x_min": 205,
+        "y_min": 723,
+        "x_max": 1220,
+        "y_max": 808
+      }
+    },
+    {
+      "id": 2,
+      "row_id": "72af7bxf",
+      "item_description": "Management Fee",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": 1,
+      "unit_price": 170723,
+      "total_price_before_vat": 170723,
+      "row_bbox": {
+        "x_min": 1687,
+        "y_min": 87,
+        "x_max": 1742,
+        "y_max": 107
+      }
+    }
+  ],
+  "run_id": "69fdc62d666a9f60396db9e8",
+  "tenant_id": "69f1a6d201179b6c437ba430",
+  "type": "invoice",
+  "invoice_validation_results": [
+    {
+      "validated_at": "2026-05-08T11:19:10.970Z",
+      "results": [
+        {
+          "rule": "Final amount includes correct tax calculation",
+          "passed": true,
+          "message": null
+        }
+      ]
+    }
+  ]
+}

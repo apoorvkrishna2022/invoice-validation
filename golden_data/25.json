@@ -1,0 +1,109 @@
+{
+  "run_id": "69e5cc7c6eb9b6ae3163b3b1",
+  "metadata": [
+    {
+      "field": "po_number",
+      "value": ""
+    },
+    {
+      "field": "invoice_number",
+      "value": "2282571053"
+    },
+    {
+      "field": "invoice_date",
+      "value": "2025-08-10"
+    },
+    {
+      "field": "payment_terms",
+      "value": ""
+    },
+    {
+      "field": "due_date",
+      "value": "2025-09-09"
+    },
+    {
+      "field": "vendor_name",
+      "value": "Amazon Web Services, Inc."
+    },
+    {
+      "field": "vendor_address",
+      "value": "410 Terry Avenue North, Seattle, Washington 98109-5210"
+    },
+    {
+      "field": "vendor_vat_id",
+      "value": "M90373009E"
+    },
+    {
+      "field": "customer_address",
+      "value": "7 Temasek Boulevard, #35-01 Suntec City Tower 1, Singapore, Singapore, 038987, SG"
+    },
+    {
+      "field": "customer_vat_id",
+      "value": ""
+    },
+    {
+      "field": "description",
+      "value": "Human Defense Platform by HUMAN Security sold by White Ops, Inc."
+    },
+    {
+      "field": "customer_legal_entity",
+      "value": "Zalora South East Asia Pte. Ltd"
+    },
+    {
+      "field": "currency",
+      "value": "USD"
+    },
+    {
+      "field": "total_amount_before_vat",
+      "value": 6008.33
+    },
+    {
+      "field": "vat_gst",
+      "value": 0.0
+    },
+    {
+      "field": "total_amount",
+      "value": 6008.33
+    },
+    {
+      "field": "wht",
+      "value": ""
+    },
+    {
+      "field": "net_amount_after_wht",
+      "value": ""
+    },
+    {
+      "field": "vendor_bank_name",
+      "value": "Wells Fargo NA"
+    },
+    {
+      "field": "vendor_bank_account_name",
+      "value": "Amazon Web Services, Inc."
+    },
+    {
+      "field": "vendor_bank_account_number",
+      "value": "4121350227"
+    },
+    {
+      "field": "vendor_bank_swift",
+      "value": "WFBIUS6SXXX"
+    },
+    {
+      "field": "discount",
+      "value": ""
+    }
+  ],
+  "line_items": [
+    {
+      "item_description": "Human Defense Platform by HUMAN Security sold by White Ops, Inc.",
+      "item_code": "",
+      "unit_of_measurement": "",
+      "quantity": "1",
+      "unit_price": "6008.33",
+      "total_price_before_vat": 6008.33,
+      "Page": 1,
+      "total_price": "6008.33"
+    }
+  ]
+}
