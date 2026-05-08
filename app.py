@@ -62,15 +62,22 @@ def compare_values(golden_val, trial_val) -> tuple[bool, float, bool]:
     return sim >= FUZZY_THRESHOLD, sim, False
 
 
-def pdf_section(idx: int) -> str:
-    url = f"/app/static/{idx}.pdf"
-    return (
-        f'<a href="{url}" target="_blank" style="display:inline-block;padding:8px 16px;'
-        f'background:#4CAF50;color:white;border-radius:6px;text-decoration:none;font-weight:bold;">'
-        f'Open PDF in new tab</a>'
-        f'<iframe src="{url}" width="100%" height="700px" '
-        f'style="border:none;border-radius:6px;margin-top:10px"></iframe>'
-    )
+IMG_DIR = Path(__file__).parent / "static" / "images"
+
+
+def show_pdf_images(idx: int) -> None:
+    pages = sorted(IMG_DIR.glob(f"{idx}_page_*.png"),
+                   key=lambda p: int(p.stem.split("_page_")[1]))
+    if not pages:
+        st.info("No PDF images available.")
+        return
+
+    zoom = st.slider("Zoom", min_value=25, max_value=150, value=75, step=25,
+                     format="%d%%", key=f"zoom_{idx}")
+    width = int(700 * zoom / 100)
+
+    for page_path in pages:
+        st.image(str(page_path), width=width)
 
 
 @st.cache_data
@@ -294,7 +301,7 @@ else:
     st.markdown(f"<table style='width:100%'>{header}<tbody>{body}</tbody></table>", unsafe_allow_html=True)
 
     st.subheader("Invoice PDF")
-    st.markdown(pdf_section(rec["idx"]), unsafe_allow_html=True)
+    show_pdf_images(rec["idx"])
 
 # ── Overview expander ──────────────────────────────────────────────────────────
 st.divider()
