@@ -62,25 +62,18 @@ def compare_values(golden_val, trial_val) -> tuple[bool, float, bool]:
     return sim >= FUZZY_THRESHOLD, sim, False
 
 
-IMG_DIR = Path(__file__).parent / "static" / "images"
-
-
-def show_pdf_images(idx: int) -> None:
-    pages = sorted(IMG_DIR.glob(f"{idx}_page_*.jpg"),
-                   key=lambda p: int(p.stem.split("_page_")[1]))
-    if not pages:
-        st.info("No PDF images available.")
-        return
-
-    zoom = st.select_slider("Zoom", options=[50, 75, 100, 125, 150], value=100,
-                            format_func=lambda v: f"{v}%", key=f"zoom_{idx}")
-
-    imgs_html = "".join(
-        f'<img src="/app/static/images/{p.name}" '
-        f'style="width:{zoom}%;display:block;margin:0 auto 12px auto;border:1px solid #ddd;border-radius:4px">'
-        for p in pages
-    )
-    st.markdown(imgs_html, unsafe_allow_html=True)
+def show_pdf_download(idx: int) -> None:
+    pdf_path = PDF_DIR / f"{idx}.pdf"
+    if pdf_path.exists():
+        st.download_button(
+            label="⬇️ Download Invoice PDF",
+            data=pdf_path.read_bytes(),
+            file_name=f"invoice_{idx}.pdf",
+            mime="application/pdf",
+            key=f"pdf_{idx}",
+        )
+    else:
+        st.info("PDF not available.")
 
 
 @st.cache_data
@@ -304,7 +297,7 @@ else:
     st.markdown(f"<table style='width:100%'>{header}<tbody>{body}</tbody></table>", unsafe_allow_html=True)
 
     st.subheader("Invoice PDF")
-    show_pdf_images(rec["idx"])
+    show_pdf_download(rec["idx"])
 
 # ── Overview expander ──────────────────────────────────────────────────────────
 st.divider()
