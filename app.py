@@ -62,10 +62,14 @@ def compare_values(golden_val, trial_val) -> tuple[bool, float, bool]:
     return sim >= FUZZY_THRESHOLD, sim, False
 
 
-def pdf_iframe(idx: int) -> str:
+def pdf_section(idx: int) -> str:
+    url = f"/app/static/{idx}.pdf"
     return (
-        f'<iframe src="/app/static/{idx}.pdf" '
-        f'width="100%" height="700px" style="border:none;border-radius:6px"></iframe>'
+        f'<a href="{url}" target="_blank" style="display:inline-block;padding:8px 16px;'
+        f'background:#4CAF50;color:white;border-radius:6px;text-decoration:none;font-weight:bold;">'
+        f'Open PDF in new tab</a>'
+        f'<iframe src="{url}" width="100%" height="700px" '
+        f'style="border:none;border-radius:6px;margin-top:10px"></iframe>'
     )
 
 
@@ -290,7 +294,7 @@ else:
     st.markdown(f"<table style='width:100%'>{header}<tbody>{body}</tbody></table>", unsafe_allow_html=True)
 
     st.subheader("Invoice PDF")
-    st.markdown(pdf_iframe(rec["idx"]), unsafe_allow_html=True)
+    st.markdown(pdf_section(rec["idx"]), unsafe_allow_html=True)
 
 # ── Overview expander ──────────────────────────────────────────────────────────
 st.divider()
